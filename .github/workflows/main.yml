@@ -27,7 +27,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore ./src/Imageflow.dncore.sln
     - name: Test
       run: dotnet test --no-restore --verbosity normal ./src/Imageflow.dncore.sln
-    - uses: nikeee/docfx-action@v1.0.0
-      name: Build Documentation
-      with:
-        args: ./docfx.json
+    - run: choco install docfx -y
+    - name: Build Documentation
+      run: docfx .\docfx.json
+
