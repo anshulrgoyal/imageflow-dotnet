@@ -1,49 +1,46 @@
 {
-    "metadata": [
+  "metadata": [
+    {
+      "src": [
         {
-            "src": [
-                {
-                    "files": [ "**/**.csproj" ],
-                    "src": ".."
-                }
-            ],
-            "dest": "reference",
-            "disableGitFeatures": false,
-            "disableDefaultFilter": false
+          "files": ["**/**.csproj"],
+          "src": "."
         }
-    ],
-    "build": {
-        "content": [
-            {
-                "files": [
-                    "reference/**.yml",
-                    "reference/index.md"
-                ]
-            },
-            {
-                "files": [
-                    "Concepts/toc.yml",
-                    "Concepts/**.md",
-                    "Concepts/**/toc.yml",
-                    "toc.yml",
-                    "*.md"
-                ]
-            }
-        ],
-        "resource": [
-            {
-                "files": [ "images/**" ]
-            }
-        ],
-        "dest": "/docs",
-        "globalMetadataFiles": [],
-        "fileMetadataFiles": [],
-        "template": [ "default" ],
-        "postProcessors": [],
-        "markdownEngineName": "markdig",
-        "noLangKeyword": false,
-        "keepFileLink": false,
-        "cleanupCacheHistory": false,
-        "disableGitFeatures": false
+      ],
+      "dest": "reference",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
     }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["reference/**.yml", "reference/index.md"]
+      },
+      {
+        "files": [
+          "Concepts/toc.yml",
+          "Concepts/**.md",
+          "Concepts/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["images/**"]
+      }
+    ],
+    "dest": "/docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": ["default"],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
 }
