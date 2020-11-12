@@ -35,7 +35,7 @@
                 "files": [ "images/**" ]
             }
         ],
-        "dest": "../docs",
+        "dest": "/docs",
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
         "template": [ "default" ],
