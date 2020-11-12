@@ -32,7 +32,7 @@
         "files": ["images/**"]
       }
     ],
-    "dest": "/docs",
+    "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default"],
