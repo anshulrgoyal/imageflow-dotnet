@@ -1,0 +1,908 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/imageflow-dotnet/imageflow-dotnet/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.ExecutableLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.ExecutableLocator.html",
+          "hash": "5zFDxQ5taJAg6WVEBV2rDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.IJsonResponseProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.IJsonResponseProvider.html",
+          "hash": "ZKVh37lxrbJ8xIa8zUEYQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.IJsonResponseProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.IJsonResponseProviderExtensions.html",
+          "hash": "Z0JycXwmLqGv1pkfo5p1Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.ImageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.ImageInfo.html",
+          "hash": "YOAvjh96encRAmZ+dmXRKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.ImageflowAssertionFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.ImageflowAssertionFailed.html",
+          "hash": "9qzI/Rvbopmpbrwx9HDEAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.ImageflowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.ImageflowException.html",
+          "hash": "zmvdH8nwi2PJMqagJQvqMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.ImageflowUnmanagedReadStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.ImageflowUnmanagedReadStream.html",
+          "hash": "HVtNLJ4nK4jBOr77byJtXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.JobContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.JobContext.html",
+          "hash": "pc+TCVy3SJxn/8sFhiyCgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.VersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.VersionInfo.html",
+          "hash": "D+YpUwU4fWLdU5ZRyRxgbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Bindings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Bindings.html",
+          "hash": "/XJoOZ87UinbaVjYNRX7lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.AnyColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.AnyColor.html",
+          "hash": "XzjkWtA0ev+57X7eWnHskg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BuildEncodeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BuildEncodeResult.html",
+          "hash": "rhW8lgC+d4IsATKPGqWwsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BuildEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BuildEndpoint.html",
+          "hash": "aGDXkjvIZHKwf92RKr48/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BuildItemBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BuildItemBase.html",
+          "hash": "49qC/6/IcFFc23MPbfRc2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BuildJobResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BuildJobResult.html",
+          "hash": "Uy9v9U+7zwuj7LTGwAJC1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BuildNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BuildNode.html",
+          "hash": "wXYGmmZGdkTJ8+HGHnl7lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BytesDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BytesDestination.html",
+          "hash": "NoyOE+fxJ6JqQlU2Gnh9Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.BytesSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.BytesSource.html",
+          "hash": "ds32Pux2hrhGkmPX3UMEnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ColorFilterSrgb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ColorFilterSrgb.html",
+          "hash": "phT5YLOXIszh7Qbfq8VwVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ColorKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ColorKind.html",
+          "hash": "Lsx0SWipOZRwyc2IG0xZlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.CompositingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.CompositingMode.html",
+          "hash": "ut+beEr1FH5FyiyDBRIw+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.Constraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.Constraint.html",
+          "hash": "GKWb8IbAsHCq59ABVkWOGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ConstraintGravity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ConstraintGravity.html",
+          "hash": "RfVosq+O94QngnS0FRcBoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ConstraintMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ConstraintMode.html",
+          "hash": "07MFbW56Mi5KOg9lJ1kH+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.DecodeCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.DecodeCommands.html",
+          "hash": "GZo9AgLxMVwdqkgKc8qOBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.DecoderDownscalingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.DecoderDownscalingMode.html",
+          "hash": "EdNaesWJWZ/mXPBncsLhMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.FinishJobBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.FinishJobBuilder.html",
+          "hash": "+VAWwgmvsUpsSQXFLuKcjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.FluentBuildJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.FluentBuildJob.html",
+          "hash": "YMs1pv1iI05sCorIx7Xdvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.FrameSizeLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.FrameSizeLimit.html",
+          "hash": "YzjSqukLQH5mXbDEUVUZWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.GifEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.GifEncoder.html",
+          "hash": "CA2QCaqc58E1GppsD642xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IBytesSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IBytesSource.html",
+          "hash": "CILKeY+Ps+4CEDhxngosRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IEncoderPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IEncoderPreset.html",
+          "hash": "pMT9mpnWRMffnd1QuE/6eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IOutputDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IOutputDestination.html",
+          "hash": "YBpPw5xgL1n4j0CZwa0Tww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IOutputDestinationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IOutputDestinationExtensions.html",
+          "hash": "4V9YAx4a+q7S3QjamMpCSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IPreparedFilesystemJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IPreparedFilesystemJob.html",
+          "hash": "XyR0hjHjZqxTSFImN0+NbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.IWatermarkConstraintBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.IWatermarkConstraintBox.html",
+          "hash": "PXbHXxS9evoNe8TzzUJsGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ImageJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ImageJob.html",
+          "hash": "g8ALRSLrMFqbMzb4pLtqFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.InputWatermark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.InputWatermark.html",
+          "hash": "pZqq47mFrOM9su9IkrNrVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.InterpolationFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.InterpolationFilter.html",
+          "hash": "kwGPK/W8xHpQZ9ACdl1/yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.LibJpegTurboEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.LibJpegTurboEncoder.html",
+          "hash": "AxSbStWu2BjERC7IlWBrdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.LibPngEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.LibPngEncoder.html",
+          "hash": "jJW5qOqwAvl7yR/xqzb/7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.LodePngEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.LodePngEncoder.html",
+          "hash": "JH61IYdS0sbfzdB42i1brQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.MozJpegEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.MozJpegEncoder.html",
+          "hash": "LrzJlGn8erMl7VHWivRi4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PerformanceDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PerformanceDetails.html",
+          "hash": "ngxGuMycWoLs9aaqJ1ZYgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PerformanceDetailsFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PerformanceDetailsFrame.html",
+          "hash": "4yvFmXrgvnCMJAYF9X7ZNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PerformanceDetailsNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PerformanceDetailsNode.html",
+          "hash": "KquCiUuA2SPPJXhLKUeKSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PixelFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PixelFormat.html",
+          "hash": "ALuZOr00xh1iuUAsjp9Lig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PngBitDepth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PngBitDepth.html",
+          "hash": "roSJpEcaPaDU55EuUeT+nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.PngQuantEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.PngQuantEncoder.html",
+          "hash": "5HB9Cu17v+dWl0qtJyyLRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ResampleHints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ResampleHints.html",
+          "hash": "Vi7b4Bch/HInV0ykylGDKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ResampleWhen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ResampleWhen.html",
+          "hash": "qjkJqvIcZhFkmok8E9OuCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.ScalingFloatspace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.ScalingFloatspace.html",
+          "hash": "tFR5Q3EviW/ogpYL8d9SUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.SecurityOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.SecurityOptions.html",
+          "hash": "gImEmMVxftOHvsu5BbdVJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.SharpenWhen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.SharpenWhen.html",
+          "hash": "8RBEffVYzDNKkNgHSMu3WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.SrgbColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.SrgbColor.html",
+          "hash": "4YiEiHvfDyr0TelOXu5g7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.StreamDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.StreamDestination.html",
+          "hash": "ON90JiFlT0AffFox5xQLBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.StreamSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.StreamSource.html",
+          "hash": "NUklnnYl8tbljHGu/4sOfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WatermarkAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WatermarkAlign.html",
+          "hash": "OV7m8/Owio8nJkqGZ50JMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WatermarkConstraintMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WatermarkConstraintMode.html",
+          "hash": "Tl1pXdTh+Le5G//5QpMEMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WatermarkFitBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WatermarkFitBox.html",
+          "hash": "1X0s7I5XodY2kxUhlqxtZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WatermarkMargins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WatermarkMargins.html",
+          "hash": "pjxqu6BtOR2DCabdNYJFZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WatermarkOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WatermarkOptions.html",
+          "hash": "BKbH/pzbw+J9oKZ6FNcOMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WebPLosslessEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WebPLosslessEncoder.html",
+          "hash": "f8lsCn5Y0MuSTDUZTKgkrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.WebPLossyEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.WebPLossyEncoder.html",
+          "hash": "GLGx4vryuPLLA3idbNTO4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Imageflow.Fluent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Imageflow.Fluent.html",
+          "hash": "9OGzsEOfaJGTwpnvTGF73g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "cDrTta9WiIi/GEwvy490DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "rbs9D0JBs2i027Po9WDfTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "mi/7V9brIkXn9TBSqvJgcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "icMyS3CNcrbGziNQZyZiew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 65,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
