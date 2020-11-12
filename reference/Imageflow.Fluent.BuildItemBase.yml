@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildItemBase.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildItemBase
     path: src/Imageflow/Fluent/BuildItemBase.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildItemBase.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Equals
     path: src/Imageflow/Fluent/BuildItemBase.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildItemBase.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetHashCode
     path: src/Imageflow/Fluent/BuildItemBase.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildItemBase.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/BuildItemBase.cs

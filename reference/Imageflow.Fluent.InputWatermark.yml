@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InputWatermark
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Source
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: IoId
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Watermark
     path: src/Imageflow/Fluent/InputWatermark.cs
@@ -239,7 +239,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/InputWatermark.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/InputWatermark.cs

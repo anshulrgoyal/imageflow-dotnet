@@ -36,7 +36,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: JobContext
     path: src/Imageflow/Bindings/JobContext.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Bindings/JobContext.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: HasError
     path: src/Imageflow/Bindings/JobContext.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SendMessage
     path: src/Imageflow/Bindings/JobContext.cs
@@ -192,7 +192,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Execute
     path: src/Imageflow/Bindings/JobContext.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetImageInfo
     path: src/Imageflow/Bindings/JobContext.cs
@@ -267,7 +267,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetVersionInfo
     path: src/Imageflow/Bindings/JobContext.cs
@@ -299,7 +299,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SendJsonBytes
     path: src/Imageflow/Bindings/JobContext.cs
@@ -339,7 +339,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AssertReady
     path: src/Imageflow/Bindings/JobContext.cs
@@ -369,7 +369,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ExecuteImageResizer4CommandString
     path: src/Imageflow/Bindings/JobContext.cs
@@ -408,7 +408,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytes
     path: src/Imageflow/Bindings/JobContext.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytes
     path: src/Imageflow/Bindings/JobContext.cs
@@ -484,7 +484,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytes
     path: src/Imageflow/Bindings/JobContext.cs
@@ -526,7 +526,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytesPinned
     path: src/Imageflow/Bindings/JobContext.cs
@@ -564,7 +564,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytesPinned
     path: src/Imageflow/Bindings/JobContext.cs
@@ -602,7 +602,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddInputBytesPinned
     path: src/Imageflow/Bindings/JobContext.cs
@@ -644,7 +644,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: AddOutputBuffer
     path: src/Imageflow/Bindings/JobContext.cs
@@ -677,7 +677,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ContainsIoId
     path: src/Imageflow/Bindings/JobContext.cs
@@ -712,7 +712,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetOutputBuffer
     path: src/Imageflow/Bindings/JobContext.cs
@@ -750,7 +750,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: IsDisposed
     path: src/Imageflow/Bindings/JobContext.cs
@@ -785,7 +785,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Dispose
     path: src/Imageflow/Bindings/JobContext.cs
@@ -817,7 +817,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/JobContext.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Finalize
     path: src/Imageflow/Bindings/JobContext.cs

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/ImageflowException.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ImageflowException
     path: src/Imageflow/Bindings/ImageflowException.cs

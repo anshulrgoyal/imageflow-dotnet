@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ImageJob
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -210,7 +210,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -245,7 +245,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -283,7 +283,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -321,7 +321,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -361,7 +361,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -413,7 +413,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -465,7 +465,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Decode
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -504,7 +504,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CreateCanvasBgra32
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -543,7 +543,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CreateCanvasBgr32
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -582,7 +582,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildCommandString
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -624,7 +624,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildCommandString
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -663,7 +663,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildCommandString
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -709,7 +709,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildCommandString
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -760,7 +760,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildCommandString
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -808,7 +808,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Finish
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -843,7 +843,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FinishAsync
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -887,7 +887,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FinishAsync
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -934,7 +934,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FinishInSubprocessAsync
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -988,7 +988,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WriteJsonJobAndInputs
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1037,7 +1037,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FinishAndDisposeAsync
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1084,7 +1084,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Dispose
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1116,7 +1116,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Dispose
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1151,7 +1151,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GenerateIoId
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1183,7 +1183,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetImageInfo
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1224,7 +1224,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetImageInfo
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1268,7 +1268,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CanDecodeBytes
     path: src/Imageflow/Fluent/ImageJob.cs
@@ -1312,7 +1312,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ImageJob.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: GetContentTypeForBytes
     path: src/Imageflow/Fluent/ImageJob.cs

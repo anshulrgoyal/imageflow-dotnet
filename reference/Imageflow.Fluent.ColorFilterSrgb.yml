@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ColorFilterSrgb
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Grayscale_Ntsc
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Grayscale_Flat
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Grayscale_Bt709
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Grayscale_Ry
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Sepia
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Invert
     path: src/Imageflow/Fluent/Enumerations.cs

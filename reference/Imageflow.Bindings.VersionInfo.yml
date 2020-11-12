@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/VersionInfo.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: VersionInfo
     path: src/Imageflow/Bindings/VersionInfo.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/VersionInfo.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: LongVersionString
     path: src/Imageflow/Bindings/VersionInfo.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/VersionInfo.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: LastGitCommit
     path: src/Imageflow/Bindings/VersionInfo.cs
@@ -130,7 +130,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/VersionInfo.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: DirtyWorkingTree
     path: src/Imageflow/Bindings/VersionInfo.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Bindings/VersionInfo.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildDate
     path: src/Imageflow/Bindings/VersionInfo.cs

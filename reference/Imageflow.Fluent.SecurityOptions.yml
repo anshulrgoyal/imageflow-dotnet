@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SecurityOptions
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MaxDecodeSize
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MaxFrameSize
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MaxEncodeSize
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMaxDecodeSize
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMaxFrameSize
     path: src/Imageflow/Fluent/SecurityOptions.cs
@@ -274,7 +274,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/SecurityOptions.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMaxEncodeSize
     path: src/Imageflow/Fluent/SecurityOptions.cs

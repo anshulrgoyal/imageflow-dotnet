@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.TestDotNetFull/TestDotNetClassicLibraryLoading.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestDotNetClassicLibraryLoading
     path: tests/Imageflow.TestDotNetFull/TestDotNetClassicLibraryLoading.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.TestDotNetFull/TestDotNetClassicLibraryLoading.cs
-      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestAccessAbi
     path: tests/Imageflow.TestDotNetFull/TestDotNetClassicLibraryLoading.cs
