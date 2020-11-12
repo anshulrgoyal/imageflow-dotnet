@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: DecodeCommands
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: JpegDownscaleHint
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: JpegDownscalingMode
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WebpDownscaleHint
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WebPDownscaleHint
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: DiscardColorProfile
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetJpegDownscaling
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -291,7 +291,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetWebPDownscaling
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -328,7 +328,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetDiscardColorProfile
     path: src/Imageflow/Fluent/DecodeCommands.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/DecodeCommands.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/DecodeCommands.cs

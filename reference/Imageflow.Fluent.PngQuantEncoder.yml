@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: PngQuantEncoder
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -143,7 +143,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Quality
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MinimumQuality
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Speed
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -254,7 +254,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MaximumDeflate
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -291,7 +291,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetQuality
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMinimumQuality
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -375,7 +375,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetSpeed
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -417,7 +417,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMaximumDeflate
     path: src/Imageflow/Fluent/IEncoderPreset.cs
@@ -456,7 +456,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IEncoderPreset.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/IEncoderPreset.cs

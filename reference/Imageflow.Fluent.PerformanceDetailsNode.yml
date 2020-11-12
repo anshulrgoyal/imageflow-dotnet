@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: PerformanceDetailsNode
     path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Name
     path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WallMicroseconds
     path: src/Imageflow/Fluent/PerformanceDetailsNode.cs

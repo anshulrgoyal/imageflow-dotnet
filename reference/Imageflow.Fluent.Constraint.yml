@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Constraint
     path: src/Imageflow/Fluent/Constraint.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/Constraint.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/Constraint.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/Constraint.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Mode
     path: src/Imageflow/Fluent/Constraint.cs
@@ -225,7 +225,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: W
     path: src/Imageflow/Fluent/Constraint.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: H
     path: src/Imageflow/Fluent/Constraint.cs
@@ -295,7 +295,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Hints
     path: src/Imageflow/Fluent/Constraint.cs
@@ -330,7 +330,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CanvasColor
     path: src/Imageflow/Fluent/Constraint.cs
@@ -365,7 +365,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetConstraintMode
     path: src/Imageflow/Fluent/Constraint.cs
@@ -400,7 +400,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetHints
     path: src/Imageflow/Fluent/Constraint.cs
@@ -435,7 +435,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetCanvasColor
     path: src/Imageflow/Fluent/Constraint.cs
@@ -473,7 +473,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Constraint.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/Constraint.cs

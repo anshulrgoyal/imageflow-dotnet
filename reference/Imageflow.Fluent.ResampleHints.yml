@@ -36,7 +36,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ResampleHints
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -77,7 +77,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SharpenWhen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ResampleWhen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InterpolationColorspace
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: UpFilter
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: DownFilter
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SharpenPercent
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Sharpen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -415,7 +415,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetSharpen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -455,7 +455,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetSharpenPercent
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -493,7 +493,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetSharpenWhen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -531,7 +531,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ResampleFilter
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -583,7 +583,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetResampleFilters
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -623,7 +623,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetUpSamplingFilter
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -661,7 +661,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetDownSamplingFilter
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -699,7 +699,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Resample
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -749,7 +749,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetResampleWhen
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -787,7 +787,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ResampleColorspace
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -837,7 +837,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetInterpolationColorspace
     path: src/Imageflow/Fluent/ResampleHints.cs
@@ -875,7 +875,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/ResampleHints.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/ResampleHints.cs

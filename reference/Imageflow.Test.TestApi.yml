@@ -30,7 +30,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestApi
     path: tests/Imageflow.Test/TestApi.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: tests/Imageflow.Test/TestApi.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestGetImageInfo
     path: tests/Imageflow.Test/TestApi.cs
@@ -144,7 +144,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestBuildJob
     path: tests/Imageflow.Test/TestApi.cs
@@ -186,7 +186,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestAllJob
     path: tests/Imageflow.Test/TestApi.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestConstraints
     path: tests/Imageflow.Test/TestApi.cs
@@ -270,7 +270,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestMultipleOutputs
     path: tests/Imageflow.Test/TestApi.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestMultipleInputs
     path: tests/Imageflow.Test/TestApi.cs
@@ -354,7 +354,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestJobWithCommandString
     path: tests/Imageflow.Test/TestApi.cs
@@ -396,7 +396,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestEncodeSizeLimit
     path: tests/Imageflow.Test/TestApi.cs
@@ -438,7 +438,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestBuildCommandString
     path: tests/Imageflow.Test/TestApi.cs
@@ -480,7 +480,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestBuildCommandStringWithWatermarks
     path: tests/Imageflow.Test/TestApi.cs
@@ -522,7 +522,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestFilesystemJobPrep
     path: tests/Imageflow.Test/TestApi.cs
@@ -564,7 +564,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestBuildJobSubprocess
     path: tests/Imageflow.Test/TestApi.cs
@@ -606,7 +606,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestCustomDownscaling
     path: tests/Imageflow.Test/TestApi.cs
@@ -648,7 +648,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestApi.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestContentTypeDetection
     path: tests/Imageflow.Test/TestApi.cs

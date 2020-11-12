@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: StreamDestination
     path: src/Imageflow/Fluent/IOutputDestination.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/IOutputDestination.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Dispose
     path: src/Imageflow/Fluent/IOutputDestination.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: RequestCapacityAsync
     path: src/Imageflow/Fluent/IOutputDestination.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WriteAsync
     path: src/Imageflow/Fluent/IOutputDestination.cs
@@ -214,7 +214,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/IOutputDestination.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FlushAsync
     path: src/Imageflow/Fluent/IOutputDestination.cs

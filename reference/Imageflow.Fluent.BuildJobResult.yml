@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildJobResult
     path: src/Imageflow/Fluent/BuildJobResult.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: EncodeResults
     path: src/Imageflow/Fluent/BuildJobResult.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: PerformanceDetails
     path: src/Imageflow/Fluent/BuildJobResult.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: First
     path: src/Imageflow/Fluent/BuildJobResult.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: this[]
     path: src/Imageflow/Fluent/BuildJobResult.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildJobResult.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TryGet
     path: src/Imageflow/Fluent/BuildJobResult.cs

@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BuildNode
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -94,7 +94,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Encode
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Encode
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -181,7 +181,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: EncodeToBytes
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -230,7 +230,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: EncodeToBytes
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -265,7 +265,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: EncodeToStream
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -318,7 +318,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: EncodeToStream
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -357,7 +357,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ConstrainWithin
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -402,7 +402,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ConstrainWithin
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -450,7 +450,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Constrain
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -489,7 +489,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Distort
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -531,7 +531,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Distort
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -576,7 +576,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Crop
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -624,7 +624,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Region
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -675,7 +675,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: RegionPercent
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -726,7 +726,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CropWhitespace
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -774,7 +774,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ResizerCommands
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -813,7 +813,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FlipVertical
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -848,7 +848,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FlipHorizontal
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -883,7 +883,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Rotate90
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -918,7 +918,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Rotate180
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -953,7 +953,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Rotate270
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -988,7 +988,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Transpose
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1023,7 +1023,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Branch
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1065,7 +1065,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: CopyRectTo
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1110,7 +1110,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: DrawImageExactTo
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1161,7 +1161,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FillRectangle
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1212,7 +1212,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ExpandCanvas
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1263,7 +1263,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WhiteBalanceSrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1302,7 +1302,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TransparencySrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1341,7 +1341,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ContrastSrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1380,7 +1380,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: BrightnessSrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1419,7 +1419,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SaturationSrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1458,7 +1458,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ColorFilterSrgb
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1497,7 +1497,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Watermark
     path: src/Imageflow/Fluent/BuildNode.cs
@@ -1539,7 +1539,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/BuildNode.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Watermark
     path: src/Imageflow/Fluent/BuildNode.cs

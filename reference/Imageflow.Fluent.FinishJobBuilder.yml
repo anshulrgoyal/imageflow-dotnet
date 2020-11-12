@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FinishJobBuilder
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithSecurityOptions
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetSecurityOptions
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithCancellationToken
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetCancellationToken
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithCancellationTimeout
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetCancellationTimeout
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -294,7 +294,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InProcessAsync
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -326,7 +326,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InSubprocessAsync
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -366,7 +366,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WriteJsonJobAndInputs
     path: src/Imageflow/Fluent/FinishJobBuilder.cs
@@ -404,7 +404,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/FinishJobBuilder.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InProcessAndDisposeAsync
     path: src/Imageflow/Fluent/FinishJobBuilder.cs

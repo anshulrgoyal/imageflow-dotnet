@@ -42,7 +42,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WatermarkOptions
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Gravity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FitBox
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: FitMode
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -218,7 +218,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Opacity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Hints
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -290,7 +290,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MinCanvasWidth
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -325,7 +325,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: MinCanvasHeight
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -360,7 +360,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithHints
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -407,7 +407,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithOpacity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -458,7 +458,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithMargins
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -505,7 +505,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithFitBox
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -552,7 +552,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithFitMode
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -599,7 +599,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithGravity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -646,7 +646,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: LayoutWithFitBox
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -697,7 +697,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: LayoutWithMargins
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -748,7 +748,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: WithMinCanvasSize
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -805,7 +805,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetHints
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -840,7 +840,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetOpacity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -879,7 +879,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMargins
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -914,7 +914,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetFitBox
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -949,7 +949,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetFitMode
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -984,7 +984,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetGravity
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -1019,7 +1019,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetFitBoxLayout
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -1058,7 +1058,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMarginsLayout
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -1097,7 +1097,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: SetMinCanvasSize
     path: src/Imageflow/Fluent/WatermarkOptions.cs
@@ -1142,7 +1142,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/WatermarkOptions.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: ToImageflowDynamic
     path: src/Imageflow/Fluent/WatermarkOptions.cs

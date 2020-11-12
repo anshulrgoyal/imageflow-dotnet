@@ -37,7 +37,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: InterpolationFilter
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Robidoux_Fast
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Robidoux
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Robidoux_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -164,7 +164,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Ginseng
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -196,7 +196,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Ginseng_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Lanczos
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Lanczos_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Lanczos_2
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -324,7 +324,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Lanczos_2_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -356,7 +356,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Cubic
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -388,7 +388,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Cubic_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -420,7 +420,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Catmull_Rom
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -452,7 +452,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Mitchell
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -484,7 +484,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Cubic_B_Spline
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -516,7 +516,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Hermite
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -548,7 +548,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Jinc
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -580,7 +580,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Triangle
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -612,7 +612,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Linear
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -644,7 +644,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Box
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -676,7 +676,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: Fastest
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -708,7 +708,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: N_Cubic
     path: src/Imageflow/Fluent/Enumerations.cs
@@ -740,7 +740,7 @@ items:
   source:
     remote:
       path: src/Imageflow/Fluent/Enumerations.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: N_Cubic_Sharp
     path: src/Imageflow/Fluent/Enumerations.cs

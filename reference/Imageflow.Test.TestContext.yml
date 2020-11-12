@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestContext
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: .ctor
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestCreateDestroyContext
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestGetImageInfoMessage
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestGetImageInfo
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestGetVersionInfo
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestExecute
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -297,7 +297,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestIr4Execute
     path: tests/Imageflow.Test/TestJobContext.cs
@@ -337,7 +337,7 @@ items:
   source:
     remote:
       path: tests/Imageflow.Test/TestJobContext.cs
-      branch: af211ba6636e5cd2df38be17a4ebc839e3f3b486
+      branch: 3a3a03881f960b7ded94c07adbe3ebdf25495d2a
       repo: https://github.com/anshulrgoyal/imageflow-dotnet
     id: TestIr4Build
     path: tests/Imageflow.Test/TestJobContext.cs
