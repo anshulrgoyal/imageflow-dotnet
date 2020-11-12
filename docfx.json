@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "**/**.csproj" ],
+                    "files": [ "**/Imageflow.Net.csproj" ],
                     "src": ".."
                 }
             ],
