@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.ColorFilterSrgb
+  commentId: T:Imageflow.Fluent.ColorFilterSrgb
+  id: ColorFilterSrgb
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.ColorFilterSrgb.Grayscale_Bt709
+  - Imageflow.Fluent.ColorFilterSrgb.Grayscale_Flat
+  - Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ntsc
+  - Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ry
+  - Imageflow.Fluent.ColorFilterSrgb.Invert
+  - Imageflow.Fluent.ColorFilterSrgb.Sepia
+  langs:
+  - csharp
+  - vb
+  name: ColorFilterSrgb
+  nameWithType: ColorFilterSrgb
+  fullName: Imageflow.Fluent.ColorFilterSrgb
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ColorFilterSrgb
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 76
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum ColorFilterSrgb
+    content.vb: Public Enum ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ntsc
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ntsc
+  id: Grayscale_Ntsc
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Grayscale_Ntsc
+  nameWithType: ColorFilterSrgb.Grayscale_Ntsc
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ntsc
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Grayscale_Ntsc
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 78
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Grayscale_Ntsc = 0
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Flat
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Grayscale_Flat
+  id: Grayscale_Flat
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Grayscale_Flat
+  nameWithType: ColorFilterSrgb.Grayscale_Flat
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Flat
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Grayscale_Flat
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 79
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Grayscale_Flat = 1
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Bt709
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Grayscale_Bt709
+  id: Grayscale_Bt709
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Grayscale_Bt709
+  nameWithType: ColorFilterSrgb.Grayscale_Bt709
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Bt709
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Grayscale_Bt709
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 80
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Grayscale_Bt709 = 2
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ry
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ry
+  id: Grayscale_Ry
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Grayscale_Ry
+  nameWithType: ColorFilterSrgb.Grayscale_Ry
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Grayscale_Ry
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Grayscale_Ry
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 81
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Grayscale_Ry = 3
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ColorFilterSrgb.Sepia
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Sepia
+  id: Sepia
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Sepia
+  nameWithType: ColorFilterSrgb.Sepia
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Sepia
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Sepia
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 82
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Sepia = 4
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ColorFilterSrgb.Invert
+  commentId: F:Imageflow.Fluent.ColorFilterSrgb.Invert
+  id: Invert
+  parent: Imageflow.Fluent.ColorFilterSrgb
+  langs:
+  - csharp
+  - vb
+  name: Invert
+  nameWithType: ColorFilterSrgb.Invert
+  fullName: Imageflow.Fluent.ColorFilterSrgb.Invert
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Invert
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 83
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Invert = 5
+    return:
+      type: Imageflow.Fluent.ColorFilterSrgb
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.ColorFilterSrgb
+  commentId: T:Imageflow.Fluent.ColorFilterSrgb
+  parent: Imageflow.Fluent
+  name: ColorFilterSrgb
+  nameWithType: ColorFilterSrgb
+  fullName: Imageflow.Fluent.ColorFilterSrgb

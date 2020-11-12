@@ -1,0 +1,411 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.PerformanceDetailsNode
+  commentId: T:Imageflow.Fluent.PerformanceDetailsNode
+  id: PerformanceDetailsNode
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.PerformanceDetailsNode.Name
+  - Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+  langs:
+  - csharp
+  - vb
+  name: PerformanceDetailsNode
+  nameWithType: PerformanceDetailsNode
+  fullName: Imageflow.Fluent.PerformanceDetailsNode
+  type: Struct
+  source:
+    remote:
+      path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PerformanceDetailsNode
+    path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+    startLine: 2
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public struct PerformanceDetailsNode
+    content.vb: Public Structure PerformanceDetailsNode
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Imageflow.Fluent.PerformanceDetailsNode.Name
+  commentId: P:Imageflow.Fluent.PerformanceDetailsNode.Name
+  id: Name
+  parent: Imageflow.Fluent.PerformanceDetailsNode
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PerformanceDetailsNode.Name
+  fullName: Imageflow.Fluent.PerformanceDetailsNode.Name
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Name
+    path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+    startLine: 5
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Imageflow.Fluent.PerformanceDetailsNode.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+  commentId: P:Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+  id: WallMicroseconds
+  parent: Imageflow.Fluent.PerformanceDetailsNode
+  langs:
+  - csharp
+  - vb
+  name: WallMicroseconds
+  nameWithType: PerformanceDetailsNode.WallMicroseconds
+  fullName: Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WallMicroseconds
+    path: src/Imageflow/Fluent/PerformanceDetailsNode.cs
+    startLine: 6
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public long WallMicroseconds { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property WallMicroseconds As Long
+  overload: Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.PerformanceDetailsNode.Name*
+  commentId: Overload:Imageflow.Fluent.PerformanceDetailsNode.Name
+  name: Name
+  nameWithType: PerformanceDetailsNode.Name
+  fullName: Imageflow.Fluent.PerformanceDetailsNode.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds*
+  commentId: Overload:Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+  name: WallMicroseconds
+  nameWithType: PerformanceDetailsNode.WallMicroseconds
+  fullName: Imageflow.Fluent.PerformanceDetailsNode.WallMicroseconds
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

@@ -1,0 +1,1029 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.StreamDestination
+  commentId: T:Imageflow.Fluent.StreamDestination
+  id: StreamDestination
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.StreamDestination.#ctor(System.IO.Stream,System.Boolean)
+  - Imageflow.Fluent.StreamDestination.Dispose
+  - Imageflow.Fluent.StreamDestination.FlushAsync(System.Threading.CancellationToken)
+  - Imageflow.Fluent.StreamDestination.RequestCapacityAsync(System.Int32)
+  - Imageflow.Fluent.StreamDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: StreamDestination
+  nameWithType: StreamDestination
+  fullName: Imageflow.Fluent.StreamDestination
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: StreamDestination
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 75
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: 'public class StreamDestination : IOutputDestination, IDisposable'
+    content.vb: >-
+      Public Class StreamDestination
+          Implements IOutputDestination, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Imageflow.Fluent.IOutputDestination
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Imageflow.Fluent.IOutputDestination.Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.StreamDestination.#ctor(System.IO.Stream,System.Boolean)
+  commentId: M:Imageflow.Fluent.StreamDestination.#ctor(System.IO.Stream,System.Boolean)
+  id: '#ctor(System.IO.Stream,System.Boolean)'
+  parent: Imageflow.Fluent.StreamDestination
+  langs:
+  - csharp
+  - vb
+  name: StreamDestination(Stream, Boolean)
+  nameWithType: StreamDestination.StreamDestination(Stream, Boolean)
+  fullName: Imageflow.Fluent.StreamDestination.StreamDestination(System.IO.Stream, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 79
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public StreamDestination(Stream underlying, bool disposeUnderlying)
+    parameters:
+    - id: underlying
+      type: System.IO.Stream
+    - id: disposeUnderlying
+      type: System.Boolean
+    content.vb: Public Sub New(underlying As Stream, disposeUnderlying As Boolean)
+  overload: Imageflow.Fluent.StreamDestination.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.StreamDestination.Dispose
+  commentId: M:Imageflow.Fluent.StreamDestination.Dispose
+  id: Dispose
+  parent: Imageflow.Fluent.StreamDestination
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StreamDestination.Dispose()
+  fullName: Imageflow.Fluent.StreamDestination.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Dispose
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 85
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Imageflow.Fluent.StreamDestination.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.StreamDestination.RequestCapacityAsync(System.Int32)
+  commentId: M:Imageflow.Fluent.StreamDestination.RequestCapacityAsync(System.Int32)
+  id: RequestCapacityAsync(System.Int32)
+  parent: Imageflow.Fluent.StreamDestination
+  langs:
+  - csharp
+  - vb
+  name: RequestCapacityAsync(Int32)
+  nameWithType: StreamDestination.RequestCapacityAsync(Int32)
+  fullName: Imageflow.Fluent.StreamDestination.RequestCapacityAsync(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: RequestCapacityAsync
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 90
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Task RequestCapacityAsync(int bytes)
+    parameters:
+    - id: bytes
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RequestCapacityAsync(bytes As Integer) As Task
+  overload: Imageflow.Fluent.StreamDestination.RequestCapacityAsync*
+  implements:
+  - Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.StreamDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.StreamDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  id: WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.StreamDestination
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(ArraySegment<Byte>, CancellationToken)
+  nameWithType: StreamDestination.WriteAsync(ArraySegment<Byte>, CancellationToken)
+  fullName: Imageflow.Fluent.StreamDestination.WriteAsync(System.ArraySegment<System.Byte>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WriteAsync
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 96
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Task WriteAsync(ArraySegment<byte> bytes, CancellationToken cancellationToken)
+    parameters:
+    - id: bytes
+      type: System.ArraySegment{System.Byte}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function WriteAsync(bytes As ArraySegment(Of Byte), cancellationToken As CancellationToken) As Task
+  overload: Imageflow.Fluent.StreamDestination.WriteAsync*
+  implements:
+  - Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  nameWithType.vb: StreamDestination.WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.StreamDestination.WriteAsync(System.ArraySegment(Of System.Byte), System.Threading.CancellationToken)
+  name.vb: WriteAsync(ArraySegment(Of Byte), CancellationToken)
+- uid: Imageflow.Fluent.StreamDestination.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.StreamDestination.FlushAsync(System.Threading.CancellationToken)
+  id: FlushAsync(System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.StreamDestination
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(CancellationToken)
+  nameWithType: StreamDestination.FlushAsync(CancellationToken)
+  fullName: Imageflow.Fluent.StreamDestination.FlushAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IOutputDestination.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FlushAsync
+    path: src/Imageflow/Fluent/IOutputDestination.cs
+    startLine: 101
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Task FlushAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function FlushAsync(cancellationToken As CancellationToken) As Task
+  overload: Imageflow.Fluent.StreamDestination.FlushAsync*
+  implements:
+  - Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Imageflow.Fluent.IOutputDestination
+  commentId: T:Imageflow.Fluent.IOutputDestination
+  parent: Imageflow.Fluent
+  name: IOutputDestination
+  nameWithType: IOutputDestination
+  fullName: Imageflow.Fluent.IOutputDestination
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.IOutputDestination.Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.IOutputDestinationExtensions
+  definition: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+  name: CopyFromStreamAsync(Stream, CancellationToken)
+  nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync(Stream, CancellationToken)
+  fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(System.IO.Stream, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: CopyFromStreamAsync
+    nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync
+    fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: CopyFromStreamAsync
+    nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync
+    fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+  isExternal: true
+  name: CopyFromStreamAsync(IOutputDestination, Stream, CancellationToken)
+  nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync(IOutputDestination, Stream, CancellationToken)
+  fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination, System.IO.Stream, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+    name: CopyFromStreamAsync
+    nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync
+    fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Imageflow.Fluent.IOutputDestination
+    name: IOutputDestination
+    nameWithType: IOutputDestination
+    fullName: Imageflow.Fluent.IOutputDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync(Imageflow.Fluent.IOutputDestination,System.IO.Stream,System.Threading.CancellationToken)
+    name: CopyFromStreamAsync
+    nameWithType: IOutputDestinationExtensions.CopyFromStreamAsync
+    fullName: Imageflow.Fluent.IOutputDestinationExtensions.CopyFromStreamAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Imageflow.Fluent.IOutputDestination
+    name: IOutputDestination
+    nameWithType: IOutputDestination
+    fullName: Imageflow.Fluent.IOutputDestination
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.IOutputDestinationExtensions
+  commentId: T:Imageflow.Fluent.IOutputDestinationExtensions
+  parent: Imageflow.Fluent
+  name: IOutputDestinationExtensions
+  nameWithType: IOutputDestinationExtensions
+  fullName: Imageflow.Fluent.IOutputDestinationExtensions
+- uid: Imageflow.Fluent.StreamDestination.#ctor*
+  commentId: Overload:Imageflow.Fluent.StreamDestination.#ctor
+  name: StreamDestination
+  nameWithType: StreamDestination.StreamDestination
+  fullName: Imageflow.Fluent.StreamDestination.StreamDestination
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Imageflow.Fluent.StreamDestination.Dispose*
+  commentId: Overload:Imageflow.Fluent.StreamDestination.Dispose
+  name: Dispose
+  nameWithType: StreamDestination.Dispose
+  fullName: Imageflow.Fluent.StreamDestination.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.StreamDestination.RequestCapacityAsync*
+  commentId: Overload:Imageflow.Fluent.StreamDestination.RequestCapacityAsync
+  name: RequestCapacityAsync
+  nameWithType: StreamDestination.RequestCapacityAsync
+  fullName: Imageflow.Fluent.StreamDestination.RequestCapacityAsync
+- uid: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+  commentId: M:Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+  parent: Imageflow.Fluent.IOutputDestination
+  isExternal: true
+  name: RequestCapacityAsync(Int32)
+  nameWithType: IOutputDestination.RequestCapacityAsync(Int32)
+  fullName: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+  spec.csharp:
+  - uid: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+    name: RequestCapacityAsync
+    nameWithType: IOutputDestination.RequestCapacityAsync
+    fullName: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync(System.Int32)
+    name: RequestCapacityAsync
+    nameWithType: IOutputDestination.RequestCapacityAsync
+    fullName: Imageflow.Fluent.IOutputDestination.RequestCapacityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Imageflow.Fluent.StreamDestination.WriteAsync*
+  commentId: Overload:Imageflow.Fluent.StreamDestination.WriteAsync
+  name: WriteAsync
+  nameWithType: StreamDestination.WriteAsync
+  fullName: Imageflow.Fluent.StreamDestination.WriteAsync
+- uid: Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.IOutputDestination
+  isExternal: true
+  name: WriteAsync(ArraySegment<Byte>, CancellationToken)
+  nameWithType: IOutputDestination.WriteAsync(ArraySegment<Byte>, CancellationToken)
+  fullName: Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment<System.Byte>, System.Threading.CancellationToken)
+  nameWithType.vb: IOutputDestination.WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  fullName.vb: Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment(Of System.Byte), System.Threading.CancellationToken)
+  name.vb: WriteAsync(ArraySegment(Of Byte), CancellationToken)
+  spec.csharp:
+  - uid: Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: IOutputDestination.WriteAsync
+    fullName: Imageflow.Fluent.IOutputDestination.WriteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IOutputDestination.WriteAsync(System.ArraySegment{System.Byte},System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: IOutputDestination.WriteAsync
+    fullName: Imageflow.Fluent.IOutputDestination.WriteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArraySegment{System.Byte}
+  commentId: T:System.ArraySegment{System.Byte}
+  parent: System
+  definition: System.ArraySegment`1
+  name: ArraySegment<Byte>
+  nameWithType: ArraySegment<Byte>
+  fullName: System.ArraySegment<System.Byte>
+  nameWithType.vb: ArraySegment(Of Byte)
+  fullName.vb: System.ArraySegment(Of System.Byte)
+  name.vb: ArraySegment(Of Byte)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.ArraySegment`1
+  commentId: T:System.ArraySegment`1
+  isExternal: true
+  name: ArraySegment<T>
+  nameWithType: ArraySegment<T>
+  fullName: System.ArraySegment<T>
+  nameWithType.vb: ArraySegment(Of T)
+  fullName.vb: System.ArraySegment(Of T)
+  name.vb: ArraySegment(Of T)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Imageflow.Fluent.StreamDestination.FlushAsync*
+  commentId: Overload:Imageflow.Fluent.StreamDestination.FlushAsync
+  name: FlushAsync
+  nameWithType: StreamDestination.FlushAsync
+  fullName: Imageflow.Fluent.StreamDestination.FlushAsync
+- uid: Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.IOutputDestination
+  isExternal: true
+  name: FlushAsync(CancellationToken)
+  nameWithType: IOutputDestination.FlushAsync(CancellationToken)
+  fullName: Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: IOutputDestination.FlushAsync
+    fullName: Imageflow.Fluent.IOutputDestination.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IOutputDestination.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: IOutputDestination.FlushAsync
+    fullName: Imageflow.Fluent.IOutputDestination.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

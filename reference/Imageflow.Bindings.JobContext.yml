@@ -1,0 +1,1447 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Bindings.JobContext
+  commentId: T:Imageflow.Bindings.JobContext
+  id: JobContext
+  parent: Imageflow.Bindings
+  children:
+  - Imageflow.Bindings.JobContext.#ctor
+  - Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.ArraySegment{System.Byte})
+  - Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[])
+  - Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[],System.Int64,System.Int64)
+  - Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.ArraySegment{System.Byte})
+  - Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[])
+  - Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[],System.Int64,System.Int64)
+  - Imageflow.Bindings.JobContext.AddOutputBuffer(System.Int32)
+  - Imageflow.Bindings.JobContext.AssertReady
+  - Imageflow.Bindings.JobContext.ContainsIoId(System.Int32)
+  - Imageflow.Bindings.JobContext.Dispose
+  - Imageflow.Bindings.JobContext.Execute``1(``0)
+  - Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString(System.Int32,System.Int32,System.String)
+  - Imageflow.Bindings.JobContext.Finalize
+  - Imageflow.Bindings.JobContext.GetImageInfo(System.Int32)
+  - Imageflow.Bindings.JobContext.GetOutputBuffer(System.Int32)
+  - Imageflow.Bindings.JobContext.GetVersionInfo
+  - Imageflow.Bindings.JobContext.HasError
+  - Imageflow.Bindings.JobContext.IsDisposed
+  - Imageflow.Bindings.JobContext.SendJsonBytes(System.String,System.Byte[])
+  - Imageflow.Bindings.JobContext.SendMessage``1(System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: JobContext
+  nameWithType: JobContext
+  fullName: Imageflow.Bindings.JobContext
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: JobContext
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 12
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: 'public sealed class JobContext : CriticalFinalizerObject, IDisposable, IAssertReady'
+    content.vb: >-
+      Public NotInheritable Class JobContext
+          Inherits CriticalFinalizerObject
+          Implements IDisposable, IAssertReady
+  inheritance:
+  - System.Object
+  - System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Imageflow.Bindings.JobContext.#ctor
+  commentId: M:Imageflow.Bindings.JobContext.#ctor
+  id: '#ctor'
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: JobContext()
+  nameWithType: JobContext.JobContext()
+  fullName: Imageflow.Bindings.JobContext.JobContext()
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 34
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public JobContext()
+    content.vb: Public Sub New
+  overload: Imageflow.Bindings.JobContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.HasError
+  commentId: P:Imageflow.Bindings.JobContext.HasError
+  id: HasError
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: HasError
+  nameWithType: JobContext.HasError
+  fullName: Imageflow.Bindings.JobContext.HasError
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: HasError
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 45
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public bool HasError { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasError As Boolean
+  overload: Imageflow.Bindings.JobContext.HasError*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.JobContext.SendMessage``1(System.String,``0)
+  commentId: M:Imageflow.Bindings.JobContext.SendMessage``1(System.String,``0)
+  id: SendMessage``1(System.String,``0)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: SendMessage<T>(String, T)
+  nameWithType: JobContext.SendMessage<T>(String, T)
+  fullName: Imageflow.Bindings.JobContext.SendMessage<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SendMessage
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 64
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public IJsonResponseProvider SendMessage<T>(string method, T message)
+    parameters:
+    - id: method
+      type: System.String
+    - id: message
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: Imageflow.Bindings.IJsonResponseProvider
+    content.vb: Public Function SendMessage(Of T)(method As String, message As T) As IJsonResponseProvider
+  overload: Imageflow.Bindings.JobContext.SendMessage*
+  nameWithType.vb: JobContext.SendMessage(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.SendMessage(Of T)(System.String, T)
+  name.vb: SendMessage(Of T)(String, T)
+- uid: Imageflow.Bindings.JobContext.Execute``1(``0)
+  commentId: M:Imageflow.Bindings.JobContext.Execute``1(``0)
+  id: Execute``1(``0)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: Execute<T>(T)
+  nameWithType: JobContext.Execute<T>(T)
+  fullName: Imageflow.Bindings.JobContext.Execute<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Execute
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 69
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public IJsonResponseProvider Execute<T>(T message)
+    parameters:
+    - id: message
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: Imageflow.Bindings.IJsonResponseProvider
+    content.vb: Public Function Execute(Of T)(message As T) As IJsonResponseProvider
+  overload: Imageflow.Bindings.JobContext.Execute*
+  nameWithType.vb: JobContext.Execute(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.Execute(Of T)(T)
+  name.vb: Execute(Of T)(T)
+- uid: Imageflow.Bindings.JobContext.GetImageInfo(System.Int32)
+  commentId: M:Imageflow.Bindings.JobContext.GetImageInfo(System.Int32)
+  id: GetImageInfo(System.Int32)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: GetImageInfo(Int32)
+  nameWithType: JobContext.GetImageInfo(Int32)
+  fullName: Imageflow.Bindings.JobContext.GetImageInfo(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: GetImageInfo
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 74
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public ImageInfo GetImageInfo(int ioId)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    return:
+      type: Imageflow.Bindings.ImageInfo
+    content.vb: Public Function GetImageInfo(ioId As Integer) As ImageInfo
+  overload: Imageflow.Bindings.JobContext.GetImageInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.GetVersionInfo
+  commentId: M:Imageflow.Bindings.JobContext.GetVersionInfo
+  id: GetVersionInfo
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: GetVersionInfo()
+  nameWithType: JobContext.GetVersionInfo()
+  fullName: Imageflow.Bindings.JobContext.GetVersionInfo()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: GetVersionInfo
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 91
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public VersionInfo GetVersionInfo()
+    return:
+      type: Imageflow.Bindings.VersionInfo
+    content.vb: Public Function GetVersionInfo As VersionInfo
+  overload: Imageflow.Bindings.JobContext.GetVersionInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.SendJsonBytes(System.String,System.Byte[])
+  commentId: M:Imageflow.Bindings.JobContext.SendJsonBytes(System.String,System.Byte[])
+  id: SendJsonBytes(System.String,System.Byte[])
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: SendJsonBytes(String, Byte[])
+  nameWithType: JobContext.SendJsonBytes(String, Byte[])
+  fullName: Imageflow.Bindings.JobContext.SendJsonBytes(System.String, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SendJsonBytes
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 108
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public IJsonResponseProvider SendJsonBytes(string method, byte[] utf8Json)
+    parameters:
+    - id: method
+      type: System.String
+    - id: utf8Json
+      type: System.Byte[]
+    return:
+      type: Imageflow.Bindings.IJsonResponseProvider
+    content.vb: Public Function SendJsonBytes(method As String, utf8Json As Byte()) As IJsonResponseProvider
+  overload: Imageflow.Bindings.JobContext.SendJsonBytes*
+  nameWithType.vb: JobContext.SendJsonBytes(String, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.SendJsonBytes(System.String, System.Byte())
+  name.vb: SendJsonBytes(String, Byte())
+- uid: Imageflow.Bindings.JobContext.AssertReady
+  commentId: M:Imageflow.Bindings.JobContext.AssertReady
+  id: AssertReady
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AssertReady()
+  nameWithType: JobContext.AssertReady()
+  fullName: Imageflow.Bindings.JobContext.AssertReady()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AssertReady
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 128
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AssertReady()
+    content.vb: Public Sub AssertReady
+  overload: Imageflow.Bindings.JobContext.AssertReady*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString(System.Int32,System.Int32,System.String)
+  commentId: M:Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString(System.Int32,System.Int32,System.String)
+  id: ExecuteImageResizer4CommandString(System.Int32,System.Int32,System.String)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: ExecuteImageResizer4CommandString(Int32, Int32, String)
+  nameWithType: JobContext.ExecuteImageResizer4CommandString(Int32, Int32, String)
+  fullName: Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ExecuteImageResizer4CommandString
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 134
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public IJsonResponseProvider ExecuteImageResizer4CommandString(int inputId, int outputId, string commands)
+    parameters:
+    - id: inputId
+      type: System.Int32
+    - id: outputId
+      type: System.Int32
+    - id: commands
+      type: System.String
+    return:
+      type: Imageflow.Bindings.IJsonResponseProvider
+    content.vb: Public Function ExecuteImageResizer4CommandString(inputId As Integer, outputId As Integer, commands As String) As IJsonResponseProvider
+  overload: Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[])
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[])
+  id: AddInputBytes(System.Int32,System.Byte[])
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytes(Int32, Byte[])
+  nameWithType: JobContext.AddInputBytes(Int32, Byte[])
+  fullName: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytes
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 188
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytes(int ioId, byte[] buffer)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.Byte[]
+    content.vb: Public Sub AddInputBytes(ioId As Integer, buffer As Byte())
+  overload: Imageflow.Bindings.JobContext.AddInputBytes*
+  nameWithType.vb: JobContext.AddInputBytes(Int32, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.Byte())
+  name.vb: AddInputBytes(Int32, Byte())
+- uid: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.ArraySegment{System.Byte})
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.ArraySegment{System.Byte})
+  id: AddInputBytes(System.Int32,System.ArraySegment{System.Byte})
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytes(Int32, ArraySegment<Byte>)
+  nameWithType: JobContext.AddInputBytes(Int32, ArraySegment<Byte>)
+  fullName: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.ArraySegment<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytes
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 192
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytes(int ioId, ArraySegment<byte> buffer)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.ArraySegment{System.Byte}
+    content.vb: Public Sub AddInputBytes(ioId As Integer, buffer As ArraySegment(Of Byte))
+  overload: Imageflow.Bindings.JobContext.AddInputBytes*
+  nameWithType.vb: JobContext.AddInputBytes(Int32, ArraySegment(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.ArraySegment(Of System.Byte))
+  name.vb: AddInputBytes(Int32, ArraySegment(Of Byte))
+- uid: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[],System.Int64,System.Int64)
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytes(System.Int32,System.Byte[],System.Int64,System.Int64)
+  id: AddInputBytes(System.Int32,System.Byte[],System.Int64,System.Int64)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytes(Int32, Byte[], Int64, Int64)
+  nameWithType: JobContext.AddInputBytes(Int32, Byte[], Int64, Int64)
+  fullName: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.Byte[], System.Int64, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytes
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 196
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytes(int ioId, byte[] buffer, long offset, long count)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int64
+    - id: count
+      type: System.Int64
+    content.vb: Public Sub AddInputBytes(ioId As Integer, buffer As Byte(), offset As Long, count As Long)
+  overload: Imageflow.Bindings.JobContext.AddInputBytes*
+  nameWithType.vb: JobContext.AddInputBytes(Int32, Byte(), Int64, Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytes(System.Int32, System.Byte(), System.Int64, System.Int64)
+  name.vb: AddInputBytes(Int32, Byte(), Int64, Int64)
+- uid: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[])
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[])
+  id: AddInputBytesPinned(System.Int32,System.Byte[])
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytesPinned(Int32, Byte[])
+  nameWithType: JobContext.AddInputBytesPinned(Int32, Byte[])
+  fullName: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytesPinned
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 221
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytesPinned(int ioId, byte[] buffer)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.Byte[]
+    content.vb: Public Sub AddInputBytesPinned(ioId As Integer, buffer As Byte())
+  overload: Imageflow.Bindings.JobContext.AddInputBytesPinned*
+  nameWithType.vb: JobContext.AddInputBytesPinned(Int32, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.Byte())
+  name.vb: AddInputBytesPinned(Int32, Byte())
+- uid: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.ArraySegment{System.Byte})
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.ArraySegment{System.Byte})
+  id: AddInputBytesPinned(System.Int32,System.ArraySegment{System.Byte})
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytesPinned(Int32, ArraySegment<Byte>)
+  nameWithType: JobContext.AddInputBytesPinned(Int32, ArraySegment<Byte>)
+  fullName: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.ArraySegment<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytesPinned
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 225
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytesPinned(int ioId, ArraySegment<byte> buffer)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.ArraySegment{System.Byte}
+    content.vb: Public Sub AddInputBytesPinned(ioId As Integer, buffer As ArraySegment(Of Byte))
+  overload: Imageflow.Bindings.JobContext.AddInputBytesPinned*
+  nameWithType.vb: JobContext.AddInputBytesPinned(Int32, ArraySegment(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.ArraySegment(Of System.Byte))
+  name.vb: AddInputBytesPinned(Int32, ArraySegment(Of Byte))
+- uid: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[],System.Int64,System.Int64)
+  commentId: M:Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32,System.Byte[],System.Int64,System.Int64)
+  id: AddInputBytesPinned(System.Int32,System.Byte[],System.Int64,System.Int64)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddInputBytesPinned(Int32, Byte[], Int64, Int64)
+  nameWithType: JobContext.AddInputBytesPinned(Int32, Byte[], Int64, Int64)
+  fullName: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.Byte[], System.Int64, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddInputBytesPinned
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 229
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddInputBytesPinned(int ioId, byte[] buffer, long offset, long count)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int64
+    - id: count
+      type: System.Int64
+    content.vb: Public Sub AddInputBytesPinned(ioId As Integer, buffer As Byte(), offset As Long, count As Long)
+  overload: Imageflow.Bindings.JobContext.AddInputBytesPinned*
+  nameWithType.vb: JobContext.AddInputBytesPinned(Int32, Byte(), Int64, Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Bindings.JobContext.AddInputBytesPinned(System.Int32, System.Byte(), System.Int64, System.Int64)
+  name.vb: AddInputBytesPinned(Int32, Byte(), Int64, Int64)
+- uid: Imageflow.Bindings.JobContext.AddOutputBuffer(System.Int32)
+  commentId: M:Imageflow.Bindings.JobContext.AddOutputBuffer(System.Int32)
+  id: AddOutputBuffer(System.Int32)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: AddOutputBuffer(Int32)
+  nameWithType: JobContext.AddOutputBuffer(Int32)
+  fullName: Imageflow.Bindings.JobContext.AddOutputBuffer(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: AddOutputBuffer
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 253
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void AddOutputBuffer(int ioId)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    content.vb: Public Sub AddOutputBuffer(ioId As Integer)
+  overload: Imageflow.Bindings.JobContext.AddOutputBuffer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.ContainsIoId(System.Int32)
+  commentId: M:Imageflow.Bindings.JobContext.ContainsIoId(System.Int32)
+  id: ContainsIoId(System.Int32)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: ContainsIoId(Int32)
+  nameWithType: JobContext.ContainsIoId(Int32)
+  fullName: Imageflow.Bindings.JobContext.ContainsIoId(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ContainsIoId
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 265
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public bool ContainsIoId(int ioId)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function ContainsIoId(ioId As Integer) As Boolean
+  overload: Imageflow.Bindings.JobContext.ContainsIoId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.GetOutputBuffer(System.Int32)
+  commentId: M:Imageflow.Bindings.JobContext.GetOutputBuffer(System.Int32)
+  id: GetOutputBuffer(System.Int32)
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: GetOutputBuffer(Int32)
+  nameWithType: JobContext.GetOutputBuffer(Int32)
+  fullName: Imageflow.Bindings.JobContext.GetOutputBuffer(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: GetOutputBuffer
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 272
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  summary: "\nWill raise an unrecoverable exception if this is not an output buffer.\nStream is not valid after the JobContext is disposed\n"
+  example: []
+  syntax:
+    content: public Stream GetOutputBuffer(int ioId)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    return:
+      type: System.IO.Stream
+      description: ''
+    content.vb: Public Function GetOutputBuffer(ioId As Integer) As Stream
+  overload: Imageflow.Bindings.JobContext.GetOutputBuffer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.IsDisposed
+  commentId: P:Imageflow.Bindings.JobContext.IsDisposed
+  id: IsDisposed
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: IsDisposed
+  nameWithType: JobContext.IsDisposed
+  fullName: Imageflow.Bindings.JobContext.IsDisposed
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: IsDisposed
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 289
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public bool IsDisposed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDisposed As Boolean
+  overload: Imageflow.Bindings.JobContext.IsDisposed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.JobContext.Dispose
+  commentId: M:Imageflow.Bindings.JobContext.Dispose
+  id: Dispose
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: JobContext.Dispose()
+  fullName: Imageflow.Bindings.JobContext.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Dispose
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 290
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Imageflow.Bindings.JobContext.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Bindings.JobContext.Finalize
+  commentId: M:Imageflow.Bindings.JobContext.Finalize
+  id: Finalize
+  parent: Imageflow.Bindings.JobContext
+  langs:
+  - csharp
+  - vb
+  name: Finalize()
+  nameWithType: JobContext.Finalize()
+  fullName: Imageflow.Bindings.JobContext.Finalize()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Bindings/JobContext.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Finalize
+    path: src/Imageflow/Bindings/JobContext.cs
+    startLine: 329
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+  overload: Imageflow.Bindings.JobContext.Finalize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Imageflow.Bindings
+  commentId: N:Imageflow.Bindings
+  name: Imageflow.Bindings
+  nameWithType: Imageflow.Bindings
+  fullName: Imageflow.Bindings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  commentId: T:System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  parent: System.Runtime.ConstrainedExecution
+  isExternal: true
+  name: CriticalFinalizerObject
+  nameWithType: CriticalFinalizerObject
+  fullName: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.ConstrainedExecution
+  commentId: N:System.Runtime.ConstrainedExecution
+  isExternal: true
+  name: System.Runtime.ConstrainedExecution
+  nameWithType: System.Runtime.ConstrainedExecution
+  fullName: System.Runtime.ConstrainedExecution
+- uid: Imageflow.Bindings.JobContext.#ctor*
+  commentId: Overload:Imageflow.Bindings.JobContext.#ctor
+  name: JobContext
+  nameWithType: JobContext.JobContext
+  fullName: Imageflow.Bindings.JobContext.JobContext
+- uid: Imageflow.Bindings.JobContext.HasError*
+  commentId: Overload:Imageflow.Bindings.JobContext.HasError
+  name: HasError
+  nameWithType: JobContext.HasError
+  fullName: Imageflow.Bindings.JobContext.HasError
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Imageflow.Bindings.JobContext.SendMessage*
+  commentId: Overload:Imageflow.Bindings.JobContext.SendMessage
+  name: SendMessage
+  nameWithType: JobContext.SendMessage
+  fullName: Imageflow.Bindings.JobContext.SendMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Imageflow.Bindings.IJsonResponseProvider
+  commentId: T:Imageflow.Bindings.IJsonResponseProvider
+  parent: Imageflow.Bindings
+  name: IJsonResponseProvider
+  nameWithType: IJsonResponseProvider
+  fullName: Imageflow.Bindings.IJsonResponseProvider
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Imageflow.Bindings.JobContext.Execute*
+  commentId: Overload:Imageflow.Bindings.JobContext.Execute
+  name: Execute
+  nameWithType: JobContext.Execute
+  fullName: Imageflow.Bindings.JobContext.Execute
+- uid: Imageflow.Bindings.JobContext.GetImageInfo*
+  commentId: Overload:Imageflow.Bindings.JobContext.GetImageInfo
+  name: GetImageInfo
+  nameWithType: JobContext.GetImageInfo
+  fullName: Imageflow.Bindings.JobContext.GetImageInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Imageflow.Bindings.ImageInfo
+  commentId: T:Imageflow.Bindings.ImageInfo
+  parent: Imageflow.Bindings
+  name: ImageInfo
+  nameWithType: ImageInfo
+  fullName: Imageflow.Bindings.ImageInfo
+- uid: Imageflow.Bindings.JobContext.GetVersionInfo*
+  commentId: Overload:Imageflow.Bindings.JobContext.GetVersionInfo
+  name: GetVersionInfo
+  nameWithType: JobContext.GetVersionInfo
+  fullName: Imageflow.Bindings.JobContext.GetVersionInfo
+- uid: Imageflow.Bindings.VersionInfo
+  commentId: T:Imageflow.Bindings.VersionInfo
+  parent: Imageflow.Bindings
+  name: VersionInfo
+  nameWithType: VersionInfo
+  fullName: Imageflow.Bindings.VersionInfo
+- uid: Imageflow.Bindings.JobContext.SendJsonBytes*
+  commentId: Overload:Imageflow.Bindings.JobContext.SendJsonBytes
+  name: SendJsonBytes
+  nameWithType: JobContext.SendJsonBytes
+  fullName: Imageflow.Bindings.JobContext.SendJsonBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Imageflow.Bindings.JobContext.AssertReady*
+  commentId: Overload:Imageflow.Bindings.JobContext.AssertReady
+  name: AssertReady
+  nameWithType: JobContext.AssertReady
+  fullName: Imageflow.Bindings.JobContext.AssertReady
+- uid: Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString*
+  commentId: Overload:Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString
+  name: ExecuteImageResizer4CommandString
+  nameWithType: JobContext.ExecuteImageResizer4CommandString
+  fullName: Imageflow.Bindings.JobContext.ExecuteImageResizer4CommandString
+- uid: Imageflow.Bindings.JobContext.AddInputBytes*
+  commentId: Overload:Imageflow.Bindings.JobContext.AddInputBytes
+  name: AddInputBytes
+  nameWithType: JobContext.AddInputBytes
+  fullName: Imageflow.Bindings.JobContext.AddInputBytes
+- uid: System.ArraySegment{System.Byte}
+  commentId: T:System.ArraySegment{System.Byte}
+  parent: System
+  definition: System.ArraySegment`1
+  name: ArraySegment<Byte>
+  nameWithType: ArraySegment<Byte>
+  fullName: System.ArraySegment<System.Byte>
+  nameWithType.vb: ArraySegment(Of Byte)
+  fullName.vb: System.ArraySegment(Of System.Byte)
+  name.vb: ArraySegment(Of Byte)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ArraySegment`1
+  commentId: T:System.ArraySegment`1
+  isExternal: true
+  name: ArraySegment<T>
+  nameWithType: ArraySegment<T>
+  fullName: System.ArraySegment<T>
+  nameWithType.vb: ArraySegment(Of T)
+  fullName.vb: System.ArraySegment(Of T)
+  name.vb: ArraySegment(Of T)
+  spec.csharp:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Imageflow.Bindings.JobContext.AddInputBytesPinned*
+  commentId: Overload:Imageflow.Bindings.JobContext.AddInputBytesPinned
+  name: AddInputBytesPinned
+  nameWithType: JobContext.AddInputBytesPinned
+  fullName: Imageflow.Bindings.JobContext.AddInputBytesPinned
+- uid: Imageflow.Bindings.JobContext.AddOutputBuffer*
+  commentId: Overload:Imageflow.Bindings.JobContext.AddOutputBuffer
+  name: AddOutputBuffer
+  nameWithType: JobContext.AddOutputBuffer
+  fullName: Imageflow.Bindings.JobContext.AddOutputBuffer
+- uid: Imageflow.Bindings.JobContext.ContainsIoId*
+  commentId: Overload:Imageflow.Bindings.JobContext.ContainsIoId
+  name: ContainsIoId
+  nameWithType: JobContext.ContainsIoId
+  fullName: Imageflow.Bindings.JobContext.ContainsIoId
+- uid: Imageflow.Bindings.JobContext.GetOutputBuffer*
+  commentId: Overload:Imageflow.Bindings.JobContext.GetOutputBuffer
+  name: GetOutputBuffer
+  nameWithType: JobContext.GetOutputBuffer
+  fullName: Imageflow.Bindings.JobContext.GetOutputBuffer
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Imageflow.Bindings.JobContext.IsDisposed*
+  commentId: Overload:Imageflow.Bindings.JobContext.IsDisposed
+  name: IsDisposed
+  nameWithType: JobContext.IsDisposed
+  fullName: Imageflow.Bindings.JobContext.IsDisposed
+- uid: Imageflow.Bindings.JobContext.Dispose*
+  commentId: Overload:Imageflow.Bindings.JobContext.Dispose
+  name: Dispose
+  nameWithType: JobContext.Dispose
+  fullName: Imageflow.Bindings.JobContext.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Bindings.JobContext.Finalize*
+  commentId: Overload:Imageflow.Bindings.JobContext.Finalize
+  name: Finalize
+  nameWithType: JobContext.Finalize
+  fullName: Imageflow.Bindings.JobContext.Finalize

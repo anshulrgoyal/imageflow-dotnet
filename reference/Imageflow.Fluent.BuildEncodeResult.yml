@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.BuildEncodeResult
+  commentId: T:Imageflow.Fluent.BuildEncodeResult
+  id: BuildEncodeResult
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.BuildEncodeResult.Destination
+  - Imageflow.Fluent.BuildEncodeResult.Height
+  - Imageflow.Fluent.BuildEncodeResult.IoId
+  - Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+  - Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+  - Imageflow.Fluent.BuildEncodeResult.TryGetBytes
+  - Imageflow.Fluent.BuildEncodeResult.Width
+  langs:
+  - csharp
+  - vb
+  name: BuildEncodeResult
+  nameWithType: BuildEncodeResult
+  fullName: Imageflow.Fluent.BuildEncodeResult
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: BuildEncodeResult
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public class BuildEncodeResult
+    content.vb: Public Class BuildEncodeResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+  id: PreferredMimeType
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: PreferredMimeType
+  nameWithType: BuildEncodeResult.PreferredMimeType
+  fullName: Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PreferredMimeType
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 6
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public string PreferredMimeType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PreferredMimeType As String
+  overload: Imageflow.Fluent.BuildEncodeResult.PreferredMimeType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+  id: PreferredExtension
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: PreferredExtension
+  nameWithType: BuildEncodeResult.PreferredExtension
+  fullName: Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PreferredExtension
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 7
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public string PreferredExtension { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PreferredExtension As String
+  overload: Imageflow.Fluent.BuildEncodeResult.PreferredExtension*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.IoId
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.IoId
+  id: IoId
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: IoId
+  nameWithType: BuildEncodeResult.IoId
+  fullName: Imageflow.Fluent.BuildEncodeResult.IoId
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: IoId
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 8
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public int IoId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property IoId As Integer
+  overload: Imageflow.Fluent.BuildEncodeResult.IoId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.Width
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.Width
+  id: Width
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: BuildEncodeResult.Width
+  fullName: Imageflow.Fluent.BuildEncodeResult.Width
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Width
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 9
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Width As Integer
+  overload: Imageflow.Fluent.BuildEncodeResult.Width*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.Height
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.Height
+  id: Height
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: BuildEncodeResult.Height
+  fullName: Imageflow.Fluent.BuildEncodeResult.Height
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Height
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 10
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Height As Integer
+  overload: Imageflow.Fluent.BuildEncodeResult.Height*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.Destination
+  commentId: P:Imageflow.Fluent.BuildEncodeResult.Destination
+  id: Destination
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: BuildEncodeResult.Destination
+  fullName: Imageflow.Fluent.BuildEncodeResult.Destination
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Destination
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 12
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public IOutputDestination Destination { get; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.IOutputDestination
+    content.vb: Public ReadOnly Property Destination As IOutputDestination
+  overload: Imageflow.Fluent.BuildEncodeResult.Destination*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.BuildEncodeResult.TryGetBytes
+  commentId: M:Imageflow.Fluent.BuildEncodeResult.TryGetBytes
+  id: TryGetBytes
+  parent: Imageflow.Fluent.BuildEncodeResult
+  langs:
+  - csharp
+  - vb
+  name: TryGetBytes()
+  nameWithType: BuildEncodeResult.TryGetBytes()
+  fullName: Imageflow.Fluent.BuildEncodeResult.TryGetBytes()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEncodeResult.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: TryGetBytes
+    path: src/Imageflow/Fluent/BuildEncodeResult.cs
+    startLine: 18
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nIf this Destination is a BytesDestination, returns the ArraySegment - otherwise null\nReturns the byte segment for the given output ID (if that output is a BytesDestination)\n"
+  example: []
+  syntax:
+    content: public ArraySegment<byte>? TryGetBytes()
+    return:
+      type: System.Nullable{System.ArraySegment{System.Byte}}
+    content.vb: Public Function TryGetBytes As ArraySegment(Of Byte)?
+  overload: Imageflow.Fluent.BuildEncodeResult.TryGetBytes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.BuildEncodeResult.PreferredMimeType*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+  name: PreferredMimeType
+  nameWithType: BuildEncodeResult.PreferredMimeType
+  fullName: Imageflow.Fluent.BuildEncodeResult.PreferredMimeType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Imageflow.Fluent.BuildEncodeResult.PreferredExtension*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+  name: PreferredExtension
+  nameWithType: BuildEncodeResult.PreferredExtension
+  fullName: Imageflow.Fluent.BuildEncodeResult.PreferredExtension
+- uid: Imageflow.Fluent.BuildEncodeResult.IoId*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.IoId
+  name: IoId
+  nameWithType: BuildEncodeResult.IoId
+  fullName: Imageflow.Fluent.BuildEncodeResult.IoId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Imageflow.Fluent.BuildEncodeResult.Width*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.Width
+  name: Width
+  nameWithType: BuildEncodeResult.Width
+  fullName: Imageflow.Fluent.BuildEncodeResult.Width
+- uid: Imageflow.Fluent.BuildEncodeResult.Height*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.Height
+  name: Height
+  nameWithType: BuildEncodeResult.Height
+  fullName: Imageflow.Fluent.BuildEncodeResult.Height
+- uid: Imageflow.Fluent.BuildEncodeResult.Destination*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.Destination
+  name: Destination
+  nameWithType: BuildEncodeResult.Destination
+  fullName: Imageflow.Fluent.BuildEncodeResult.Destination
+- uid: Imageflow.Fluent.IOutputDestination
+  commentId: T:Imageflow.Fluent.IOutputDestination
+  parent: Imageflow.Fluent
+  name: IOutputDestination
+  nameWithType: IOutputDestination
+  fullName: Imageflow.Fluent.IOutputDestination
+- uid: Imageflow.Fluent.BuildEncodeResult.TryGetBytes*
+  commentId: Overload:Imageflow.Fluent.BuildEncodeResult.TryGetBytes
+  name: TryGetBytes
+  nameWithType: BuildEncodeResult.TryGetBytes
+  fullName: Imageflow.Fluent.BuildEncodeResult.TryGetBytes
+- uid: System.Nullable{System.ArraySegment{System.Byte}}
+  commentId: T:System.Nullable{System.ArraySegment{System.Byte}}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<ArraySegment<Byte>>
+  nameWithType: Nullable<ArraySegment<Byte>>
+  fullName: System.Nullable<System.ArraySegment<System.Byte>>
+  nameWithType.vb: Nullable(Of ArraySegment(Of Byte))
+  fullName.vb: System.Nullable(Of System.ArraySegment(Of System.Byte))
+  name.vb: Nullable(Of ArraySegment(Of Byte))
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ArraySegment`1
+    name: ArraySegment
+    nameWithType: ArraySegment
+    fullName: System.ArraySegment
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

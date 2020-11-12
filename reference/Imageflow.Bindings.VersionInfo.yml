@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Bindings.VersionInfo
+  commentId: T:Imageflow.Bindings.VersionInfo
+  id: VersionInfo
+  parent: Imageflow.Bindings
+  children:
+  - Imageflow.Bindings.VersionInfo.BuildDate
+  - Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+  - Imageflow.Bindings.VersionInfo.LastGitCommit
+  - Imageflow.Bindings.VersionInfo.LongVersionString
+  langs:
+  - csharp
+  - vb
+  name: VersionInfo
+  nameWithType: VersionInfo
+  fullName: Imageflow.Bindings.VersionInfo
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Bindings/VersionInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: VersionInfo
+    path: src/Imageflow/Bindings/VersionInfo.cs
+    startLine: 5
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public class VersionInfo
+    content.vb: Public Class VersionInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Bindings.VersionInfo.LongVersionString
+  commentId: P:Imageflow.Bindings.VersionInfo.LongVersionString
+  id: LongVersionString
+  parent: Imageflow.Bindings.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: LongVersionString
+  nameWithType: VersionInfo.LongVersionString
+  fullName: Imageflow.Bindings.VersionInfo.LongVersionString
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/VersionInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: LongVersionString
+    path: src/Imageflow/Bindings/VersionInfo.cs
+    startLine: 31
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public string LongVersionString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LongVersionString As String
+  overload: Imageflow.Bindings.VersionInfo.LongVersionString*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.VersionInfo.LastGitCommit
+  commentId: P:Imageflow.Bindings.VersionInfo.LastGitCommit
+  id: LastGitCommit
+  parent: Imageflow.Bindings.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: LastGitCommit
+  nameWithType: VersionInfo.LastGitCommit
+  fullName: Imageflow.Bindings.VersionInfo.LastGitCommit
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/VersionInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: LastGitCommit
+    path: src/Imageflow/Bindings/VersionInfo.cs
+    startLine: 32
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public string LastGitCommit { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LastGitCommit As String
+  overload: Imageflow.Bindings.VersionInfo.LastGitCommit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+  commentId: P:Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+  id: DirtyWorkingTree
+  parent: Imageflow.Bindings.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: DirtyWorkingTree
+  nameWithType: VersionInfo.DirtyWorkingTree
+  fullName: Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/VersionInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: DirtyWorkingTree
+    path: src/Imageflow/Bindings/VersionInfo.cs
+    startLine: 33
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public bool DirtyWorkingTree { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property DirtyWorkingTree As Boolean
+  overload: Imageflow.Bindings.VersionInfo.DirtyWorkingTree*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.VersionInfo.BuildDate
+  commentId: P:Imageflow.Bindings.VersionInfo.BuildDate
+  id: BuildDate
+  parent: Imageflow.Bindings.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: BuildDate
+  nameWithType: VersionInfo.BuildDate
+  fullName: Imageflow.Bindings.VersionInfo.BuildDate
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/VersionInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: BuildDate
+    path: src/Imageflow/Bindings/VersionInfo.cs
+    startLine: 34
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public DateTimeOffset BuildDate { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public ReadOnly Property BuildDate As DateTimeOffset
+  overload: Imageflow.Bindings.VersionInfo.BuildDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Imageflow.Bindings
+  commentId: N:Imageflow.Bindings
+  name: Imageflow.Bindings
+  nameWithType: Imageflow.Bindings
+  fullName: Imageflow.Bindings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Bindings.VersionInfo.LongVersionString*
+  commentId: Overload:Imageflow.Bindings.VersionInfo.LongVersionString
+  name: LongVersionString
+  nameWithType: VersionInfo.LongVersionString
+  fullName: Imageflow.Bindings.VersionInfo.LongVersionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Imageflow.Bindings.VersionInfo.LastGitCommit*
+  commentId: Overload:Imageflow.Bindings.VersionInfo.LastGitCommit
+  name: LastGitCommit
+  nameWithType: VersionInfo.LastGitCommit
+  fullName: Imageflow.Bindings.VersionInfo.LastGitCommit
+- uid: Imageflow.Bindings.VersionInfo.DirtyWorkingTree*
+  commentId: Overload:Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+  name: DirtyWorkingTree
+  nameWithType: VersionInfo.DirtyWorkingTree
+  fullName: Imageflow.Bindings.VersionInfo.DirtyWorkingTree
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Imageflow.Bindings.VersionInfo.BuildDate*
+  commentId: Overload:Imageflow.Bindings.VersionInfo.BuildDate
+  name: BuildDate
+  nameWithType: VersionInfo.BuildDate
+  fullName: Imageflow.Bindings.VersionInfo.BuildDate
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset

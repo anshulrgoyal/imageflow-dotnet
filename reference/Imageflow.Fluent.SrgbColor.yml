@@ -1,0 +1,784 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.SrgbColor
+  commentId: T:Imageflow.Fluent.SrgbColor
+  id: SrgbColor
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.SrgbColor.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Imageflow.Fluent.SrgbColor.A
+  - Imageflow.Fluent.SrgbColor.B
+  - Imageflow.Fluent.SrgbColor.BGRA(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Imageflow.Fluent.SrgbColor.FromHex(System.String)
+  - Imageflow.Fluent.SrgbColor.G
+  - Imageflow.Fluent.SrgbColor.R
+  - Imageflow.Fluent.SrgbColor.RGB(System.Byte,System.Byte,System.Byte)
+  - Imageflow.Fluent.SrgbColor.RGBA(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Imageflow.Fluent.SrgbColor.ToHexUnprefixed
+  langs:
+  - csharp
+  - vb
+  name: SrgbColor
+  nameWithType: SrgbColor
+  fullName: Imageflow.Fluent.SrgbColor
+  type: Struct
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SrgbColor
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 8
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nRepresents a color in the sRGB colorspace\n"
+  example: []
+  syntax:
+    content: public struct SrgbColor
+    content.vb: Public Structure SrgbColor
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Imageflow.Fluent.SrgbColor.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Imageflow.Fluent.SrgbColor.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte,System.Byte)'
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: SrgbColor(Byte, Byte, Byte, Byte)
+  nameWithType: SrgbColor.SrgbColor(Byte, Byte, Byte, Byte)
+  fullName: Imageflow.Fluent.SrgbColor.SrgbColor(System.Byte, System.Byte, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 10
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public SrgbColor(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte, a As Byte)
+  overload: Imageflow.Fluent.SrgbColor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SrgbColor.A
+  commentId: P:Imageflow.Fluent.SrgbColor.A
+  id: A
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: SrgbColor.A
+  fullName: Imageflow.Fluent.SrgbColor.A
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: A
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 18
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public byte A { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property A As Byte
+  overload: Imageflow.Fluent.SrgbColor.A*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.SrgbColor.R
+  commentId: P:Imageflow.Fluent.SrgbColor.R
+  id: R
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: SrgbColor.R
+  fullName: Imageflow.Fluent.SrgbColor.R
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: R
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 19
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public byte R { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property R As Byte
+  overload: Imageflow.Fluent.SrgbColor.R*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.SrgbColor.G
+  commentId: P:Imageflow.Fluent.SrgbColor.G
+  id: G
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: SrgbColor.G
+  fullName: Imageflow.Fluent.SrgbColor.G
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: G
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public byte G { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property G As Byte
+  overload: Imageflow.Fluent.SrgbColor.G*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.SrgbColor.B
+  commentId: P:Imageflow.Fluent.SrgbColor.B
+  id: B
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: SrgbColor.B
+  fullName: Imageflow.Fluent.SrgbColor.B
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: B
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 21
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public byte B { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property B As Byte
+  overload: Imageflow.Fluent.SrgbColor.B*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.SrgbColor.FromHex(System.String)
+  commentId: M:Imageflow.Fluent.SrgbColor.FromHex(System.String)
+  id: FromHex(System.String)
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: FromHex(String)
+  nameWithType: SrgbColor.FromHex(String)
+  fullName: Imageflow.Fluent.SrgbColor.FromHex(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FromHex
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 47
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nParses a hexadecimal color in the form RGB, RGBA, RRGGBB, or RRGGBBAA\n"
+  example: []
+  syntax:
+    content: public static SrgbColor FromHex(string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: ''
+    return:
+      type: Imageflow.Fluent.SrgbColor
+      description: ''
+    content.vb: Public Shared Function FromHex(s As String) As SrgbColor
+  overload: Imageflow.Fluent.SrgbColor.FromHex*
+  exceptions:
+  - type: Imageflow.Bindings.ImageflowAssertionFailed
+    commentId: T:Imageflow.Bindings.ImageflowAssertionFailed
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Imageflow.Fluent.SrgbColor.ToHexUnprefixed
+  commentId: M:Imageflow.Fluent.SrgbColor.ToHexUnprefixed
+  id: ToHexUnprefixed
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: ToHexUnprefixed()
+  nameWithType: SrgbColor.ToHexUnprefixed()
+  fullName: Imageflow.Fluent.SrgbColor.ToHexUnprefixed()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToHexUnprefixed
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 60
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public string ToHexUnprefixed()
+    return:
+      type: System.String
+    content.vb: Public Function ToHexUnprefixed As String
+  overload: Imageflow.Fluent.SrgbColor.ToHexUnprefixed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SrgbColor.BGRA(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Imageflow.Fluent.SrgbColor.BGRA(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: BGRA(System.Byte,System.Byte,System.Byte,System.Byte)
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: BGRA(Byte, Byte, Byte, Byte)
+  nameWithType: SrgbColor.BGRA(Byte, Byte, Byte, Byte)
+  fullName: Imageflow.Fluent.SrgbColor.BGRA(System.Byte, System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: BGRA
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 62
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public static SrgbColor BGRA(byte b, byte g, byte r, byte a)
+    parameters:
+    - id: b
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: r
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    return:
+      type: Imageflow.Fluent.SrgbColor
+    content.vb: Public Shared Function BGRA(b As Byte, g As Byte, r As Byte, a As Byte) As SrgbColor
+  overload: Imageflow.Fluent.SrgbColor.BGRA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Imageflow.Fluent.SrgbColor.RGBA(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Imageflow.Fluent.SrgbColor.RGBA(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: RGBA(System.Byte,System.Byte,System.Byte,System.Byte)
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: RGBA(Byte, Byte, Byte, Byte)
+  nameWithType: SrgbColor.RGBA(Byte, Byte, Byte, Byte)
+  fullName: Imageflow.Fluent.SrgbColor.RGBA(System.Byte, System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: RGBA
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 64
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public static SrgbColor RGBA(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    return:
+      type: Imageflow.Fluent.SrgbColor
+    content.vb: Public Shared Function RGBA(r As Byte, g As Byte, b As Byte, a As Byte) As SrgbColor
+  overload: Imageflow.Fluent.SrgbColor.RGBA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Imageflow.Fluent.SrgbColor.RGB(System.Byte,System.Byte,System.Byte)
+  commentId: M:Imageflow.Fluent.SrgbColor.RGB(System.Byte,System.Byte,System.Byte)
+  id: RGB(System.Byte,System.Byte,System.Byte)
+  parent: Imageflow.Fluent.SrgbColor
+  langs:
+  - csharp
+  - vb
+  name: RGB(Byte, Byte, Byte)
+  nameWithType: SrgbColor.RGB(Byte, Byte, Byte)
+  fullName: Imageflow.Fluent.SrgbColor.RGB(System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SrgbColor.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: RGB
+    path: src/Imageflow/Fluent/SrgbColor.cs
+    startLine: 66
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public static SrgbColor RGB(byte r, byte g, byte b)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    return:
+      type: Imageflow.Fluent.SrgbColor
+    content.vb: Public Shared Function RGB(r As Byte, g As Byte, b As Byte) As SrgbColor
+  overload: Imageflow.Fluent.SrgbColor.RGB*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.SrgbColor.#ctor*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.#ctor
+  name: SrgbColor
+  nameWithType: SrgbColor.SrgbColor
+  fullName: Imageflow.Fluent.SrgbColor.SrgbColor
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Imageflow.Fluent.SrgbColor.A*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.A
+  name: A
+  nameWithType: SrgbColor.A
+  fullName: Imageflow.Fluent.SrgbColor.A
+- uid: Imageflow.Fluent.SrgbColor.R*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.R
+  name: R
+  nameWithType: SrgbColor.R
+  fullName: Imageflow.Fluent.SrgbColor.R
+- uid: Imageflow.Fluent.SrgbColor.G*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.G
+  name: G
+  nameWithType: SrgbColor.G
+  fullName: Imageflow.Fluent.SrgbColor.G
+- uid: Imageflow.Fluent.SrgbColor.B*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.B
+  name: B
+  nameWithType: SrgbColor.B
+  fullName: Imageflow.Fluent.SrgbColor.B
+- uid: Imageflow.Bindings.ImageflowAssertionFailed
+  commentId: T:Imageflow.Bindings.ImageflowAssertionFailed
+  name: ImageflowAssertionFailed
+  nameWithType: ImageflowAssertionFailed
+  fullName: Imageflow.Bindings.ImageflowAssertionFailed
+- uid: Imageflow.Fluent.SrgbColor.FromHex*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.FromHex
+  name: FromHex
+  nameWithType: SrgbColor.FromHex
+  fullName: Imageflow.Fluent.SrgbColor.FromHex
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Imageflow.Fluent.SrgbColor
+  commentId: T:Imageflow.Fluent.SrgbColor
+  parent: Imageflow.Fluent
+  name: SrgbColor
+  nameWithType: SrgbColor
+  fullName: Imageflow.Fluent.SrgbColor
+- uid: Imageflow.Fluent.SrgbColor.ToHexUnprefixed*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.ToHexUnprefixed
+  name: ToHexUnprefixed
+  nameWithType: SrgbColor.ToHexUnprefixed
+  fullName: Imageflow.Fluent.SrgbColor.ToHexUnprefixed
+- uid: Imageflow.Fluent.SrgbColor.BGRA*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.BGRA
+  name: BGRA
+  nameWithType: SrgbColor.BGRA
+  fullName: Imageflow.Fluent.SrgbColor.BGRA
+- uid: Imageflow.Fluent.SrgbColor.RGBA*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.RGBA
+  name: RGBA
+  nameWithType: SrgbColor.RGBA
+  fullName: Imageflow.Fluent.SrgbColor.RGBA
+- uid: Imageflow.Fluent.SrgbColor.RGB*
+  commentId: Overload:Imageflow.Fluent.SrgbColor.RGB
+  name: RGB
+  nameWithType: SrgbColor.RGB
+  fullName: Imageflow.Fluent.SrgbColor.RGB

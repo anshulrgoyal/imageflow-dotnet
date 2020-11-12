@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.BuildEndpoint
+  commentId: T:Imageflow.Fluent.BuildEndpoint
+  id: BuildEndpoint
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.BuildEndpoint.Finish
+  - Imageflow.Fluent.BuildEndpoint.FinishWithTimeout(System.Int32)
+  - Imageflow.Fluent.BuildEndpoint.FinishWithToken(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: BuildEndpoint
+  nameWithType: BuildEndpoint
+  fullName: Imageflow.Fluent.BuildEndpoint
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEndpoint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: BuildEndpoint
+    path: src/Imageflow/Fluent/BuildEndpoint.cs
+    startLine: 10
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nRepresents an endpoint in the operations graph, such as an Encode node. No more nodes can be chained to this one.\nOnly allows executing the job.\n"
+  example: []
+  syntax:
+    content: 'public class BuildEndpoint : BuildItemBase'
+    content.vb: >-
+      Public Class BuildEndpoint
+          Inherits BuildItemBase
+  inheritance:
+  - System.Object
+  - Imageflow.Fluent.BuildItemBase
+  inheritedMembers:
+  - Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+  - Imageflow.Fluent.BuildItemBase.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.BuildEndpoint.Finish
+  commentId: M:Imageflow.Fluent.BuildEndpoint.Finish
+  id: Finish
+  parent: Imageflow.Fluent.BuildEndpoint
+  langs:
+  - csharp
+  - vb
+  name: Finish()
+  nameWithType: BuildEndpoint.Finish()
+  fullName: Imageflow.Fluent.BuildEndpoint.Finish()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEndpoint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Finish
+    path: src/Imageflow/Fluent/BuildEndpoint.cs
+    startLine: 15
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public FinishJobBuilder Finish()
+    return:
+      type: Imageflow.Fluent.FinishJobBuilder
+    content.vb: Public Function Finish As FinishJobBuilder
+  overload: Imageflow.Fluent.BuildEndpoint.Finish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.BuildEndpoint.FinishWithToken(System.Threading.CancellationToken)
+  commentId: M:Imageflow.Fluent.BuildEndpoint.FinishWithToken(System.Threading.CancellationToken)
+  id: FinishWithToken(System.Threading.CancellationToken)
+  parent: Imageflow.Fluent.BuildEndpoint
+  langs:
+  - csharp
+  - vb
+  name: FinishWithToken(CancellationToken)
+  nameWithType: BuildEndpoint.FinishWithToken(CancellationToken)
+  fullName: Imageflow.Fluent.BuildEndpoint.FinishWithToken(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEndpoint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FinishWithToken
+    path: src/Imageflow/Fluent/BuildEndpoint.cs
+    startLine: 17
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Finish().WithCancellationToken")]
+
+      public FinishJobBuilder FinishWithToken(CancellationToken token)
+    parameters:
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: Imageflow.Fluent.FinishJobBuilder
+    content.vb: >-
+      <Obsolete("Use Finish().WithCancellationToken")>
+
+      Public Function FinishWithToken(token As CancellationToken) As FinishJobBuilder
+  overload: Imageflow.Fluent.BuildEndpoint.FinishWithToken*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Finish().WithCancellationToken
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.BuildEndpoint.FinishWithTimeout(System.Int32)
+  commentId: M:Imageflow.Fluent.BuildEndpoint.FinishWithTimeout(System.Int32)
+  id: FinishWithTimeout(System.Int32)
+  parent: Imageflow.Fluent.BuildEndpoint
+  langs:
+  - csharp
+  - vb
+  name: FinishWithTimeout(Int32)
+  nameWithType: BuildEndpoint.FinishWithTimeout(Int32)
+  fullName: Imageflow.Fluent.BuildEndpoint.FinishWithTimeout(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/BuildEndpoint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FinishWithTimeout
+    path: src/Imageflow/Fluent/BuildEndpoint.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Finish().WithCancellationTimeout")]
+
+      public FinishJobBuilder FinishWithTimeout(int milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Int32
+    return:
+      type: Imageflow.Fluent.FinishJobBuilder
+    content.vb: >-
+      <Obsolete("Use Finish().WithCancellationTimeout")>
+
+      Public Function FinishWithTimeout(milliseconds As Integer) As FinishJobBuilder
+  overload: Imageflow.Fluent.BuildEndpoint.FinishWithTimeout*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Finish().WithCancellationTimeout
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Imageflow.Fluent.BuildItemBase
+  commentId: T:Imageflow.Fluent.BuildItemBase
+  parent: Imageflow.Fluent
+  name: BuildItemBase
+  nameWithType: BuildItemBase
+  fullName: Imageflow.Fluent.BuildItemBase
+- uid: Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+  commentId: M:Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+  parent: Imageflow.Fluent.BuildItemBase
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: BuildItemBase.Equals(Object)
+  fullName: Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+  spec.csharp:
+  - uid: Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+    name: Equals
+    nameWithType: BuildItemBase.Equals
+    fullName: Imageflow.Fluent.BuildItemBase.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.BuildItemBase.Equals(System.Object)
+    name: Equals
+    nameWithType: BuildItemBase.Equals
+    fullName: Imageflow.Fluent.BuildItemBase.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.BuildItemBase.GetHashCode
+  commentId: M:Imageflow.Fluent.BuildItemBase.GetHashCode
+  parent: Imageflow.Fluent.BuildItemBase
+  name: GetHashCode()
+  nameWithType: BuildItemBase.GetHashCode()
+  fullName: Imageflow.Fluent.BuildItemBase.GetHashCode()
+  spec.csharp:
+  - uid: Imageflow.Fluent.BuildItemBase.GetHashCode
+    name: GetHashCode
+    nameWithType: BuildItemBase.GetHashCode
+    fullName: Imageflow.Fluent.BuildItemBase.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.BuildItemBase.GetHashCode
+    name: GetHashCode
+    nameWithType: BuildItemBase.GetHashCode
+    fullName: Imageflow.Fluent.BuildItemBase.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.BuildEndpoint.Finish*
+  commentId: Overload:Imageflow.Fluent.BuildEndpoint.Finish
+  name: Finish
+  nameWithType: BuildEndpoint.Finish
+  fullName: Imageflow.Fluent.BuildEndpoint.Finish
+- uid: Imageflow.Fluent.FinishJobBuilder
+  commentId: T:Imageflow.Fluent.FinishJobBuilder
+  parent: Imageflow.Fluent
+  name: FinishJobBuilder
+  nameWithType: FinishJobBuilder
+  fullName: Imageflow.Fluent.FinishJobBuilder
+- uid: Imageflow.Fluent.BuildEndpoint.FinishWithToken*
+  commentId: Overload:Imageflow.Fluent.BuildEndpoint.FinishWithToken
+  name: FinishWithToken
+  nameWithType: BuildEndpoint.FinishWithToken
+  fullName: Imageflow.Fluent.BuildEndpoint.FinishWithToken
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Imageflow.Fluent.BuildEndpoint.FinishWithTimeout*
+  commentId: Overload:Imageflow.Fluent.BuildEndpoint.FinishWithTimeout
+  name: FinishWithTimeout
+  nameWithType: BuildEndpoint.FinishWithTimeout
+  fullName: Imageflow.Fluent.BuildEndpoint.FinishWithTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

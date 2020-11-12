@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.ConstraintMode
+  commentId: T:Imageflow.Fluent.ConstraintMode
+  id: ConstraintMode
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.ConstraintMode.Aspect_Crop
+  - Imageflow.Fluent.ConstraintMode.Distort
+  - Imageflow.Fluent.ConstraintMode.Fit
+  - Imageflow.Fluent.ConstraintMode.Fit_Crop
+  - Imageflow.Fluent.ConstraintMode.Fit_Pad
+  - Imageflow.Fluent.ConstraintMode.Larger_Than
+  - Imageflow.Fluent.ConstraintMode.Within
+  - Imageflow.Fluent.ConstraintMode.Within_Crop
+  - Imageflow.Fluent.ConstraintMode.Within_Pad
+  langs:
+  - csharp
+  - vb
+  name: ConstraintMode
+  nameWithType: ConstraintMode
+  fullName: Imageflow.Fluent.ConstraintMode
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ConstraintMode
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 86
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum ConstraintMode
+    content.vb: Public Enum ConstraintMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.ConstraintMode.Distort
+  commentId: F:Imageflow.Fluent.ConstraintMode.Distort
+  id: Distort
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Distort
+  nameWithType: ConstraintMode.Distort
+  fullName: Imageflow.Fluent.ConstraintMode.Distort
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Distort
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 90
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Distort = 0
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Within
+  commentId: F:Imageflow.Fluent.ConstraintMode.Within
+  id: Within
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Within
+  nameWithType: ConstraintMode.Within
+  fullName: Imageflow.Fluent.ConstraintMode.Within
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Within
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 92
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Within = 1
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Fit
+  commentId: F:Imageflow.Fluent.ConstraintMode.Fit
+  id: Fit
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Fit
+  nameWithType: ConstraintMode.Fit
+  fullName: Imageflow.Fluent.ConstraintMode.Fit
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Fit
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 94
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Fit = 2
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Larger_Than
+  commentId: F:Imageflow.Fluent.ConstraintMode.Larger_Than
+  id: Larger_Than
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Larger_Than
+  nameWithType: ConstraintMode.Larger_Than
+  fullName: Imageflow.Fluent.ConstraintMode.Larger_Than
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Larger_Than
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 96
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Larger_Than = 3
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Within_Crop
+  commentId: F:Imageflow.Fluent.ConstraintMode.Within_Crop
+  id: Within_Crop
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Within_Crop
+  nameWithType: ConstraintMode.Within_Crop
+  fullName: Imageflow.Fluent.ConstraintMode.Within_Crop
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Within_Crop
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 99
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Within_Crop = 4
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Fit_Crop
+  commentId: F:Imageflow.Fluent.ConstraintMode.Fit_Crop
+  id: Fit_Crop
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Fit_Crop
+  nameWithType: ConstraintMode.Fit_Crop
+  fullName: Imageflow.Fluent.ConstraintMode.Fit_Crop
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Fit_Crop
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 102
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Fit_Crop = 5
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Aspect_Crop
+  commentId: F:Imageflow.Fluent.ConstraintMode.Aspect_Crop
+  id: Aspect_Crop
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Aspect_Crop
+  nameWithType: ConstraintMode.Aspect_Crop
+  fullName: Imageflow.Fluent.ConstraintMode.Aspect_Crop
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Aspect_Crop
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 104
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Aspect_Crop = 6
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Within_Pad
+  commentId: F:Imageflow.Fluent.ConstraintMode.Within_Pad
+  id: Within_Pad
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Within_Pad
+  nameWithType: ConstraintMode.Within_Pad
+  fullName: Imageflow.Fluent.ConstraintMode.Within_Pad
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Within_Pad
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 107
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Within_Pad = 7
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ConstraintMode.Fit_Pad
+  commentId: F:Imageflow.Fluent.ConstraintMode.Fit_Pad
+  id: Fit_Pad
+  parent: Imageflow.Fluent.ConstraintMode
+  langs:
+  - csharp
+  - vb
+  name: Fit_Pad
+  nameWithType: ConstraintMode.Fit_Pad
+  fullName: Imageflow.Fluent.ConstraintMode.Fit_Pad
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Fit_Pad
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 110
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  example: []
+  syntax:
+    content: Fit_Pad = 8
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.ConstraintMode
+  commentId: T:Imageflow.Fluent.ConstraintMode
+  parent: Imageflow.Fluent
+  name: ConstraintMode
+  nameWithType: ConstraintMode
+  fullName: Imageflow.Fluent.ConstraintMode

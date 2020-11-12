@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.SecurityOptions
+  commentId: T:Imageflow.Fluent.SecurityOptions
+  id: SecurityOptions
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.SecurityOptions.#ctor
+  - Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+  - Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+  - Imageflow.Fluent.SecurityOptions.MaxFrameSize
+  - Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  - Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  - Imageflow.Fluent.SecurityOptions.SetMaxFrameSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  langs:
+  - csharp
+  - vb
+  name: SecurityOptions
+  nameWithType: SecurityOptions
+  fullName: Imageflow.Fluent.SecurityOptions
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SecurityOptions
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 2
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public class SecurityOptions
+    content.vb: Public Class SecurityOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.SecurityOptions.#ctor
+  commentId: M:Imageflow.Fluent.SecurityOptions.#ctor
+  id: '#ctor'
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: SecurityOptions()
+  nameWithType: SecurityOptions.SecurityOptions()
+  fullName: Imageflow.Fluent.SecurityOptions.SecurityOptions()
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public SecurityOptions()
+    content.vb: Public Sub New
+  overload: Imageflow.Fluent.SecurityOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+  commentId: P:Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+  id: MaxDecodeSize
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: MaxDecodeSize
+  nameWithType: SecurityOptions.MaxDecodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxDecodeSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 9
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public FrameSizeLimit? MaxDecodeSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    content.vb: Public Property MaxDecodeSize As FrameSizeLimit?
+  overload: Imageflow.Fluent.SecurityOptions.MaxDecodeSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SecurityOptions.MaxFrameSize
+  commentId: P:Imageflow.Fluent.SecurityOptions.MaxFrameSize
+  id: MaxFrameSize
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: MaxFrameSize
+  nameWithType: SecurityOptions.MaxFrameSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxFrameSize
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxFrameSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 11
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public FrameSizeLimit? MaxFrameSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    content.vb: Public Property MaxFrameSize As FrameSizeLimit?
+  overload: Imageflow.Fluent.SecurityOptions.MaxFrameSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+  commentId: P:Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+  id: MaxEncodeSize
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: MaxEncodeSize
+  nameWithType: SecurityOptions.MaxEncodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxEncodeSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 13
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public FrameSizeLimit? MaxEncodeSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    content.vb: Public Property MaxEncodeSize As FrameSizeLimit?
+  overload: Imageflow.Fluent.SecurityOptions.MaxEncodeSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  commentId: M:Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  id: SetMaxDecodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMaxDecodeSize(Nullable<FrameSizeLimit>)
+  nameWithType: SecurityOptions.SetMaxDecodeSize(Nullable<FrameSizeLimit>)
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize(System.Nullable<Imageflow.Fluent.FrameSizeLimit>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMaxDecodeSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 15
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public SecurityOptions SetMaxDecodeSize(FrameSizeLimit? limit)
+    parameters:
+    - id: limit
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    return:
+      type: Imageflow.Fluent.SecurityOptions
+    content.vb: Public Function SetMaxDecodeSize(limit As FrameSizeLimit?) As SecurityOptions
+  overload: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize*
+  nameWithType.vb: SecurityOptions.SetMaxDecodeSize(Nullable(Of FrameSizeLimit))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize(System.Nullable(Of Imageflow.Fluent.FrameSizeLimit))
+  name.vb: SetMaxDecodeSize(Nullable(Of FrameSizeLimit))
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  commentId: M:Imageflow.Fluent.SecurityOptions.SetMaxFrameSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  id: SetMaxFrameSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMaxFrameSize(Nullable<FrameSizeLimit>)
+  nameWithType: SecurityOptions.SetMaxFrameSize(Nullable<FrameSizeLimit>)
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize(System.Nullable<Imageflow.Fluent.FrameSizeLimit>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMaxFrameSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public SecurityOptions SetMaxFrameSize(FrameSizeLimit? limit)
+    parameters:
+    - id: limit
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    return:
+      type: Imageflow.Fluent.SecurityOptions
+    content.vb: Public Function SetMaxFrameSize(limit As FrameSizeLimit?) As SecurityOptions
+  overload: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize*
+  nameWithType.vb: SecurityOptions.SetMaxFrameSize(Nullable(Of FrameSizeLimit))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize(System.Nullable(Of Imageflow.Fluent.FrameSizeLimit))
+  name.vb: SetMaxFrameSize(Nullable(Of FrameSizeLimit))
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  commentId: M:Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  id: SetMaxEncodeSize(System.Nullable{Imageflow.Fluent.FrameSizeLimit})
+  parent: Imageflow.Fluent.SecurityOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMaxEncodeSize(Nullable<FrameSizeLimit>)
+  nameWithType: SecurityOptions.SetMaxEncodeSize(Nullable<FrameSizeLimit>)
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize(System.Nullable<Imageflow.Fluent.FrameSizeLimit>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/SecurityOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMaxEncodeSize
+    path: src/Imageflow/Fluent/SecurityOptions.cs
+    startLine: 25
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public SecurityOptions SetMaxEncodeSize(FrameSizeLimit? limit)
+    parameters:
+    - id: limit
+      type: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+    return:
+      type: Imageflow.Fluent.SecurityOptions
+    content.vb: Public Function SetMaxEncodeSize(limit As FrameSizeLimit?) As SecurityOptions
+  overload: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize*
+  nameWithType.vb: SecurityOptions.SetMaxEncodeSize(Nullable(Of FrameSizeLimit))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize(System.Nullable(Of Imageflow.Fluent.FrameSizeLimit))
+  name.vb: SetMaxEncodeSize(Nullable(Of FrameSizeLimit))
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.SecurityOptions.#ctor*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.#ctor
+  name: SecurityOptions
+  nameWithType: SecurityOptions.SecurityOptions
+  fullName: Imageflow.Fluent.SecurityOptions.SecurityOptions
+- uid: Imageflow.Fluent.SecurityOptions.MaxDecodeSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+  name: MaxDecodeSize
+  nameWithType: SecurityOptions.MaxDecodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxDecodeSize
+- uid: System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+  commentId: T:System.Nullable{Imageflow.Fluent.FrameSizeLimit}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<FrameSizeLimit>
+  nameWithType: Nullable<FrameSizeLimit>
+  fullName: System.Nullable<Imageflow.Fluent.FrameSizeLimit>
+  nameWithType.vb: Nullable(Of FrameSizeLimit)
+  fullName.vb: System.Nullable(Of Imageflow.Fluent.FrameSizeLimit)
+  name.vb: Nullable(Of FrameSizeLimit)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Imageflow.Fluent.FrameSizeLimit
+    name: FrameSizeLimit
+    nameWithType: FrameSizeLimit
+    fullName: Imageflow.Fluent.FrameSizeLimit
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Imageflow.Fluent.FrameSizeLimit
+    name: FrameSizeLimit
+    nameWithType: FrameSizeLimit
+    fullName: Imageflow.Fluent.FrameSizeLimit
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.SecurityOptions.MaxFrameSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.MaxFrameSize
+  name: MaxFrameSize
+  nameWithType: SecurityOptions.MaxFrameSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxFrameSize
+- uid: Imageflow.Fluent.SecurityOptions.MaxEncodeSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+  name: MaxEncodeSize
+  nameWithType: SecurityOptions.MaxEncodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.MaxEncodeSize
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize
+  name: SetMaxDecodeSize
+  nameWithType: SecurityOptions.SetMaxDecodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxDecodeSize
+- uid: Imageflow.Fluent.SecurityOptions
+  commentId: T:Imageflow.Fluent.SecurityOptions
+  parent: Imageflow.Fluent
+  name: SecurityOptions
+  nameWithType: SecurityOptions
+  fullName: Imageflow.Fluent.SecurityOptions
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.SetMaxFrameSize
+  name: SetMaxFrameSize
+  nameWithType: SecurityOptions.SetMaxFrameSize
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxFrameSize
+- uid: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize*
+  commentId: Overload:Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize
+  name: SetMaxEncodeSize
+  nameWithType: SecurityOptions.SetMaxEncodeSize
+  fullName: Imageflow.Fluent.SecurityOptions.SetMaxEncodeSize

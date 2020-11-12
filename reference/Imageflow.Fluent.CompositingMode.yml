@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.CompositingMode
+  commentId: T:Imageflow.Fluent.CompositingMode
+  id: CompositingMode
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.CompositingMode.Compose
+  - Imageflow.Fluent.CompositingMode.Overwrite
+  langs:
+  - csharp
+  - vb
+  name: CompositingMode
+  nameWithType: CompositingMode
+  fullName: Imageflow.Fluent.CompositingMode
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: CompositingMode
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 70
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum CompositingMode
+    content.vb: Public Enum CompositingMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.CompositingMode.Compose
+  commentId: F:Imageflow.Fluent.CompositingMode.Compose
+  id: Compose
+  parent: Imageflow.Fluent.CompositingMode
+  langs:
+  - csharp
+  - vb
+  name: Compose
+  nameWithType: CompositingMode.Compose
+  fullName: Imageflow.Fluent.CompositingMode.Compose
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Compose
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 72
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Compose = 0
+    return:
+      type: Imageflow.Fluent.CompositingMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.CompositingMode.Overwrite
+  commentId: F:Imageflow.Fluent.CompositingMode.Overwrite
+  id: Overwrite
+  parent: Imageflow.Fluent.CompositingMode
+  langs:
+  - csharp
+  - vb
+  name: Overwrite
+  nameWithType: CompositingMode.Overwrite
+  fullName: Imageflow.Fluent.CompositingMode.Overwrite
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Overwrite
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 73
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Overwrite = 1
+    return:
+      type: Imageflow.Fluent.CompositingMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.CompositingMode
+  commentId: T:Imageflow.Fluent.CompositingMode
+  parent: Imageflow.Fluent
+  name: CompositingMode
+  nameWithType: CompositingMode
+  fullName: Imageflow.Fluent.CompositingMode

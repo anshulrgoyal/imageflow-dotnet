@@ -1,0 +1,772 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.InterpolationFilter
+  commentId: T:Imageflow.Fluent.InterpolationFilter
+  id: InterpolationFilter
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.InterpolationFilter.Box
+  - Imageflow.Fluent.InterpolationFilter.Catmull_Rom
+  - Imageflow.Fluent.InterpolationFilter.Cubic
+  - Imageflow.Fluent.InterpolationFilter.Cubic_B_Spline
+  - Imageflow.Fluent.InterpolationFilter.Cubic_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Fastest
+  - Imageflow.Fluent.InterpolationFilter.Ginseng
+  - Imageflow.Fluent.InterpolationFilter.Ginseng_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Hermite
+  - Imageflow.Fluent.InterpolationFilter.Jinc
+  - Imageflow.Fluent.InterpolationFilter.Lanczos
+  - Imageflow.Fluent.InterpolationFilter.Lanczos_2
+  - Imageflow.Fluent.InterpolationFilter.Lanczos_2_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Lanczos_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Linear
+  - Imageflow.Fluent.InterpolationFilter.Mitchell
+  - Imageflow.Fluent.InterpolationFilter.N_Cubic
+  - Imageflow.Fluent.InterpolationFilter.N_Cubic_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Robidoux
+  - Imageflow.Fluent.InterpolationFilter.Robidoux_Fast
+  - Imageflow.Fluent.InterpolationFilter.Robidoux_Sharp
+  - Imageflow.Fluent.InterpolationFilter.Triangle
+  langs:
+  - csharp
+  - vb
+  name: InterpolationFilter
+  nameWithType: InterpolationFilter
+  fullName: Imageflow.Fluent.InterpolationFilter
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: InterpolationFilter
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 29
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum InterpolationFilter
+    content.vb: Public Enum InterpolationFilter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.InterpolationFilter.Robidoux_Fast
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Robidoux_Fast
+  id: Robidoux_Fast
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Robidoux_Fast
+  nameWithType: InterpolationFilter.Robidoux_Fast
+  fullName: Imageflow.Fluent.InterpolationFilter.Robidoux_Fast
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Robidoux_Fast
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 30
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Robidoux_Fast = 1
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Robidoux
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Robidoux
+  id: Robidoux
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Robidoux
+  nameWithType: InterpolationFilter.Robidoux
+  fullName: Imageflow.Fluent.InterpolationFilter.Robidoux
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Robidoux
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 31
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Robidoux = 2
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Robidoux_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Robidoux_Sharp
+  id: Robidoux_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Robidoux_Sharp
+  nameWithType: InterpolationFilter.Robidoux_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.Robidoux_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Robidoux_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 32
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Robidoux_Sharp = 3
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Ginseng
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Ginseng
+  id: Ginseng
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Ginseng
+  nameWithType: InterpolationFilter.Ginseng
+  fullName: Imageflow.Fluent.InterpolationFilter.Ginseng
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Ginseng
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 33
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Ginseng = 4
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Ginseng_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Ginseng_Sharp
+  id: Ginseng_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Ginseng_Sharp
+  nameWithType: InterpolationFilter.Ginseng_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.Ginseng_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Ginseng_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 34
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Ginseng_Sharp = 5
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Lanczos
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Lanczos
+  id: Lanczos
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Lanczos
+  nameWithType: InterpolationFilter.Lanczos
+  fullName: Imageflow.Fluent.InterpolationFilter.Lanczos
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Lanczos
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 35
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Lanczos = 6
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Lanczos_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Lanczos_Sharp
+  id: Lanczos_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Lanczos_Sharp
+  nameWithType: InterpolationFilter.Lanczos_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.Lanczos_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Lanczos_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 36
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Lanczos_Sharp = 7
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Lanczos_2
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Lanczos_2
+  id: Lanczos_2
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Lanczos_2
+  nameWithType: InterpolationFilter.Lanczos_2
+  fullName: Imageflow.Fluent.InterpolationFilter.Lanczos_2
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Lanczos_2
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 37
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Lanczos_2 = 8
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Lanczos_2_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Lanczos_2_Sharp
+  id: Lanczos_2_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Lanczos_2_Sharp
+  nameWithType: InterpolationFilter.Lanczos_2_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.Lanczos_2_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Lanczos_2_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 38
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Lanczos_2_Sharp = 9
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Cubic
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Cubic
+  id: Cubic
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Cubic
+  nameWithType: InterpolationFilter.Cubic
+  fullName: Imageflow.Fluent.InterpolationFilter.Cubic
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Cubic
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 39
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Cubic = 11
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Cubic_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Cubic_Sharp
+  id: Cubic_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Cubic_Sharp
+  nameWithType: InterpolationFilter.Cubic_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.Cubic_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Cubic_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 40
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Cubic_Sharp = 12
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Catmull_Rom
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Catmull_Rom
+  id: Catmull_Rom
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Catmull_Rom
+  nameWithType: InterpolationFilter.Catmull_Rom
+  fullName: Imageflow.Fluent.InterpolationFilter.Catmull_Rom
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Catmull_Rom
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 41
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Catmull_Rom = 13
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Mitchell
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Mitchell
+  id: Mitchell
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Mitchell
+  nameWithType: InterpolationFilter.Mitchell
+  fullName: Imageflow.Fluent.InterpolationFilter.Mitchell
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Mitchell
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 42
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Mitchell = 14
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Cubic_B_Spline
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Cubic_B_Spline
+  id: Cubic_B_Spline
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Cubic_B_Spline
+  nameWithType: InterpolationFilter.Cubic_B_Spline
+  fullName: Imageflow.Fluent.InterpolationFilter.Cubic_B_Spline
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Cubic_B_Spline
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 44
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Cubic_B_Spline = 15
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Hermite
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Hermite
+  id: Hermite
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Hermite
+  nameWithType: InterpolationFilter.Hermite
+  fullName: Imageflow.Fluent.InterpolationFilter.Hermite
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Hermite
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 45
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Hermite = 16
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Jinc
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Jinc
+  id: Jinc
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Jinc
+  nameWithType: InterpolationFilter.Jinc
+  fullName: Imageflow.Fluent.InterpolationFilter.Jinc
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Jinc
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 46
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Jinc = 17
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Triangle
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Triangle
+  id: Triangle
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: InterpolationFilter.Triangle
+  fullName: Imageflow.Fluent.InterpolationFilter.Triangle
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Triangle
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 47
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Triangle = 22
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Linear
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Linear
+  id: Linear
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: InterpolationFilter.Linear
+  fullName: Imageflow.Fluent.InterpolationFilter.Linear
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Linear
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 48
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Linear = 23
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Box
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Box
+  id: Box
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Box
+  nameWithType: InterpolationFilter.Box
+  fullName: Imageflow.Fluent.InterpolationFilter.Box
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Box
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 49
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Box = 24
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.Fastest
+  commentId: F:Imageflow.Fluent.InterpolationFilter.Fastest
+  id: Fastest
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: Fastest
+  nameWithType: InterpolationFilter.Fastest
+  fullName: Imageflow.Fluent.InterpolationFilter.Fastest
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Fastest
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 51
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Fastest = 27
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.N_Cubic
+  commentId: F:Imageflow.Fluent.InterpolationFilter.N_Cubic
+  id: N_Cubic
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: N_Cubic
+  nameWithType: InterpolationFilter.N_Cubic
+  fullName: Imageflow.Fluent.InterpolationFilter.N_Cubic
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: N_Cubic
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 53
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: N_Cubic = 29
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.InterpolationFilter.N_Cubic_Sharp
+  commentId: F:Imageflow.Fluent.InterpolationFilter.N_Cubic_Sharp
+  id: N_Cubic_Sharp
+  parent: Imageflow.Fluent.InterpolationFilter
+  langs:
+  - csharp
+  - vb
+  name: N_Cubic_Sharp
+  nameWithType: InterpolationFilter.N_Cubic_Sharp
+  fullName: Imageflow.Fluent.InterpolationFilter.N_Cubic_Sharp
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: N_Cubic_Sharp
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 54
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: N_Cubic_Sharp = 30
+    return:
+      type: Imageflow.Fluent.InterpolationFilter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.InterpolationFilter
+  commentId: T:Imageflow.Fluent.InterpolationFilter
+  parent: Imageflow.Fluent
+  name: InterpolationFilter
+  nameWithType: InterpolationFilter
+  fullName: Imageflow.Fluent.InterpolationFilter

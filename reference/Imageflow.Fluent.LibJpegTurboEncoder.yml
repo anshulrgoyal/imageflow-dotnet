@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.LibJpegTurboEncoder
+  commentId: T:Imageflow.Fluent.LibJpegTurboEncoder
+  id: LibJpegTurboEncoder
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+  - Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+  - Imageflow.Fluent.LibJpegTurboEncoder.Quality
+  - Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic
+  langs:
+  - csharp
+  - vb
+  name: LibJpegTurboEncoder
+  nameWithType: LibJpegTurboEncoder
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: LibJpegTurboEncoder
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 143
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nDeprecated. Use MozJpegEncoder instead\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use MozJpegEncoder instead for smaller files")]
+
+      public class LibJpegTurboEncoder : IEncoderPreset
+    content.vb: >-
+      <Obsolete("Use MozJpegEncoder instead for smaller files")>
+
+      Public Class LibJpegTurboEncoder
+          Implements IEncoderPreset
+  inheritance:
+  - System.Object
+  implements:
+  - Imageflow.Fluent.IEncoderPreset
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use MozJpegEncoder instead for smaller files
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.Quality
+  commentId: P:Imageflow.Fluent.LibJpegTurboEncoder.Quality
+  id: Quality
+  parent: Imageflow.Fluent.LibJpegTurboEncoder
+  langs:
+  - csharp
+  - vb
+  name: Quality
+  nameWithType: LibJpegTurboEncoder.Quality
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.Quality
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Quality
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 146
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public int? Quality { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Quality As Integer?
+  overload: Imageflow.Fluent.LibJpegTurboEncoder.Quality*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+  commentId: P:Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+  id: Progressive
+  parent: Imageflow.Fluent.LibJpegTurboEncoder
+  langs:
+  - csharp
+  - vb
+  name: Progressive
+  nameWithType: LibJpegTurboEncoder.Progressive
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Progressive
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 147
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public bool? Progressive { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Progressive As Boolean?
+  overload: Imageflow.Fluent.LibJpegTurboEncoder.Progressive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+  commentId: P:Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+  id: OptimizeHuffmanCoding
+  parent: Imageflow.Fluent.LibJpegTurboEncoder
+  langs:
+  - csharp
+  - vb
+  name: OptimizeHuffmanCoding
+  nameWithType: LibJpegTurboEncoder.OptimizeHuffmanCoding
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: OptimizeHuffmanCoding
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 148
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public bool? OptimizeHuffmanCoding { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property OptimizeHuffmanCoding As Boolean?
+  overload: Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic
+  id: ToImageflowDynamic
+  parent: Imageflow.Fluent.LibJpegTurboEncoder
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic()
+  nameWithType: LibJpegTurboEncoder.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 151
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic()
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic As Object
+  overload: Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic*
+  implements:
+  - Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Imageflow.Fluent.IEncoderPreset
+  commentId: T:Imageflow.Fluent.IEncoderPreset
+  parent: Imageflow.Fluent
+  name: IEncoderPreset
+  nameWithType: IEncoderPreset
+  fullName: Imageflow.Fluent.IEncoderPreset
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.Quality*
+  commentId: Overload:Imageflow.Fluent.LibJpegTurboEncoder.Quality
+  name: Quality
+  nameWithType: LibJpegTurboEncoder.Quality
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.Quality
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.Progressive*
+  commentId: Overload:Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+  name: Progressive
+  nameWithType: LibJpegTurboEncoder.Progressive
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.Progressive
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding*
+  commentId: Overload:Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+  name: OptimizeHuffmanCoding
+  nameWithType: LibJpegTurboEncoder.OptimizeHuffmanCoding
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.OptimizeHuffmanCoding
+- uid: Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: LibJpegTurboEncoder.ToImageflowDynamic
+  fullName: Imageflow.Fluent.LibJpegTurboEncoder.ToImageflowDynamic
+- uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  parent: Imageflow.Fluent.IEncoderPreset
+  name: ToImageflowDynamic()
+  nameWithType: IEncoderPreset.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic()
+  spec.csharp:
+  - uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IEncoderPreset.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IEncoderPreset.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

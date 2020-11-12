@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.ResampleWhen
+  commentId: T:Imageflow.Fluent.ResampleWhen
+  id: ResampleWhen
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.ResampleWhen.Always
+  - Imageflow.Fluent.ResampleWhen.Size_Differs
+  - Imageflow.Fluent.ResampleWhen.Size_Differs_Or_Sharpening_Requested
+  langs:
+  - csharp
+  - vb
+  name: ResampleWhen
+  nameWithType: ResampleWhen
+  fullName: Imageflow.Fluent.ResampleWhen
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ResampleWhen
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 10
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum ResampleWhen
+    content.vb: Public Enum ResampleWhen
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.ResampleWhen.Size_Differs
+  commentId: F:Imageflow.Fluent.ResampleWhen.Size_Differs
+  id: Size_Differs
+  parent: Imageflow.Fluent.ResampleWhen
+  langs:
+  - csharp
+  - vb
+  name: Size_Differs
+  nameWithType: ResampleWhen.Size_Differs
+  fullName: Imageflow.Fluent.ResampleWhen.Size_Differs
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Size_Differs
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 11
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Size_Differs = 0
+    return:
+      type: Imageflow.Fluent.ResampleWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ResampleWhen.Size_Differs_Or_Sharpening_Requested
+  commentId: F:Imageflow.Fluent.ResampleWhen.Size_Differs_Or_Sharpening_Requested
+  id: Size_Differs_Or_Sharpening_Requested
+  parent: Imageflow.Fluent.ResampleWhen
+  langs:
+  - csharp
+  - vb
+  name: Size_Differs_Or_Sharpening_Requested
+  nameWithType: ResampleWhen.Size_Differs_Or_Sharpening_Requested
+  fullName: Imageflow.Fluent.ResampleWhen.Size_Differs_Or_Sharpening_Requested
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Size_Differs_Or_Sharpening_Requested
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 12
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Size_Differs_Or_Sharpening_Requested = 1
+    return:
+      type: Imageflow.Fluent.ResampleWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.ResampleWhen.Always
+  commentId: F:Imageflow.Fluent.ResampleWhen.Always
+  id: Always
+  parent: Imageflow.Fluent.ResampleWhen
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: ResampleWhen.Always
+  fullName: Imageflow.Fluent.ResampleWhen.Always
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Always
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 13
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Always = 2
+    return:
+      type: Imageflow.Fluent.ResampleWhen
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.ResampleWhen
+  commentId: T:Imageflow.Fluent.ResampleWhen
+  parent: Imageflow.Fluent
+  name: ResampleWhen
+  nameWithType: ResampleWhen
+  fullName: Imageflow.Fluent.ResampleWhen

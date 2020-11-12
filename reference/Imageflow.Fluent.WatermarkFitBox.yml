@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.WatermarkFitBox
+  commentId: T:Imageflow.Fluent.WatermarkFitBox
+  id: WatermarkFitBox
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.WatermarkFitBox.#ctor
+  - Imageflow.Fluent.WatermarkFitBox.#ctor(Imageflow.Fluent.WatermarkAlign,System.Single,System.Single,System.Single,System.Single)
+  - Imageflow.Fluent.WatermarkFitBox.RelativeTo
+  - Imageflow.Fluent.WatermarkFitBox.SetBottomRight(System.Single,System.Single)
+  - Imageflow.Fluent.WatermarkFitBox.SetRelativeTo(Imageflow.Fluent.WatermarkAlign)
+  - Imageflow.Fluent.WatermarkFitBox.SetTopLeft(System.Single,System.Single)
+  - Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic
+  - Imageflow.Fluent.WatermarkFitBox.X1
+  - Imageflow.Fluent.WatermarkFitBox.X2
+  - Imageflow.Fluent.WatermarkFitBox.Y1
+  - Imageflow.Fluent.WatermarkFitBox.Y2
+  langs:
+  - csharp
+  - vb
+  name: WatermarkFitBox
+  nameWithType: WatermarkFitBox
+  fullName: Imageflow.Fluent.WatermarkFitBox
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WatermarkFitBox
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 7
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nDefines \n"
+  example: []
+  syntax:
+    content: 'public class WatermarkFitBox : IWatermarkConstraintBox'
+    content.vb: >-
+      Public Class WatermarkFitBox
+          Implements IWatermarkConstraintBox
+  inheritance:
+  - System.Object
+  implements:
+  - Imageflow.Fluent.IWatermarkConstraintBox
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.WatermarkFitBox.#ctor
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.#ctor
+  id: '#ctor'
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: WatermarkFitBox()
+  nameWithType: WatermarkFitBox.WatermarkFitBox()
+  fullName: Imageflow.Fluent.WatermarkFitBox.WatermarkFitBox()
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 9
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkFitBox()
+    content.vb: Public Sub New
+  overload: Imageflow.Fluent.WatermarkFitBox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.#ctor(Imageflow.Fluent.WatermarkAlign,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.#ctor(Imageflow.Fluent.WatermarkAlign,System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(Imageflow.Fluent.WatermarkAlign,System.Single,System.Single,System.Single,System.Single)'
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: WatermarkFitBox(WatermarkAlign, Single, Single, Single, Single)
+  nameWithType: WatermarkFitBox.WatermarkFitBox(WatermarkAlign, Single, Single, Single, Single)
+  fullName: Imageflow.Fluent.WatermarkFitBox.WatermarkFitBox(Imageflow.Fluent.WatermarkAlign, System.Single, System.Single, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 11
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkFitBox(WatermarkAlign relativeTo, float x1, float y1, float x2, float y2)
+    parameters:
+    - id: relativeTo
+      type: Imageflow.Fluent.WatermarkAlign
+    - id: x1
+      type: System.Single
+    - id: y1
+      type: System.Single
+    - id: x2
+      type: System.Single
+    - id: y2
+      type: System.Single
+    content.vb: Public Sub New(relativeTo As WatermarkAlign, x1 As Single, y1 As Single, x2 As Single, y2 As Single)
+  overload: Imageflow.Fluent.WatermarkFitBox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.RelativeTo
+  commentId: P:Imageflow.Fluent.WatermarkFitBox.RelativeTo
+  id: RelativeTo
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: RelativeTo
+  nameWithType: WatermarkFitBox.RelativeTo
+  fullName: Imageflow.Fluent.WatermarkFitBox.RelativeTo
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: RelativeTo
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 19
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkAlign RelativeTo { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.WatermarkAlign
+    content.vb: Public Property RelativeTo As WatermarkAlign
+  overload: Imageflow.Fluent.WatermarkFitBox.RelativeTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.X1
+  commentId: P:Imageflow.Fluent.WatermarkFitBox.X1
+  id: X1
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: X1
+  nameWithType: WatermarkFitBox.X1
+  fullName: Imageflow.Fluent.WatermarkFitBox.X1
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: X1
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float X1 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X1 As Single
+  overload: Imageflow.Fluent.WatermarkFitBox.X1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.Y1
+  commentId: P:Imageflow.Fluent.WatermarkFitBox.Y1
+  id: Y1
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: Y1
+  nameWithType: WatermarkFitBox.Y1
+  fullName: Imageflow.Fluent.WatermarkFitBox.Y1
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Y1
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 21
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float Y1 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Y1 As Single
+  overload: Imageflow.Fluent.WatermarkFitBox.Y1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.X2
+  commentId: P:Imageflow.Fluent.WatermarkFitBox.X2
+  id: X2
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: X2
+  nameWithType: WatermarkFitBox.X2
+  fullName: Imageflow.Fluent.WatermarkFitBox.X2
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: X2
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 22
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float X2 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X2 As Single
+  overload: Imageflow.Fluent.WatermarkFitBox.X2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.Y2
+  commentId: P:Imageflow.Fluent.WatermarkFitBox.Y2
+  id: Y2
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: Y2
+  nameWithType: WatermarkFitBox.Y2
+  fullName: Imageflow.Fluent.WatermarkFitBox.Y2
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Y2
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 23
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float Y2 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Y2 As Single
+  overload: Imageflow.Fluent.WatermarkFitBox.Y2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.SetRelativeTo(Imageflow.Fluent.WatermarkAlign)
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.SetRelativeTo(Imageflow.Fluent.WatermarkAlign)
+  id: SetRelativeTo(Imageflow.Fluent.WatermarkAlign)
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: SetRelativeTo(WatermarkAlign)
+  nameWithType: WatermarkFitBox.SetRelativeTo(WatermarkAlign)
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetRelativeTo(Imageflow.Fluent.WatermarkAlign)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetRelativeTo
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 25
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkFitBox SetRelativeTo(WatermarkAlign relativeTo)
+    parameters:
+    - id: relativeTo
+      type: Imageflow.Fluent.WatermarkAlign
+    return:
+      type: Imageflow.Fluent.WatermarkFitBox
+    content.vb: Public Function SetRelativeTo(relativeTo As WatermarkAlign) As WatermarkFitBox
+  overload: Imageflow.Fluent.WatermarkFitBox.SetRelativeTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.SetTopLeft(System.Single,System.Single)
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.SetTopLeft(System.Single,System.Single)
+  id: SetTopLeft(System.Single,System.Single)
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: SetTopLeft(Single, Single)
+  nameWithType: WatermarkFitBox.SetTopLeft(Single, Single)
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetTopLeft(System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetTopLeft
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 31
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkFitBox SetTopLeft(float x1, float y1)
+    parameters:
+    - id: x1
+      type: System.Single
+    - id: y1
+      type: System.Single
+    return:
+      type: Imageflow.Fluent.WatermarkFitBox
+    content.vb: Public Function SetTopLeft(x1 As Single, y1 As Single) As WatermarkFitBox
+  overload: Imageflow.Fluent.WatermarkFitBox.SetTopLeft*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.SetBottomRight(System.Single,System.Single)
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.SetBottomRight(System.Single,System.Single)
+  id: SetBottomRight(System.Single,System.Single)
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: SetBottomRight(Single, Single)
+  nameWithType: WatermarkFitBox.SetBottomRight(Single, Single)
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetBottomRight(System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetBottomRight
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 37
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkFitBox SetBottomRight(float x2, float y2)
+    parameters:
+    - id: x2
+      type: System.Single
+    - id: y2
+      type: System.Single
+    return:
+      type: Imageflow.Fluent.WatermarkFitBox
+    content.vb: Public Function SetBottomRight(x2 As Single, y2 As Single) As WatermarkFitBox
+  overload: Imageflow.Fluent.WatermarkFitBox.SetBottomRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic
+  id: ToImageflowDynamic
+  parent: Imageflow.Fluent.WatermarkFitBox
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic()
+  nameWithType: WatermarkFitBox.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkFitBox.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/WatermarkFitBox.cs
+    startLine: 43
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic()
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic As Object
+  overload: Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic*
+  implements:
+  - Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Imageflow.Fluent.IWatermarkConstraintBox
+  commentId: T:Imageflow.Fluent.IWatermarkConstraintBox
+  parent: Imageflow.Fluent
+  name: IWatermarkConstraintBox
+  nameWithType: IWatermarkConstraintBox
+  fullName: Imageflow.Fluent.IWatermarkConstraintBox
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.WatermarkFitBox.#ctor*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.#ctor
+  name: WatermarkFitBox
+  nameWithType: WatermarkFitBox.WatermarkFitBox
+  fullName: Imageflow.Fluent.WatermarkFitBox.WatermarkFitBox
+- uid: Imageflow.Fluent.WatermarkAlign
+  commentId: T:Imageflow.Fluent.WatermarkAlign
+  parent: Imageflow.Fluent
+  name: WatermarkAlign
+  nameWithType: WatermarkAlign
+  fullName: Imageflow.Fluent.WatermarkAlign
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Imageflow.Fluent.WatermarkFitBox.RelativeTo*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.RelativeTo
+  name: RelativeTo
+  nameWithType: WatermarkFitBox.RelativeTo
+  fullName: Imageflow.Fluent.WatermarkFitBox.RelativeTo
+- uid: Imageflow.Fluent.WatermarkFitBox.X1*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.X1
+  name: X1
+  nameWithType: WatermarkFitBox.X1
+  fullName: Imageflow.Fluent.WatermarkFitBox.X1
+- uid: Imageflow.Fluent.WatermarkFitBox.Y1*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.Y1
+  name: Y1
+  nameWithType: WatermarkFitBox.Y1
+  fullName: Imageflow.Fluent.WatermarkFitBox.Y1
+- uid: Imageflow.Fluent.WatermarkFitBox.X2*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.X2
+  name: X2
+  nameWithType: WatermarkFitBox.X2
+  fullName: Imageflow.Fluent.WatermarkFitBox.X2
+- uid: Imageflow.Fluent.WatermarkFitBox.Y2*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.Y2
+  name: Y2
+  nameWithType: WatermarkFitBox.Y2
+  fullName: Imageflow.Fluent.WatermarkFitBox.Y2
+- uid: Imageflow.Fluent.WatermarkFitBox.SetRelativeTo*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.SetRelativeTo
+  name: SetRelativeTo
+  nameWithType: WatermarkFitBox.SetRelativeTo
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetRelativeTo
+- uid: Imageflow.Fluent.WatermarkFitBox
+  commentId: T:Imageflow.Fluent.WatermarkFitBox
+  parent: Imageflow.Fluent
+  name: WatermarkFitBox
+  nameWithType: WatermarkFitBox
+  fullName: Imageflow.Fluent.WatermarkFitBox
+- uid: Imageflow.Fluent.WatermarkFitBox.SetTopLeft*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.SetTopLeft
+  name: SetTopLeft
+  nameWithType: WatermarkFitBox.SetTopLeft
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetTopLeft
+- uid: Imageflow.Fluent.WatermarkFitBox.SetBottomRight*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.SetBottomRight
+  name: SetBottomRight
+  nameWithType: WatermarkFitBox.SetBottomRight
+  fullName: Imageflow.Fluent.WatermarkFitBox.SetBottomRight
+- uid: Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: WatermarkFitBox.ToImageflowDynamic
+  fullName: Imageflow.Fluent.WatermarkFitBox.ToImageflowDynamic
+- uid: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+  parent: Imageflow.Fluent.IWatermarkConstraintBox
+  name: ToImageflowDynamic()
+  nameWithType: IWatermarkConstraintBox.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic()
+  spec.csharp:
+  - uid: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IWatermarkConstraintBox.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IWatermarkConstraintBox.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IWatermarkConstraintBox.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

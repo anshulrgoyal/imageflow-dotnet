@@ -1,0 +1,1823 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.WatermarkOptions
+  commentId: T:Imageflow.Fluent.WatermarkOptions
+  id: WatermarkOptions
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.WatermarkOptions.#ctor
+  - Imageflow.Fluent.WatermarkOptions.FitBox
+  - Imageflow.Fluent.WatermarkOptions.FitMode
+  - Imageflow.Fluent.WatermarkOptions.Gravity
+  - Imageflow.Fluent.WatermarkOptions.Hints
+  - Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.LayoutWithMargins(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+  - Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+  - Imageflow.Fluent.WatermarkOptions.Opacity
+  - Imageflow.Fluent.WatermarkOptions.SetFitBox(Imageflow.Fluent.WatermarkFitBox)
+  - Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.SetFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  - Imageflow.Fluent.WatermarkOptions.SetGravity(Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.SetHints(Imageflow.Fluent.ResampleHints)
+  - Imageflow.Fluent.WatermarkOptions.SetMargins(Imageflow.Fluent.WatermarkMargins)
+  - Imageflow.Fluent.WatermarkOptions.SetMarginsLayout(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  - Imageflow.Fluent.WatermarkOptions.SetOpacity(System.Single)
+  - Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic(System.Int32)
+  - Imageflow.Fluent.WatermarkOptions.WithFitBox(Imageflow.Fluent.WatermarkFitBox)
+  - Imageflow.Fluent.WatermarkOptions.WithFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  - Imageflow.Fluent.WatermarkOptions.WithGravity(Imageflow.Fluent.ConstraintGravity)
+  - Imageflow.Fluent.WatermarkOptions.WithHints(Imageflow.Fluent.ResampleHints)
+  - Imageflow.Fluent.WatermarkOptions.WithMargins(Imageflow.Fluent.WatermarkMargins)
+  - Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  - Imageflow.Fluent.WatermarkOptions.WithOpacity(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: WatermarkOptions
+  nameWithType: WatermarkOptions
+  fullName: Imageflow.Fluent.WatermarkOptions
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WatermarkOptions
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public class WatermarkOptions
+    content.vb: Public Class WatermarkOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.WatermarkOptions.#ctor
+  commentId: M:Imageflow.Fluent.WatermarkOptions.#ctor
+  id: '#ctor'
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WatermarkOptions()
+  nameWithType: WatermarkOptions.WatermarkOptions()
+  fullName: Imageflow.Fluent.WatermarkOptions.WatermarkOptions()
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 6
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions()
+    content.vb: Public Sub New
+  overload: Imageflow.Fluent.WatermarkOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.Gravity
+  commentId: P:Imageflow.Fluent.WatermarkOptions.Gravity
+  id: Gravity
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: Gravity
+  nameWithType: WatermarkOptions.Gravity
+  fullName: Imageflow.Fluent.WatermarkOptions.Gravity
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Gravity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 12
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public ConstraintGravity Gravity { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.ConstraintGravity
+    content.vb: Public Property Gravity As ConstraintGravity
+  overload: Imageflow.Fluent.WatermarkOptions.Gravity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.FitBox
+  commentId: P:Imageflow.Fluent.WatermarkOptions.FitBox
+  id: FitBox
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: FitBox
+  nameWithType: WatermarkOptions.FitBox
+  fullName: Imageflow.Fluent.WatermarkOptions.FitBox
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FitBox
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 13
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public IWatermarkConstraintBox FitBox { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.IWatermarkConstraintBox
+    content.vb: Public Property FitBox As IWatermarkConstraintBox
+  overload: Imageflow.Fluent.WatermarkOptions.FitBox*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.FitMode
+  commentId: P:Imageflow.Fluent.WatermarkOptions.FitMode
+  id: FitMode
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: FitMode
+  nameWithType: WatermarkOptions.FitMode
+  fullName: Imageflow.Fluent.WatermarkOptions.FitMode
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FitMode
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 14
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkConstraintMode? FitMode { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Imageflow.Fluent.WatermarkConstraintMode}
+    content.vb: Public Property FitMode As WatermarkConstraintMode?
+  overload: Imageflow.Fluent.WatermarkOptions.FitMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.Opacity
+  commentId: P:Imageflow.Fluent.WatermarkOptions.Opacity
+  id: Opacity
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: Opacity
+  nameWithType: WatermarkOptions.Opacity
+  fullName: Imageflow.Fluent.WatermarkOptions.Opacity
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Opacity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 19
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nRange 0..1, where 1 is fully opaque and 0 is transparent.\n"
+  example: []
+  syntax:
+    content: public float? Opacity { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Single}
+    content.vb: Public Property Opacity As Single?
+  overload: Imageflow.Fluent.WatermarkOptions.Opacity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.Hints
+  commentId: P:Imageflow.Fluent.WatermarkOptions.Hints
+  id: Hints
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: Hints
+  nameWithType: WatermarkOptions.Hints
+  fullName: Imageflow.Fluent.WatermarkOptions.Hints
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Hints
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public ResampleHints Hints { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.ResampleHints
+    content.vb: Public Property Hints As ResampleHints
+  overload: Imageflow.Fluent.WatermarkOptions.Hints*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+  commentId: P:Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+  id: MinCanvasWidth
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: MinCanvasWidth
+  nameWithType: WatermarkOptions.MinCanvasWidth
+  fullName: Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MinCanvasWidth
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 22
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint? MinCanvasWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property MinCanvasWidth As UInteger?
+  overload: Imageflow.Fluent.WatermarkOptions.MinCanvasWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+  commentId: P:Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+  id: MinCanvasHeight
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: MinCanvasHeight
+  nameWithType: WatermarkOptions.MinCanvasHeight
+  fullName: Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MinCanvasHeight
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 23
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint? MinCanvasHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property MinCanvasHeight As UInteger?
+  overload: Imageflow.Fluent.WatermarkOptions.MinCanvasHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithHints(Imageflow.Fluent.ResampleHints)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithHints(Imageflow.Fluent.ResampleHints)
+  id: WithHints(Imageflow.Fluent.ResampleHints)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithHints(ResampleHints)
+  nameWithType: WatermarkOptions.WithHints(ResampleHints)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithHints(Imageflow.Fluent.ResampleHints)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithHints
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 25
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithHints(ResampleHints hints)
+    parameters:
+    - id: hints
+      type: Imageflow.Fluent.ResampleHints
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithHints(hints As ResampleHints) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithHints*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithOpacity(System.Single)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithOpacity(System.Single)
+  id: WithOpacity(System.Single)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithOpacity(Single)
+  nameWithType: WatermarkOptions.WithOpacity(Single)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithOpacity(System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithOpacity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 37
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nSet the opacity to a value between 0 and 1\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithOpacity(float opacity)
+    parameters:
+    - id: opacity
+      type: System.Single
+      description: ''
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+      description: ''
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithOpacity(opacity As Single) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithOpacity*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithMargins(Imageflow.Fluent.WatermarkMargins)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithMargins(Imageflow.Fluent.WatermarkMargins)
+  id: WithMargins(Imageflow.Fluent.WatermarkMargins)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithMargins(WatermarkMargins)
+  nameWithType: WatermarkOptions.WithMargins(WatermarkMargins)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithMargins(Imageflow.Fluent.WatermarkMargins)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithMargins
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 43
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithMargins(WatermarkMargins margins)
+    parameters:
+    - id: margins
+      type: Imageflow.Fluent.WatermarkMargins
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithMargins(margins As WatermarkMargins) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithMargins*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithFitBox(Imageflow.Fluent.WatermarkFitBox)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithFitBox(Imageflow.Fluent.WatermarkFitBox)
+  id: WithFitBox(Imageflow.Fluent.WatermarkFitBox)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithFitBox(WatermarkFitBox)
+  nameWithType: WatermarkOptions.WithFitBox(WatermarkFitBox)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithFitBox(Imageflow.Fluent.WatermarkFitBox)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithFitBox
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 49
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithFitBox(WatermarkFitBox fitBox)
+    parameters:
+    - id: fitBox
+      type: Imageflow.Fluent.WatermarkFitBox
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithFitBox(fitBox As WatermarkFitBox) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithFitBox*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  id: WithFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithFitMode(WatermarkConstraintMode)
+  nameWithType: WatermarkOptions.WithFitMode(WatermarkConstraintMode)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithFitMode
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 55
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithFitMode(WatermarkConstraintMode fitMode)
+    parameters:
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithFitMode(fitMode As WatermarkConstraintMode) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithFitMode*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithGravity(Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithGravity(Imageflow.Fluent.ConstraintGravity)
+  id: WithGravity(Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithGravity(ConstraintGravity)
+  nameWithType: WatermarkOptions.WithGravity(ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithGravity(Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithGravity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 61
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithGravity(ConstraintGravity gravity)
+    parameters:
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithGravity(gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithGravity*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  id: LayoutWithFitBox(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: LayoutWithFitBox(WatermarkFitBox, WatermarkConstraintMode, ConstraintGravity)
+  nameWithType: WatermarkOptions.LayoutWithFitBox(WatermarkFitBox, WatermarkConstraintMode, ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox(Imageflow.Fluent.WatermarkFitBox, Imageflow.Fluent.WatermarkConstraintMode, Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: LayoutWithFitBox
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 67
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions LayoutWithFitBox(WatermarkFitBox fitBox, WatermarkConstraintMode fitMode, ConstraintGravity gravity)
+    parameters:
+    - id: fitBox
+      type: Imageflow.Fluent.WatermarkFitBox
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function LayoutWithFitBox(fitBox As WatermarkFitBox, fitMode As WatermarkConstraintMode, gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.LayoutWithMargins(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.LayoutWithMargins(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  id: LayoutWithMargins(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: LayoutWithMargins(WatermarkMargins, WatermarkConstraintMode, ConstraintGravity)
+  nameWithType: WatermarkOptions.LayoutWithMargins(WatermarkMargins, WatermarkConstraintMode, ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.LayoutWithMargins(Imageflow.Fluent.WatermarkMargins, Imageflow.Fluent.WatermarkConstraintMode, Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: LayoutWithMargins
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 76
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions LayoutWithMargins(WatermarkMargins margins, WatermarkConstraintMode fitMode, ConstraintGravity gravity)
+    parameters:
+    - id: margins
+      type: Imageflow.Fluent.WatermarkMargins
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function LayoutWithMargins(margins As WatermarkMargins, fitMode As WatermarkConstraintMode, gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.LayoutWithMargins*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  commentId: M:Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  id: WithMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: WithMinCanvasSize(Nullable<UInt32>, Nullable<UInt32>)
+  nameWithType: WatermarkOptions.WithMinCanvasSize(Nullable<UInt32>, Nullable<UInt32>)
+  fullName: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize(System.Nullable<System.UInt32>, System.Nullable<System.UInt32>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WithMinCanvasSize
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 92
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nHide the watermark if the canvas is smaller in either dimension\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use Set___ methods instead")]
+
+      public WatermarkOptions WithMinCanvasSize(uint? minWidth, uint? minHeight)
+    parameters:
+    - id: minWidth
+      type: System.Nullable{System.UInt32}
+      description: ''
+    - id: minHeight
+      type: System.Nullable{System.UInt32}
+      description: ''
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+      description: ''
+    content.vb: >-
+      <Obsolete("Use Set___ methods instead")>
+
+      Public Function WithMinCanvasSize(minWidth As UInteger?, minHeight As UInteger?) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Set___ methods instead
+  nameWithType.vb: WatermarkOptions.WithMinCanvasSize(Nullable(Of UInt32), Nullable(Of UInt32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize(System.Nullable(Of System.UInt32), System.Nullable(Of System.UInt32))
+  name.vb: WithMinCanvasSize(Nullable(Of UInt32), Nullable(Of UInt32))
+- uid: Imageflow.Fluent.WatermarkOptions.SetHints(Imageflow.Fluent.ResampleHints)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetHints(Imageflow.Fluent.ResampleHints)
+  id: SetHints(Imageflow.Fluent.ResampleHints)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetHints(ResampleHints)
+  nameWithType: WatermarkOptions.SetHints(ResampleHints)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetHints(Imageflow.Fluent.ResampleHints)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetHints
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 100
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetHints(ResampleHints hints)
+    parameters:
+    - id: hints
+      type: Imageflow.Fluent.ResampleHints
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetHints(hints As ResampleHints) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetHints*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetOpacity(System.Single)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetOpacity(System.Single)
+  id: SetOpacity(System.Single)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetOpacity(Single)
+  nameWithType: WatermarkOptions.SetOpacity(Single)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetOpacity(System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetOpacity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 111
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nSet the opacity to a value between 0 and 1\n"
+  example: []
+  syntax:
+    content: public WatermarkOptions SetOpacity(float opacity)
+    parameters:
+    - id: opacity
+      type: System.Single
+      description: ''
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+      description: ''
+    content.vb: Public Function SetOpacity(opacity As Single) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetOpacity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetMargins(Imageflow.Fluent.WatermarkMargins)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetMargins(Imageflow.Fluent.WatermarkMargins)
+  id: SetMargins(Imageflow.Fluent.WatermarkMargins)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMargins(WatermarkMargins)
+  nameWithType: WatermarkOptions.SetMargins(WatermarkMargins)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMargins(Imageflow.Fluent.WatermarkMargins)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMargins
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 117
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetMargins(WatermarkMargins margins)
+    parameters:
+    - id: margins
+      type: Imageflow.Fluent.WatermarkMargins
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetMargins(margins As WatermarkMargins) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetMargins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitBox(Imageflow.Fluent.WatermarkFitBox)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetFitBox(Imageflow.Fluent.WatermarkFitBox)
+  id: SetFitBox(Imageflow.Fluent.WatermarkFitBox)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetFitBox(WatermarkFitBox)
+  nameWithType: WatermarkOptions.SetFitBox(WatermarkFitBox)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitBox(Imageflow.Fluent.WatermarkFitBox)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetFitBox
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 123
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetFitBox(WatermarkFitBox fitBox)
+    parameters:
+    - id: fitBox
+      type: Imageflow.Fluent.WatermarkFitBox
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetFitBox(fitBox As WatermarkFitBox) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetFitBox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  id: SetFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetFitMode(WatermarkConstraintMode)
+  nameWithType: WatermarkOptions.SetFitMode(WatermarkConstraintMode)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitMode(Imageflow.Fluent.WatermarkConstraintMode)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetFitMode
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 129
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetFitMode(WatermarkConstraintMode fitMode)
+    parameters:
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetFitMode(fitMode As WatermarkConstraintMode) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetFitMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetGravity(Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetGravity(Imageflow.Fluent.ConstraintGravity)
+  id: SetGravity(Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetGravity(ConstraintGravity)
+  nameWithType: WatermarkOptions.SetGravity(ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetGravity(Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetGravity
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 135
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetGravity(ConstraintGravity gravity)
+    parameters:
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetGravity(gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetGravity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  id: SetFitBoxLayout(Imageflow.Fluent.WatermarkFitBox,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetFitBoxLayout(WatermarkFitBox, WatermarkConstraintMode, ConstraintGravity)
+  nameWithType: WatermarkOptions.SetFitBoxLayout(WatermarkFitBox, WatermarkConstraintMode, ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout(Imageflow.Fluent.WatermarkFitBox, Imageflow.Fluent.WatermarkConstraintMode, Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetFitBoxLayout
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 141
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetFitBoxLayout(WatermarkFitBox fitBox, WatermarkConstraintMode fitMode, ConstraintGravity gravity)
+    parameters:
+    - id: fitBox
+      type: Imageflow.Fluent.WatermarkFitBox
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetFitBoxLayout(fitBox As WatermarkFitBox, fitMode As WatermarkConstraintMode, gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetMarginsLayout(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetMarginsLayout(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  id: SetMarginsLayout(Imageflow.Fluent.WatermarkMargins,Imageflow.Fluent.WatermarkConstraintMode,Imageflow.Fluent.ConstraintGravity)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMarginsLayout(WatermarkMargins, WatermarkConstraintMode, ConstraintGravity)
+  nameWithType: WatermarkOptions.SetMarginsLayout(WatermarkMargins, WatermarkConstraintMode, ConstraintGravity)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMarginsLayout(Imageflow.Fluent.WatermarkMargins, Imageflow.Fluent.WatermarkConstraintMode, Imageflow.Fluent.ConstraintGravity)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMarginsLayout
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 150
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions SetMarginsLayout(WatermarkMargins margins, WatermarkConstraintMode fitMode, ConstraintGravity gravity)
+    parameters:
+    - id: margins
+      type: Imageflow.Fluent.WatermarkMargins
+    - id: fitMode
+      type: Imageflow.Fluent.WatermarkConstraintMode
+    - id: gravity
+      type: Imageflow.Fluent.ConstraintGravity
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Function SetMarginsLayout(margins As WatermarkMargins, fitMode As WatermarkConstraintMode, gravity As ConstraintGravity) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetMarginsLayout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  commentId: M:Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  id: SetMinCanvasSize(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: SetMinCanvasSize(Nullable<UInt32>, Nullable<UInt32>)
+  nameWithType: WatermarkOptions.SetMinCanvasSize(Nullable<UInt32>, Nullable<UInt32>)
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize(System.Nullable<System.UInt32>, System.Nullable<System.UInt32>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetMinCanvasSize
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 165
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  summary: "\nHide the watermark if the canvas is smaller in either dimension\n"
+  example: []
+  syntax:
+    content: public WatermarkOptions SetMinCanvasSize(uint? minWidth, uint? minHeight)
+    parameters:
+    - id: minWidth
+      type: System.Nullable{System.UInt32}
+      description: ''
+    - id: minHeight
+      type: System.Nullable{System.UInt32}
+      description: ''
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+      description: ''
+    content.vb: Public Function SetMinCanvasSize(minWidth As UInteger?, minHeight As UInteger?) As WatermarkOptions
+  overload: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize*
+  nameWithType.vb: WatermarkOptions.SetMinCanvasSize(Nullable(Of UInt32), Nullable(Of UInt32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize(System.Nullable(Of System.UInt32), System.Nullable(Of System.UInt32))
+  name.vb: SetMinCanvasSize(Nullable(Of UInt32), Nullable(Of UInt32))
+- uid: Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic(System.Int32)
+  commentId: M:Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic(System.Int32)
+  id: ToImageflowDynamic(System.Int32)
+  parent: Imageflow.Fluent.WatermarkOptions
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic(Int32)
+  nameWithType: WatermarkOptions.ToImageflowDynamic(Int32)
+  fullName: Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/WatermarkOptions.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/WatermarkOptions.cs
+    startLine: 172
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic(int ioId)
+    parameters:
+    - id: ioId
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic(ioId As Integer) As Object
+  overload: Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.WatermarkOptions.#ctor*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.#ctor
+  name: WatermarkOptions
+  nameWithType: WatermarkOptions.WatermarkOptions
+  fullName: Imageflow.Fluent.WatermarkOptions.WatermarkOptions
+- uid: Imageflow.Fluent.WatermarkOptions.Gravity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.Gravity
+  name: Gravity
+  nameWithType: WatermarkOptions.Gravity
+  fullName: Imageflow.Fluent.WatermarkOptions.Gravity
+- uid: Imageflow.Fluent.ConstraintGravity
+  commentId: T:Imageflow.Fluent.ConstraintGravity
+  parent: Imageflow.Fluent
+  name: ConstraintGravity
+  nameWithType: ConstraintGravity
+  fullName: Imageflow.Fluent.ConstraintGravity
+- uid: Imageflow.Fluent.WatermarkOptions.FitBox*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.FitBox
+  name: FitBox
+  nameWithType: WatermarkOptions.FitBox
+  fullName: Imageflow.Fluent.WatermarkOptions.FitBox
+- uid: Imageflow.Fluent.IWatermarkConstraintBox
+  commentId: T:Imageflow.Fluent.IWatermarkConstraintBox
+  parent: Imageflow.Fluent
+  name: IWatermarkConstraintBox
+  nameWithType: IWatermarkConstraintBox
+  fullName: Imageflow.Fluent.IWatermarkConstraintBox
+- uid: Imageflow.Fluent.WatermarkOptions.FitMode*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.FitMode
+  name: FitMode
+  nameWithType: WatermarkOptions.FitMode
+  fullName: Imageflow.Fluent.WatermarkOptions.FitMode
+- uid: System.Nullable{Imageflow.Fluent.WatermarkConstraintMode}
+  commentId: T:System.Nullable{Imageflow.Fluent.WatermarkConstraintMode}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<WatermarkConstraintMode>
+  nameWithType: Nullable<WatermarkConstraintMode>
+  fullName: System.Nullable<Imageflow.Fluent.WatermarkConstraintMode>
+  nameWithType.vb: Nullable(Of WatermarkConstraintMode)
+  fullName.vb: System.Nullable(Of Imageflow.Fluent.WatermarkConstraintMode)
+  name.vb: Nullable(Of WatermarkConstraintMode)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Imageflow.Fluent.WatermarkConstraintMode
+    name: WatermarkConstraintMode
+    nameWithType: WatermarkConstraintMode
+    fullName: Imageflow.Fluent.WatermarkConstraintMode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Imageflow.Fluent.WatermarkConstraintMode
+    name: WatermarkConstraintMode
+    nameWithType: WatermarkConstraintMode
+    fullName: Imageflow.Fluent.WatermarkConstraintMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.WatermarkOptions.Opacity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.Opacity
+  name: Opacity
+  nameWithType: WatermarkOptions.Opacity
+  fullName: Imageflow.Fluent.WatermarkOptions.Opacity
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  nameWithType.vb: Nullable(Of Single)
+  fullName.vb: System.Nullable(Of System.Single)
+  name.vb: Nullable(Of Single)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.WatermarkOptions.Hints*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.Hints
+  name: Hints
+  nameWithType: WatermarkOptions.Hints
+  fullName: Imageflow.Fluent.WatermarkOptions.Hints
+- uid: Imageflow.Fluent.ResampleHints
+  commentId: T:Imageflow.Fluent.ResampleHints
+  parent: Imageflow.Fluent
+  name: ResampleHints
+  nameWithType: ResampleHints
+  fullName: Imageflow.Fluent.ResampleHints
+- uid: Imageflow.Fluent.WatermarkOptions.MinCanvasWidth*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+  name: MinCanvasWidth
+  nameWithType: WatermarkOptions.MinCanvasWidth
+  fullName: Imageflow.Fluent.WatermarkOptions.MinCanvasWidth
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<UInt32>
+  nameWithType: Nullable<UInt32>
+  fullName: System.Nullable<System.UInt32>
+  nameWithType.vb: Nullable(Of UInt32)
+  fullName.vb: System.Nullable(Of System.UInt32)
+  name.vb: Nullable(Of UInt32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.WatermarkOptions.MinCanvasHeight*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+  name: MinCanvasHeight
+  nameWithType: WatermarkOptions.MinCanvasHeight
+  fullName: Imageflow.Fluent.WatermarkOptions.MinCanvasHeight
+- uid: Imageflow.Fluent.WatermarkOptions.WithHints*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithHints
+  name: WithHints
+  nameWithType: WatermarkOptions.WithHints
+  fullName: Imageflow.Fluent.WatermarkOptions.WithHints
+- uid: Imageflow.Fluent.WatermarkOptions
+  commentId: T:Imageflow.Fluent.WatermarkOptions
+  parent: Imageflow.Fluent
+  name: WatermarkOptions
+  nameWithType: WatermarkOptions
+  fullName: Imageflow.Fluent.WatermarkOptions
+- uid: Imageflow.Fluent.WatermarkOptions.WithOpacity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithOpacity
+  name: WithOpacity
+  nameWithType: WatermarkOptions.WithOpacity
+  fullName: Imageflow.Fluent.WatermarkOptions.WithOpacity
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Imageflow.Fluent.WatermarkOptions.WithMargins*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithMargins
+  name: WithMargins
+  nameWithType: WatermarkOptions.WithMargins
+  fullName: Imageflow.Fluent.WatermarkOptions.WithMargins
+- uid: Imageflow.Fluent.WatermarkMargins
+  commentId: T:Imageflow.Fluent.WatermarkMargins
+  parent: Imageflow.Fluent
+  name: WatermarkMargins
+  nameWithType: WatermarkMargins
+  fullName: Imageflow.Fluent.WatermarkMargins
+- uid: Imageflow.Fluent.WatermarkOptions.WithFitBox*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithFitBox
+  name: WithFitBox
+  nameWithType: WatermarkOptions.WithFitBox
+  fullName: Imageflow.Fluent.WatermarkOptions.WithFitBox
+- uid: Imageflow.Fluent.WatermarkFitBox
+  commentId: T:Imageflow.Fluent.WatermarkFitBox
+  parent: Imageflow.Fluent
+  name: WatermarkFitBox
+  nameWithType: WatermarkFitBox
+  fullName: Imageflow.Fluent.WatermarkFitBox
+- uid: Imageflow.Fluent.WatermarkOptions.WithFitMode*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithFitMode
+  name: WithFitMode
+  nameWithType: WatermarkOptions.WithFitMode
+  fullName: Imageflow.Fluent.WatermarkOptions.WithFitMode
+- uid: Imageflow.Fluent.WatermarkConstraintMode
+  commentId: T:Imageflow.Fluent.WatermarkConstraintMode
+  parent: Imageflow.Fluent
+  name: WatermarkConstraintMode
+  nameWithType: WatermarkConstraintMode
+  fullName: Imageflow.Fluent.WatermarkConstraintMode
+- uid: Imageflow.Fluent.WatermarkOptions.WithGravity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithGravity
+  name: WithGravity
+  nameWithType: WatermarkOptions.WithGravity
+  fullName: Imageflow.Fluent.WatermarkOptions.WithGravity
+- uid: Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox
+  name: LayoutWithFitBox
+  nameWithType: WatermarkOptions.LayoutWithFitBox
+  fullName: Imageflow.Fluent.WatermarkOptions.LayoutWithFitBox
+- uid: Imageflow.Fluent.WatermarkOptions.LayoutWithMargins*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.LayoutWithMargins
+  name: LayoutWithMargins
+  nameWithType: WatermarkOptions.LayoutWithMargins
+  fullName: Imageflow.Fluent.WatermarkOptions.LayoutWithMargins
+- uid: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize
+  name: WithMinCanvasSize
+  nameWithType: WatermarkOptions.WithMinCanvasSize
+  fullName: Imageflow.Fluent.WatermarkOptions.WithMinCanvasSize
+- uid: Imageflow.Fluent.WatermarkOptions.SetHints*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetHints
+  name: SetHints
+  nameWithType: WatermarkOptions.SetHints
+  fullName: Imageflow.Fluent.WatermarkOptions.SetHints
+- uid: Imageflow.Fluent.WatermarkOptions.SetOpacity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetOpacity
+  name: SetOpacity
+  nameWithType: WatermarkOptions.SetOpacity
+  fullName: Imageflow.Fluent.WatermarkOptions.SetOpacity
+- uid: Imageflow.Fluent.WatermarkOptions.SetMargins*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetMargins
+  name: SetMargins
+  nameWithType: WatermarkOptions.SetMargins
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMargins
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitBox*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetFitBox
+  name: SetFitBox
+  nameWithType: WatermarkOptions.SetFitBox
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitBox
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitMode*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetFitMode
+  name: SetFitMode
+  nameWithType: WatermarkOptions.SetFitMode
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitMode
+- uid: Imageflow.Fluent.WatermarkOptions.SetGravity*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetGravity
+  name: SetGravity
+  nameWithType: WatermarkOptions.SetGravity
+  fullName: Imageflow.Fluent.WatermarkOptions.SetGravity
+- uid: Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout
+  name: SetFitBoxLayout
+  nameWithType: WatermarkOptions.SetFitBoxLayout
+  fullName: Imageflow.Fluent.WatermarkOptions.SetFitBoxLayout
+- uid: Imageflow.Fluent.WatermarkOptions.SetMarginsLayout*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetMarginsLayout
+  name: SetMarginsLayout
+  nameWithType: WatermarkOptions.SetMarginsLayout
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMarginsLayout
+- uid: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize
+  name: SetMinCanvasSize
+  nameWithType: WatermarkOptions.SetMinCanvasSize
+  fullName: Imageflow.Fluent.WatermarkOptions.SetMinCanvasSize
+- uid: Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: WatermarkOptions.ToImageflowDynamic
+  fullName: Imageflow.Fluent.WatermarkOptions.ToImageflowDynamic
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.InputWatermark
+  commentId: T:Imageflow.Fluent.InputWatermark
+  id: InputWatermark
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,Imageflow.Fluent.WatermarkOptions)
+  - Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,System.Int32,Imageflow.Fluent.WatermarkOptions)
+  - Imageflow.Fluent.InputWatermark.IoId
+  - Imageflow.Fluent.InputWatermark.Source
+  - Imageflow.Fluent.InputWatermark.ToImageflowDynamic
+  - Imageflow.Fluent.InputWatermark.Watermark
+  langs:
+  - csharp
+  - vb
+  name: InputWatermark
+  nameWithType: InputWatermark
+  fullName: Imageflow.Fluent.InputWatermark
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: InputWatermark
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 2
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public class InputWatermark
+    content.vb: Public Class InputWatermark
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,System.Int32,Imageflow.Fluent.WatermarkOptions)
+  commentId: M:Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,System.Int32,Imageflow.Fluent.WatermarkOptions)
+  id: '#ctor(Imageflow.Fluent.IBytesSource,System.Int32,Imageflow.Fluent.WatermarkOptions)'
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: InputWatermark(IBytesSource, Int32, WatermarkOptions)
+  nameWithType: InputWatermark.InputWatermark(IBytesSource, Int32, WatermarkOptions)
+  fullName: Imageflow.Fluent.InputWatermark.InputWatermark(Imageflow.Fluent.IBytesSource, System.Int32, Imageflow.Fluent.WatermarkOptions)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public InputWatermark(IBytesSource source, int ioId, WatermarkOptions watermark)
+    parameters:
+    - id: source
+      type: Imageflow.Fluent.IBytesSource
+    - id: ioId
+      type: System.Int32
+    - id: watermark
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Sub New(source As IBytesSource, ioId As Integer, watermark As WatermarkOptions)
+  overload: Imageflow.Fluent.InputWatermark.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,Imageflow.Fluent.WatermarkOptions)
+  commentId: M:Imageflow.Fluent.InputWatermark.#ctor(Imageflow.Fluent.IBytesSource,Imageflow.Fluent.WatermarkOptions)
+  id: '#ctor(Imageflow.Fluent.IBytesSource,Imageflow.Fluent.WatermarkOptions)'
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: InputWatermark(IBytesSource, WatermarkOptions)
+  nameWithType: InputWatermark.InputWatermark(IBytesSource, WatermarkOptions)
+  fullName: Imageflow.Fluent.InputWatermark.InputWatermark(Imageflow.Fluent.IBytesSource, Imageflow.Fluent.WatermarkOptions)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 11
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public InputWatermark(IBytesSource source, WatermarkOptions watermark)
+    parameters:
+    - id: source
+      type: Imageflow.Fluent.IBytesSource
+    - id: watermark
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Sub New(source As IBytesSource, watermark As WatermarkOptions)
+  overload: Imageflow.Fluent.InputWatermark.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.InputWatermark.Source
+  commentId: P:Imageflow.Fluent.InputWatermark.Source
+  id: Source
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: InputWatermark.Source
+  fullName: Imageflow.Fluent.InputWatermark.Source
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Source
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 17
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public IBytesSource Source { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.IBytesSource
+    content.vb: Public Property Source As IBytesSource
+  overload: Imageflow.Fluent.InputWatermark.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.InputWatermark.IoId
+  commentId: P:Imageflow.Fluent.InputWatermark.IoId
+  id: IoId
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: IoId
+  nameWithType: InputWatermark.IoId
+  fullName: Imageflow.Fluent.InputWatermark.IoId
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: IoId
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 18
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public int? IoId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property IoId As Integer?
+  overload: Imageflow.Fluent.InputWatermark.IoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.InputWatermark.Watermark
+  commentId: P:Imageflow.Fluent.InputWatermark.Watermark
+  id: Watermark
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: Watermark
+  nameWithType: InputWatermark.Watermark
+  fullName: Imageflow.Fluent.InputWatermark.Watermark
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Watermark
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 19
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WatermarkOptions Watermark { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.WatermarkOptions
+    content.vb: Public Property Watermark As WatermarkOptions
+  overload: Imageflow.Fluent.InputWatermark.Watermark*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.InputWatermark.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.InputWatermark.ToImageflowDynamic
+  id: ToImageflowDynamic
+  parent: Imageflow.Fluent.InputWatermark
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic()
+  nameWithType: InputWatermark.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.InputWatermark.ToImageflowDynamic()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/InputWatermark.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/InputWatermark.cs
+    startLine: 21
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic()
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic As Object
+  overload: Imageflow.Fluent.InputWatermark.ToImageflowDynamic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.InputWatermark.#ctor*
+  commentId: Overload:Imageflow.Fluent.InputWatermark.#ctor
+  name: InputWatermark
+  nameWithType: InputWatermark.InputWatermark
+  fullName: Imageflow.Fluent.InputWatermark.InputWatermark
+- uid: Imageflow.Fluent.IBytesSource
+  commentId: T:Imageflow.Fluent.IBytesSource
+  parent: Imageflow.Fluent
+  name: IBytesSource
+  nameWithType: IBytesSource
+  fullName: Imageflow.Fluent.IBytesSource
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Imageflow.Fluent.WatermarkOptions
+  commentId: T:Imageflow.Fluent.WatermarkOptions
+  parent: Imageflow.Fluent
+  name: WatermarkOptions
+  nameWithType: WatermarkOptions
+  fullName: Imageflow.Fluent.WatermarkOptions
+- uid: Imageflow.Fluent.InputWatermark.Source*
+  commentId: Overload:Imageflow.Fluent.InputWatermark.Source
+  name: Source
+  nameWithType: InputWatermark.Source
+  fullName: Imageflow.Fluent.InputWatermark.Source
+- uid: Imageflow.Fluent.InputWatermark.IoId*
+  commentId: Overload:Imageflow.Fluent.InputWatermark.IoId
+  name: IoId
+  nameWithType: InputWatermark.IoId
+  fullName: Imageflow.Fluent.InputWatermark.IoId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.InputWatermark.Watermark*
+  commentId: Overload:Imageflow.Fluent.InputWatermark.Watermark
+  name: Watermark
+  nameWithType: InputWatermark.Watermark
+  fullName: Imageflow.Fluent.InputWatermark.Watermark
+- uid: Imageflow.Fluent.InputWatermark.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.InputWatermark.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: InputWatermark.ToImageflowDynamic
+  fullName: Imageflow.Fluent.InputWatermark.ToImageflowDynamic

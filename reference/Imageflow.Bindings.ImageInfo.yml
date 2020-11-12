@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Bindings.ImageInfo
+  commentId: T:Imageflow.Bindings.ImageInfo
+  id: ImageInfo
+  parent: Imageflow.Bindings
+  children:
+  - Imageflow.Bindings.ImageInfo.FrameDecodesInto
+  - Imageflow.Bindings.ImageInfo.ImageHeight
+  - Imageflow.Bindings.ImageInfo.ImageWidth
+  - Imageflow.Bindings.ImageInfo.PreferredExtension
+  - Imageflow.Bindings.ImageInfo.PreferredMimeType
+  langs:
+  - csharp
+  - vb
+  name: ImageInfo
+  nameWithType: ImageInfo
+  fullName: Imageflow.Bindings.ImageInfo
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ImageInfo
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public class ImageInfo
+    content.vb: Public Class ImageInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Bindings.ImageInfo.FrameDecodesInto
+  commentId: P:Imageflow.Bindings.ImageInfo.FrameDecodesInto
+  id: FrameDecodesInto
+  parent: Imageflow.Bindings.ImageInfo
+  langs:
+  - csharp
+  - vb
+  name: FrameDecodesInto
+  nameWithType: ImageInfo.FrameDecodesInto
+  fullName: Imageflow.Bindings.ImageInfo.FrameDecodesInto
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FrameDecodesInto
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 19
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public PixelFormat FrameDecodesInto { get; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.PixelFormat
+    content.vb: Public ReadOnly Property FrameDecodesInto As PixelFormat
+  overload: Imageflow.Bindings.ImageInfo.FrameDecodesInto*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.ImageInfo.ImageWidth
+  commentId: P:Imageflow.Bindings.ImageInfo.ImageWidth
+  id: ImageWidth
+  parent: Imageflow.Bindings.ImageInfo
+  langs:
+  - csharp
+  - vb
+  name: ImageWidth
+  nameWithType: ImageInfo.ImageWidth
+  fullName: Imageflow.Bindings.ImageInfo.ImageWidth
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ImageWidth
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 20
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public long ImageWidth { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property ImageWidth As Long
+  overload: Imageflow.Bindings.ImageInfo.ImageWidth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.ImageInfo.ImageHeight
+  commentId: P:Imageflow.Bindings.ImageInfo.ImageHeight
+  id: ImageHeight
+  parent: Imageflow.Bindings.ImageInfo
+  langs:
+  - csharp
+  - vb
+  name: ImageHeight
+  nameWithType: ImageInfo.ImageHeight
+  fullName: Imageflow.Bindings.ImageInfo.ImageHeight
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ImageHeight
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 21
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public long ImageHeight { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property ImageHeight As Long
+  overload: Imageflow.Bindings.ImageInfo.ImageHeight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.ImageInfo.PreferredMimeType
+  commentId: P:Imageflow.Bindings.ImageInfo.PreferredMimeType
+  id: PreferredMimeType
+  parent: Imageflow.Bindings.ImageInfo
+  langs:
+  - csharp
+  - vb
+  name: PreferredMimeType
+  nameWithType: ImageInfo.PreferredMimeType
+  fullName: Imageflow.Bindings.ImageInfo.PreferredMimeType
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PreferredMimeType
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 22
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public string PreferredMimeType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PreferredMimeType As String
+  overload: Imageflow.Bindings.ImageInfo.PreferredMimeType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Bindings.ImageInfo.PreferredExtension
+  commentId: P:Imageflow.Bindings.ImageInfo.PreferredExtension
+  id: PreferredExtension
+  parent: Imageflow.Bindings.ImageInfo
+  langs:
+  - csharp
+  - vb
+  name: PreferredExtension
+  nameWithType: ImageInfo.PreferredExtension
+  fullName: Imageflow.Bindings.ImageInfo.PreferredExtension
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Bindings/ImageInfo.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PreferredExtension
+    path: src/Imageflow/Bindings/ImageInfo.cs
+    startLine: 23
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Bindings
+  syntax:
+    content: public string PreferredExtension { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PreferredExtension As String
+  overload: Imageflow.Bindings.ImageInfo.PreferredExtension*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Imageflow.Bindings
+  commentId: N:Imageflow.Bindings
+  name: Imageflow.Bindings
+  nameWithType: Imageflow.Bindings
+  fullName: Imageflow.Bindings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Bindings.ImageInfo.FrameDecodesInto*
+  commentId: Overload:Imageflow.Bindings.ImageInfo.FrameDecodesInto
+  name: FrameDecodesInto
+  nameWithType: ImageInfo.FrameDecodesInto
+  fullName: Imageflow.Bindings.ImageInfo.FrameDecodesInto
+- uid: Imageflow.Fluent.PixelFormat
+  commentId: T:Imageflow.Fluent.PixelFormat
+  parent: Imageflow.Fluent
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Imageflow.Fluent.PixelFormat
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Bindings.ImageInfo.ImageWidth*
+  commentId: Overload:Imageflow.Bindings.ImageInfo.ImageWidth
+  name: ImageWidth
+  nameWithType: ImageInfo.ImageWidth
+  fullName: Imageflow.Bindings.ImageInfo.ImageWidth
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Imageflow.Bindings.ImageInfo.ImageHeight*
+  commentId: Overload:Imageflow.Bindings.ImageInfo.ImageHeight
+  name: ImageHeight
+  nameWithType: ImageInfo.ImageHeight
+  fullName: Imageflow.Bindings.ImageInfo.ImageHeight
+- uid: Imageflow.Bindings.ImageInfo.PreferredMimeType*
+  commentId: Overload:Imageflow.Bindings.ImageInfo.PreferredMimeType
+  name: PreferredMimeType
+  nameWithType: ImageInfo.PreferredMimeType
+  fullName: Imageflow.Bindings.ImageInfo.PreferredMimeType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Imageflow.Bindings.ImageInfo.PreferredExtension*
+  commentId: Overload:Imageflow.Bindings.ImageInfo.PreferredExtension
+  name: PreferredExtension
+  nameWithType: ImageInfo.PreferredExtension
+  fullName: Imageflow.Bindings.ImageInfo.PreferredExtension

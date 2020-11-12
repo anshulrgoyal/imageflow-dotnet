@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.FrameSizeLimit
+  commentId: T:Imageflow.Fluent.FrameSizeLimit
+  id: FrameSizeLimit
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.FrameSizeLimit.#ctor(System.UInt32,System.UInt32,System.Single)
+  - Imageflow.Fluent.FrameSizeLimit.MaxHeight
+  - Imageflow.Fluent.FrameSizeLimit.MaxMegapixels
+  - Imageflow.Fluent.FrameSizeLimit.MaxWidth
+  langs:
+  - csharp
+  - vb
+  name: FrameSizeLimit
+  nameWithType: FrameSizeLimit
+  fullName: Imageflow.Fluent.FrameSizeLimit
+  type: Struct
+  source:
+    remote:
+      path: src/Imageflow/Fluent/FrameSizeLimit.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: FrameSizeLimit
+    path: src/Imageflow/Fluent/FrameSizeLimit.cs
+    startLine: 2
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public struct FrameSizeLimit
+    content.vb: Public Structure FrameSizeLimit
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Imageflow.Fluent.FrameSizeLimit.#ctor(System.UInt32,System.UInt32,System.Single)
+  commentId: M:Imageflow.Fluent.FrameSizeLimit.#ctor(System.UInt32,System.UInt32,System.Single)
+  id: '#ctor(System.UInt32,System.UInt32,System.Single)'
+  parent: Imageflow.Fluent.FrameSizeLimit
+  langs:
+  - csharp
+  - vb
+  name: FrameSizeLimit(UInt32, UInt32, Single)
+  nameWithType: FrameSizeLimit.FrameSizeLimit(UInt32, UInt32, Single)
+  fullName: Imageflow.Fluent.FrameSizeLimit.FrameSizeLimit(System.UInt32, System.UInt32, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/FrameSizeLimit.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/FrameSizeLimit.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public FrameSizeLimit(uint maxWidth, uint maxHeight, float maxMegapixels)
+    parameters:
+    - id: maxWidth
+      type: System.UInt32
+    - id: maxHeight
+      type: System.UInt32
+    - id: maxMegapixels
+      type: System.Single
+    content.vb: Public Sub New(maxWidth As UInteger, maxHeight As UInteger, maxMegapixels As Single)
+  overload: Imageflow.Fluent.FrameSizeLimit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxWidth
+  commentId: P:Imageflow.Fluent.FrameSizeLimit.MaxWidth
+  id: MaxWidth
+  parent: Imageflow.Fluent.FrameSizeLimit
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth
+  nameWithType: FrameSizeLimit.MaxWidth
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxWidth
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/FrameSizeLimit.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxWidth
+    path: src/Imageflow/Fluent/FrameSizeLimit.cs
+    startLine: 10
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint MaxWidth { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property MaxWidth As UInteger
+  overload: Imageflow.Fluent.FrameSizeLimit.MaxWidth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxHeight
+  commentId: P:Imageflow.Fluent.FrameSizeLimit.MaxHeight
+  id: MaxHeight
+  parent: Imageflow.Fluent.FrameSizeLimit
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight
+  nameWithType: FrameSizeLimit.MaxHeight
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxHeight
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/FrameSizeLimit.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxHeight
+    path: src/Imageflow/Fluent/FrameSizeLimit.cs
+    startLine: 11
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint MaxHeight { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property MaxHeight As UInteger
+  overload: Imageflow.Fluent.FrameSizeLimit.MaxHeight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxMegapixels
+  commentId: P:Imageflow.Fluent.FrameSizeLimit.MaxMegapixels
+  id: MaxMegapixels
+  parent: Imageflow.Fluent.FrameSizeLimit
+  langs:
+  - csharp
+  - vb
+  name: MaxMegapixels
+  nameWithType: FrameSizeLimit.MaxMegapixels
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxMegapixels
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/FrameSizeLimit.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: MaxMegapixels
+    path: src/Imageflow/Fluent/FrameSizeLimit.cs
+    startLine: 12
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float MaxMegapixels { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property MaxMegapixels As Single
+  overload: Imageflow.Fluent.FrameSizeLimit.MaxMegapixels*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.FrameSizeLimit.#ctor*
+  commentId: Overload:Imageflow.Fluent.FrameSizeLimit.#ctor
+  name: FrameSizeLimit
+  nameWithType: FrameSizeLimit.FrameSizeLimit
+  fullName: Imageflow.Fluent.FrameSizeLimit.FrameSizeLimit
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxWidth*
+  commentId: Overload:Imageflow.Fluent.FrameSizeLimit.MaxWidth
+  name: MaxWidth
+  nameWithType: FrameSizeLimit.MaxWidth
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxWidth
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxHeight*
+  commentId: Overload:Imageflow.Fluent.FrameSizeLimit.MaxHeight
+  name: MaxHeight
+  nameWithType: FrameSizeLimit.MaxHeight
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxHeight
+- uid: Imageflow.Fluent.FrameSizeLimit.MaxMegapixels*
+  commentId: Overload:Imageflow.Fluent.FrameSizeLimit.MaxMegapixels
+  name: MaxMegapixels
+  nameWithType: FrameSizeLimit.MaxMegapixels
+  fullName: Imageflow.Fluent.FrameSizeLimit.MaxMegapixels

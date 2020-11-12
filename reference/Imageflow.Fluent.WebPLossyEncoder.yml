@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.WebPLossyEncoder
+  commentId: T:Imageflow.Fluent.WebPLossyEncoder
+  id: WebPLossyEncoder
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.WebPLossyEncoder.#ctor(System.Single)
+  - Imageflow.Fluent.WebPLossyEncoder.Quality
+  - Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic
+  langs:
+  - csharp
+  - vb
+  name: WebPLossyEncoder
+  nameWithType: WebPLossyEncoder
+  fullName: Imageflow.Fluent.WebPLossyEncoder
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: WebPLossyEncoder
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 178
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: 'public class WebPLossyEncoder : IEncoderPreset'
+    content.vb: >-
+      Public Class WebPLossyEncoder
+          Implements IEncoderPreset
+  inheritance:
+  - System.Object
+  implements:
+  - Imageflow.Fluent.IEncoderPreset
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.WebPLossyEncoder.#ctor(System.Single)
+  commentId: M:Imageflow.Fluent.WebPLossyEncoder.#ctor(System.Single)
+  id: '#ctor(System.Single)'
+  parent: Imageflow.Fluent.WebPLossyEncoder
+  langs:
+  - csharp
+  - vb
+  name: WebPLossyEncoder(Single)
+  nameWithType: WebPLossyEncoder.WebPLossyEncoder(Single)
+  fullName: Imageflow.Fluent.WebPLossyEncoder.WebPLossyEncoder(System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 180
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public WebPLossyEncoder(float quality)
+    parameters:
+    - id: quality
+      type: System.Single
+    content.vb: Public Sub New(quality As Single)
+  overload: Imageflow.Fluent.WebPLossyEncoder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WebPLossyEncoder.Quality
+  commentId: P:Imageflow.Fluent.WebPLossyEncoder.Quality
+  id: Quality
+  parent: Imageflow.Fluent.WebPLossyEncoder
+  langs:
+  - csharp
+  - vb
+  name: Quality
+  nameWithType: WebPLossyEncoder.Quality
+  fullName: Imageflow.Fluent.WebPLossyEncoder.Quality
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Quality
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 184
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public float? Quality { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Single}
+    content.vb: Public Property Quality As Single?
+  overload: Imageflow.Fluent.WebPLossyEncoder.Quality*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic
+  id: ToImageflowDynamic
+  parent: Imageflow.Fluent.WebPLossyEncoder
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic()
+  nameWithType: WebPLossyEncoder.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/IEncoderPreset.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/IEncoderPreset.cs
+    startLine: 186
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic()
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic As Object
+  overload: Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic*
+  implements:
+  - Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Imageflow.Fluent.IEncoderPreset
+  commentId: T:Imageflow.Fluent.IEncoderPreset
+  parent: Imageflow.Fluent
+  name: IEncoderPreset
+  nameWithType: IEncoderPreset
+  fullName: Imageflow.Fluent.IEncoderPreset
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.WebPLossyEncoder.#ctor*
+  commentId: Overload:Imageflow.Fluent.WebPLossyEncoder.#ctor
+  name: WebPLossyEncoder
+  nameWithType: WebPLossyEncoder.WebPLossyEncoder
+  fullName: Imageflow.Fluent.WebPLossyEncoder.WebPLossyEncoder
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Imageflow.Fluent.WebPLossyEncoder.Quality*
+  commentId: Overload:Imageflow.Fluent.WebPLossyEncoder.Quality
+  name: Quality
+  nameWithType: WebPLossyEncoder.Quality
+  fullName: Imageflow.Fluent.WebPLossyEncoder.Quality
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  nameWithType.vb: Nullable(Of Single)
+  fullName.vb: System.Nullable(Of System.Single)
+  name.vb: Nullable(Of Single)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: WebPLossyEncoder.ToImageflowDynamic
+  fullName: Imageflow.Fluent.WebPLossyEncoder.ToImageflowDynamic
+- uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  parent: Imageflow.Fluent.IEncoderPreset
+  name: ToImageflowDynamic()
+  nameWithType: IEncoderPreset.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic()
+  spec.csharp:
+  - uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IEncoderPreset.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+    name: ToImageflowDynamic
+    nameWithType: IEncoderPreset.ToImageflowDynamic
+    fullName: Imageflow.Fluent.IEncoderPreset.ToImageflowDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

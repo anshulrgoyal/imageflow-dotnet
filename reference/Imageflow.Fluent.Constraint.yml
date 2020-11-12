@@ -1,0 +1,984 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.Constraint
+  commentId: T:Imageflow.Fluent.Constraint
+  id: Constraint
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  - Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32},Imageflow.Fluent.ResampleHints,System.Nullable{Imageflow.Fluent.AnyColor})
+  - Imageflow.Fluent.Constraint.#ctor(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  - Imageflow.Fluent.Constraint.CanvasColor
+  - Imageflow.Fluent.Constraint.H
+  - Imageflow.Fluent.Constraint.Hints
+  - Imageflow.Fluent.Constraint.Mode
+  - Imageflow.Fluent.Constraint.SetCanvasColor(System.Nullable{Imageflow.Fluent.AnyColor})
+  - Imageflow.Fluent.Constraint.SetConstraintMode(Imageflow.Fluent.ConstraintMode)
+  - Imageflow.Fluent.Constraint.SetHints(Imageflow.Fluent.ResampleHints)
+  - Imageflow.Fluent.Constraint.ToImageflowDynamic
+  - Imageflow.Fluent.Constraint.W
+  langs:
+  - csharp
+  - vb
+  name: Constraint
+  nameWithType: Constraint
+  fullName: Imageflow.Fluent.Constraint
+  type: Class
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Constraint
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public class Constraint
+    content.vb: Public Class Constraint
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Imageflow.Fluent.Constraint.#ctor(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  commentId: M:Imageflow.Fluent.Constraint.#ctor(System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  id: '#ctor(System.Nullable{System.UInt32},System.Nullable{System.UInt32})'
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: Constraint(Nullable<UInt32>, Nullable<UInt32>)
+  nameWithType: Constraint.Constraint(Nullable<UInt32>, Nullable<UInt32>)
+  fullName: Imageflow.Fluent.Constraint.Constraint(System.Nullable<System.UInt32>, System.Nullable<System.UInt32>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 6
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint(uint? w, uint? h)
+    parameters:
+    - id: w
+      type: System.Nullable{System.UInt32}
+    - id: h
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Sub New(w As UInteger?, h As UInteger?)
+  overload: Imageflow.Fluent.Constraint.#ctor*
+  nameWithType.vb: Constraint.Constraint(Nullable(Of UInt32), Nullable(Of UInt32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.Constraint.Constraint(System.Nullable(Of System.UInt32), System.Nullable(Of System.UInt32))
+  name.vb: Constraint(Nullable(Of UInt32), Nullable(Of UInt32))
+- uid: Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32},Imageflow.Fluent.ResampleHints,System.Nullable{Imageflow.Fluent.AnyColor})
+  commentId: M:Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32},Imageflow.Fluent.ResampleHints,System.Nullable{Imageflow.Fluent.AnyColor})
+  id: '#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32},Imageflow.Fluent.ResampleHints,System.Nullable{Imageflow.Fluent.AnyColor})'
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: Constraint(ConstraintMode, Nullable<UInt32>, Nullable<UInt32>, ResampleHints, Nullable<AnyColor>)
+  nameWithType: Constraint.Constraint(ConstraintMode, Nullable<UInt32>, Nullable<UInt32>, ResampleHints, Nullable<AnyColor>)
+  fullName: Imageflow.Fluent.Constraint.Constraint(Imageflow.Fluent.ConstraintMode, System.Nullable<System.UInt32>, System.Nullable<System.UInt32>, Imageflow.Fluent.ResampleHints, System.Nullable<Imageflow.Fluent.AnyColor>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 7
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint(ConstraintMode mode, uint? w, uint? h, ResampleHints hints, AnyColor? canvasColor)
+    parameters:
+    - id: mode
+      type: Imageflow.Fluent.ConstraintMode
+    - id: w
+      type: System.Nullable{System.UInt32}
+    - id: h
+      type: System.Nullable{System.UInt32}
+    - id: hints
+      type: Imageflow.Fluent.ResampleHints
+    - id: canvasColor
+      type: System.Nullable{Imageflow.Fluent.AnyColor}
+    content.vb: Public Sub New(mode As ConstraintMode, w As UInteger?, h As UInteger?, hints As ResampleHints, canvasColor As AnyColor?)
+  overload: Imageflow.Fluent.Constraint.#ctor*
+  nameWithType.vb: Constraint.Constraint(ConstraintMode, Nullable(Of UInt32), Nullable(Of UInt32), ResampleHints, Nullable(Of AnyColor))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.Constraint.Constraint(Imageflow.Fluent.ConstraintMode, System.Nullable(Of System.UInt32), System.Nullable(Of System.UInt32), Imageflow.Fluent.ResampleHints, System.Nullable(Of Imageflow.Fluent.AnyColor))
+  name.vb: Constraint(ConstraintMode, Nullable(Of UInt32), Nullable(Of UInt32), ResampleHints, Nullable(Of AnyColor))
+- uid: Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  commentId: M:Imageflow.Fluent.Constraint.#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32})
+  id: '#ctor(Imageflow.Fluent.ConstraintMode,System.Nullable{System.UInt32},System.Nullable{System.UInt32})'
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: Constraint(ConstraintMode, Nullable<UInt32>, Nullable<UInt32>)
+  nameWithType: Constraint.Constraint(ConstraintMode, Nullable<UInt32>, Nullable<UInt32>)
+  fullName: Imageflow.Fluent.Constraint.Constraint(Imageflow.Fluent.ConstraintMode, System.Nullable<System.UInt32>, System.Nullable<System.UInt32>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: .ctor
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 18
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint(ConstraintMode mode, uint? w, uint? h)
+    parameters:
+    - id: mode
+      type: Imageflow.Fluent.ConstraintMode
+    - id: w
+      type: System.Nullable{System.UInt32}
+    - id: h
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Sub New(mode As ConstraintMode, w As UInteger?, h As UInteger?)
+  overload: Imageflow.Fluent.Constraint.#ctor*
+  nameWithType.vb: Constraint.Constraint(ConstraintMode, Nullable(Of UInt32), Nullable(Of UInt32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.Constraint.Constraint(Imageflow.Fluent.ConstraintMode, System.Nullable(Of System.UInt32), System.Nullable(Of System.UInt32))
+  name.vb: Constraint(ConstraintMode, Nullable(Of UInt32), Nullable(Of UInt32))
+- uid: Imageflow.Fluent.Constraint.Mode
+  commentId: P:Imageflow.Fluent.Constraint.Mode
+  id: Mode
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: Constraint.Mode
+  fullName: Imageflow.Fluent.Constraint.Mode
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Mode
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 26
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public ConstraintMode Mode { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.ConstraintMode
+    content.vb: Public Property Mode As ConstraintMode
+  overload: Imageflow.Fluent.Constraint.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.W
+  commentId: P:Imageflow.Fluent.Constraint.W
+  id: W
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Constraint.W
+  fullName: Imageflow.Fluent.Constraint.W
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: W
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 27
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint? W { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property W As UInteger?
+  overload: Imageflow.Fluent.Constraint.W*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.H
+  commentId: P:Imageflow.Fluent.Constraint.H
+  id: H
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: Constraint.H
+  fullName: Imageflow.Fluent.Constraint.H
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: H
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 28
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public uint? H { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.UInt32}
+    content.vb: Public Property H As UInteger?
+  overload: Imageflow.Fluent.Constraint.H*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.Hints
+  commentId: P:Imageflow.Fluent.Constraint.Hints
+  id: Hints
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: Hints
+  nameWithType: Constraint.Hints
+  fullName: Imageflow.Fluent.Constraint.Hints
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Hints
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 29
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public ResampleHints Hints { get; set; }
+    parameters: []
+    return:
+      type: Imageflow.Fluent.ResampleHints
+    content.vb: Public Property Hints As ResampleHints
+  overload: Imageflow.Fluent.Constraint.Hints*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.CanvasColor
+  commentId: P:Imageflow.Fluent.Constraint.CanvasColor
+  id: CanvasColor
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: CanvasColor
+  nameWithType: Constraint.CanvasColor
+  fullName: Imageflow.Fluent.Constraint.CanvasColor
+  type: Property
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: CanvasColor
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 30
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public AnyColor? CanvasColor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Imageflow.Fluent.AnyColor}
+    content.vb: Public Property CanvasColor As AnyColor?
+  overload: Imageflow.Fluent.Constraint.CanvasColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.SetConstraintMode(Imageflow.Fluent.ConstraintMode)
+  commentId: M:Imageflow.Fluent.Constraint.SetConstraintMode(Imageflow.Fluent.ConstraintMode)
+  id: SetConstraintMode(Imageflow.Fluent.ConstraintMode)
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: SetConstraintMode(ConstraintMode)
+  nameWithType: Constraint.SetConstraintMode(ConstraintMode)
+  fullName: Imageflow.Fluent.Constraint.SetConstraintMode(Imageflow.Fluent.ConstraintMode)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetConstraintMode
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 32
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint SetConstraintMode(ConstraintMode mode)
+    parameters:
+    - id: mode
+      type: Imageflow.Fluent.ConstraintMode
+    return:
+      type: Imageflow.Fluent.Constraint
+    content.vb: Public Function SetConstraintMode(mode As ConstraintMode) As Constraint
+  overload: Imageflow.Fluent.Constraint.SetConstraintMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.SetHints(Imageflow.Fluent.ResampleHints)
+  commentId: M:Imageflow.Fluent.Constraint.SetHints(Imageflow.Fluent.ResampleHints)
+  id: SetHints(Imageflow.Fluent.ResampleHints)
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: SetHints(ResampleHints)
+  nameWithType: Constraint.SetHints(ResampleHints)
+  fullName: Imageflow.Fluent.Constraint.SetHints(Imageflow.Fluent.ResampleHints)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetHints
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 38
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint SetHints(ResampleHints hints)
+    parameters:
+    - id: hints
+      type: Imageflow.Fluent.ResampleHints
+    return:
+      type: Imageflow.Fluent.Constraint
+    content.vb: Public Function SetHints(hints As ResampleHints) As Constraint
+  overload: Imageflow.Fluent.Constraint.SetHints*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Imageflow.Fluent.Constraint.SetCanvasColor(System.Nullable{Imageflow.Fluent.AnyColor})
+  commentId: M:Imageflow.Fluent.Constraint.SetCanvasColor(System.Nullable{Imageflow.Fluent.AnyColor})
+  id: SetCanvasColor(System.Nullable{Imageflow.Fluent.AnyColor})
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: SetCanvasColor(Nullable<AnyColor>)
+  nameWithType: Constraint.SetCanvasColor(Nullable<AnyColor>)
+  fullName: Imageflow.Fluent.Constraint.SetCanvasColor(System.Nullable<Imageflow.Fluent.AnyColor>)
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: SetCanvasColor
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 44
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public Constraint SetCanvasColor(AnyColor? canvasColor)
+    parameters:
+    - id: canvasColor
+      type: System.Nullable{Imageflow.Fluent.AnyColor}
+    return:
+      type: Imageflow.Fluent.Constraint
+    content.vb: Public Function SetCanvasColor(canvasColor As AnyColor?) As Constraint
+  overload: Imageflow.Fluent.Constraint.SetCanvasColor*
+  nameWithType.vb: Constraint.SetCanvasColor(Nullable(Of AnyColor))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Imageflow.Fluent.Constraint.SetCanvasColor(System.Nullable(Of Imageflow.Fluent.AnyColor))
+  name.vb: SetCanvasColor(Nullable(Of AnyColor))
+- uid: Imageflow.Fluent.Constraint.ToImageflowDynamic
+  commentId: M:Imageflow.Fluent.Constraint.ToImageflowDynamic
+  id: ToImageflowDynamic
+  parent: Imageflow.Fluent.Constraint
+  langs:
+  - csharp
+  - vb
+  name: ToImageflowDynamic()
+  nameWithType: Constraint.ToImageflowDynamic()
+  fullName: Imageflow.Fluent.Constraint.ToImageflowDynamic()
+  type: Method
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Constraint.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: ToImageflowDynamic
+    path: src/Imageflow/Fluent/Constraint.cs
+    startLine: 50
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public object ToImageflowDynamic()
+    return:
+      type: System.Object
+    content.vb: Public Function ToImageflowDynamic As Object
+  overload: Imageflow.Fluent.Constraint.ToImageflowDynamic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Imageflow.Fluent.Constraint.#ctor*
+  commentId: Overload:Imageflow.Fluent.Constraint.#ctor
+  name: Constraint
+  nameWithType: Constraint.Constraint
+  fullName: Imageflow.Fluent.Constraint.Constraint
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<UInt32>
+  nameWithType: Nullable<UInt32>
+  fullName: System.Nullable<System.UInt32>
+  nameWithType.vb: Nullable(Of UInt32)
+  fullName.vb: System.Nullable(Of System.UInt32)
+  name.vb: Nullable(Of UInt32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.ConstraintMode
+  commentId: T:Imageflow.Fluent.ConstraintMode
+  parent: Imageflow.Fluent
+  name: ConstraintMode
+  nameWithType: ConstraintMode
+  fullName: Imageflow.Fluent.ConstraintMode
+- uid: Imageflow.Fluent.ResampleHints
+  commentId: T:Imageflow.Fluent.ResampleHints
+  parent: Imageflow.Fluent
+  name: ResampleHints
+  nameWithType: ResampleHints
+  fullName: Imageflow.Fluent.ResampleHints
+- uid: System.Nullable{Imageflow.Fluent.AnyColor}
+  commentId: T:System.Nullable{Imageflow.Fluent.AnyColor}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<AnyColor>
+  nameWithType: Nullable<AnyColor>
+  fullName: System.Nullable<Imageflow.Fluent.AnyColor>
+  nameWithType.vb: Nullable(Of AnyColor)
+  fullName.vb: System.Nullable(Of Imageflow.Fluent.AnyColor)
+  name.vb: Nullable(Of AnyColor)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Imageflow.Fluent.AnyColor
+    name: AnyColor
+    nameWithType: AnyColor
+    fullName: Imageflow.Fluent.AnyColor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Imageflow.Fluent.AnyColor
+    name: AnyColor
+    nameWithType: AnyColor
+    fullName: Imageflow.Fluent.AnyColor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Imageflow.Fluent.Constraint.Mode*
+  commentId: Overload:Imageflow.Fluent.Constraint.Mode
+  name: Mode
+  nameWithType: Constraint.Mode
+  fullName: Imageflow.Fluent.Constraint.Mode
+- uid: Imageflow.Fluent.Constraint.W*
+  commentId: Overload:Imageflow.Fluent.Constraint.W
+  name: W
+  nameWithType: Constraint.W
+  fullName: Imageflow.Fluent.Constraint.W
+- uid: Imageflow.Fluent.Constraint.H*
+  commentId: Overload:Imageflow.Fluent.Constraint.H
+  name: H
+  nameWithType: Constraint.H
+  fullName: Imageflow.Fluent.Constraint.H
+- uid: Imageflow.Fluent.Constraint.Hints*
+  commentId: Overload:Imageflow.Fluent.Constraint.Hints
+  name: Hints
+  nameWithType: Constraint.Hints
+  fullName: Imageflow.Fluent.Constraint.Hints
+- uid: Imageflow.Fluent.Constraint.CanvasColor*
+  commentId: Overload:Imageflow.Fluent.Constraint.CanvasColor
+  name: CanvasColor
+  nameWithType: Constraint.CanvasColor
+  fullName: Imageflow.Fluent.Constraint.CanvasColor
+- uid: Imageflow.Fluent.Constraint.SetConstraintMode*
+  commentId: Overload:Imageflow.Fluent.Constraint.SetConstraintMode
+  name: SetConstraintMode
+  nameWithType: Constraint.SetConstraintMode
+  fullName: Imageflow.Fluent.Constraint.SetConstraintMode
+- uid: Imageflow.Fluent.Constraint
+  commentId: T:Imageflow.Fluent.Constraint
+  parent: Imageflow.Fluent
+  name: Constraint
+  nameWithType: Constraint
+  fullName: Imageflow.Fluent.Constraint
+- uid: Imageflow.Fluent.Constraint.SetHints*
+  commentId: Overload:Imageflow.Fluent.Constraint.SetHints
+  name: SetHints
+  nameWithType: Constraint.SetHints
+  fullName: Imageflow.Fluent.Constraint.SetHints
+- uid: Imageflow.Fluent.Constraint.SetCanvasColor*
+  commentId: Overload:Imageflow.Fluent.Constraint.SetCanvasColor
+  name: SetCanvasColor
+  nameWithType: Constraint.SetCanvasColor
+  fullName: Imageflow.Fluent.Constraint.SetCanvasColor
+- uid: Imageflow.Fluent.Constraint.ToImageflowDynamic*
+  commentId: Overload:Imageflow.Fluent.Constraint.ToImageflowDynamic
+  name: ToImageflowDynamic
+  nameWithType: Constraint.ToImageflowDynamic
+  fullName: Imageflow.Fluent.Constraint.ToImageflowDynamic

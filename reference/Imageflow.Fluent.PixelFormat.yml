@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Imageflow.Fluent.PixelFormat
+  commentId: T:Imageflow.Fluent.PixelFormat
+  id: PixelFormat
+  parent: Imageflow.Fluent
+  children:
+  - Imageflow.Fluent.PixelFormat.Bgr_32
+  - Imageflow.Fluent.PixelFormat.Bgra_32
+  langs:
+  - csharp
+  - vb
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Imageflow.Fluent.PixelFormat
+  type: Enum
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: PixelFormat
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 3
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: public enum PixelFormat
+    content.vb: Public Enum PixelFormat
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Imageflow.Fluent.PixelFormat.Bgra_32
+  commentId: F:Imageflow.Fluent.PixelFormat.Bgra_32
+  id: Bgra_32
+  parent: Imageflow.Fluent.PixelFormat
+  langs:
+  - csharp
+  - vb
+  name: Bgra_32
+  nameWithType: PixelFormat.Bgra_32
+  fullName: Imageflow.Fluent.PixelFormat.Bgra_32
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Bgra_32
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 4
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Bgra_32 = 4
+    return:
+      type: Imageflow.Fluent.PixelFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Imageflow.Fluent.PixelFormat.Bgr_32
+  commentId: F:Imageflow.Fluent.PixelFormat.Bgr_32
+  id: Bgr_32
+  parent: Imageflow.Fluent.PixelFormat
+  langs:
+  - csharp
+  - vb
+  name: Bgr_32
+  nameWithType: PixelFormat.Bgr_32
+  fullName: Imageflow.Fluent.PixelFormat.Bgr_32
+  type: Field
+  source:
+    remote:
+      path: src/Imageflow/Fluent/Enumerations.cs
+      branch: afe61840f61473443028d5b1d7dfa38420e778a5
+      repo: https://github.com/anshulrgoyal/imageflow-dotnet
+    id: Bgr_32
+    path: src/Imageflow/Fluent/Enumerations.cs
+    startLine: 5
+  assemblies:
+  - Imageflow.Net
+  namespace: Imageflow.Fluent
+  syntax:
+    content: Bgr_32 = 70
+    return:
+      type: Imageflow.Fluent.PixelFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Imageflow.Fluent
+  commentId: N:Imageflow.Fluent
+  name: Imageflow.Fluent
+  nameWithType: Imageflow.Fluent
+  fullName: Imageflow.Fluent
+- uid: Imageflow.Fluent.PixelFormat
+  commentId: T:Imageflow.Fluent.PixelFormat
+  parent: Imageflow.Fluent
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Imageflow.Fluent.PixelFormat
