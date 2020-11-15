@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.ExecutableLocator.html",
-          "hash": "5zFDxQ5taJAg6WVEBV2rDA=="
+          "hash": "mEadpgIAb9CqCvjbhb0MNg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.IJsonResponseProvider.html",
-          "hash": "ZKVh37lxrbJ8xIa8zUEYQQ=="
+          "hash": "ikHn5J0gc+Db/7f1HNtRdg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.IJsonResponseProviderExtensions.html",
-          "hash": "Z0JycXwmLqGv1pkfo5p1Lw=="
+          "hash": "Pnm8jSAoOiw7rZkOvAsLIQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.ImageInfo.html",
-          "hash": "YOAvjh96encRAmZ+dmXRKw=="
+          "hash": "FN5VuKFW454Adrh8JI19XA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.ImageflowAssertionFailed.html",
-          "hash": "9qzI/Rvbopmpbrwx9HDEAA=="
+          "hash": "OsQqEeItJuhzoDhGX9coDQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.ImageflowException.html",
-          "hash": "zmvdH8nwi2PJMqagJQvqMQ=="
+          "hash": "EU99mPLyFpQ/SCUE0eGP/A=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.ImageflowUnmanagedReadStream.html",
-          "hash": "HVtNLJ4nK4jBOr77byJtXg=="
+          "hash": "3ldnE99hngOvrB3nrhR/Mg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.JobContext.html",
-          "hash": "pc+TCVy3SJxn/8sFhiyCgg=="
+          "hash": "EVausSE9QhrwAstUfL9ZkA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Bindings.VersionInfo.html",
-          "hash": "D+YpUwU4fWLdU5ZRyRxgbw=="
+          "hash": "HSEqtQnPGK1rOWec5P/maw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.AnyColor.html",
-          "hash": "XzjkWtA0ev+57X7eWnHskg=="
+          "hash": "RVZ88pB6RYUbN7crE0WJrQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BuildEncodeResult.html",
-          "hash": "rhW8lgC+d4IsATKPGqWwsg=="
+          "hash": "5AwotXFFOVIRzzF3C8JsFw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BuildEndpoint.html",
-          "hash": "aGDXkjvIZHKwf92RKr48/A=="
+          "hash": "OzCFZGUWL7sNJxZTm3KEyQ=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BuildItemBase.html",
-          "hash": "49qC/6/IcFFc23MPbfRc2w=="
+          "hash": "f5jC4CCrmkXOEHS4zln2QA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BuildJobResult.html",
-          "hash": "Uy9v9U+7zwuj7LTGwAJC1w=="
+          "hash": "Hd7ZZgqICNWsfBw4Q8X0ZA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BuildNode.html",
-          "hash": "wXYGmmZGdkTJ8+HGHnl7lA=="
+          "hash": "ZYBcyqwGyNkp6WrgdMo8yQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BytesDestination.html",
-          "hash": "NoyOE+fxJ6JqQlU2Gnh9Ug=="
+          "hash": "07NeRDn4sXN1GL300Fh+3g=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.BytesSource.html",
-          "hash": "ds32Pux2hrhGkmPX3UMEnA=="
+          "hash": "F0LoRLcBj6j1l5NeCNOTOA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ColorFilterSrgb.html",
-          "hash": "phT5YLOXIszh7Qbfq8VwVQ=="
+          "hash": "h2JNDcxoskhV7raUtP9zeQ=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ColorKind.html",
-          "hash": "Lsx0SWipOZRwyc2IG0xZlQ=="
+          "hash": "osJMBoUlEhciPwKc//fg0w=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.CompositingMode.html",
-          "hash": "ut+beEr1FH5FyiyDBRIw+g=="
+          "hash": "wCBlCuV8HIt79Anh0SRFbg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.Constraint.html",
-          "hash": "GKWb8IbAsHCq59ABVkWOGA=="
+          "hash": "K426eoPB+JkKvszxbfO5iw=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ConstraintGravity.html",
-          "hash": "RfVosq+O94QngnS0FRcBoQ=="
+          "hash": "QFDMd4ykepYPsfBWrteaiA=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ConstraintMode.html",
-          "hash": "07MFbW56Mi5KOg9lJ1kH+Q=="
+          "hash": "Bs3GEJUC4ubPlCbr48Npfg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.DecodeCommands.html",
-          "hash": "GZo9AgLxMVwdqkgKc8qOBQ=="
+          "hash": "5IyC/IwhBEA4d0IAszXPCg=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.DecoderDownscalingMode.html",
-          "hash": "EdNaesWJWZ/mXPBncsLhMg=="
+          "hash": "DyIhRYYRD+nrlXykNYRgcw=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.FinishJobBuilder.html",
-          "hash": "+VAWwgmvsUpsSQXFLuKcjQ=="
+          "hash": "xha7PJ+CU166Gb4egiJxBw=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.FluentBuildJob.html",
-          "hash": "YMs1pv1iI05sCorIx7Xdvg=="
+          "hash": "x8Y5stHWupBZrOBYrK6upQ=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.FrameSizeLimit.html",
-          "hash": "YzjSqukLQH5mXbDEUVUZWw=="
+          "hash": "97km1jSM5/wJgBuZLZid5A=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.GifEncoder.html",
-          "hash": "CA2QCaqc58E1GppsD642xA=="
+          "hash": "NAC/0+qs+Zz57d9i5zUwwQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IBytesSource.html",
-          "hash": "CILKeY+Ps+4CEDhxngosRQ=="
+          "hash": "I5IrB7DObG7dEnRusqBvpg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IEncoderPreset.html",
-          "hash": "pMT9mpnWRMffnd1QuE/6eg=="
+          "hash": "t8bGZVBUujs2YZIE2G3ODQ=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IOutputDestination.html",
-          "hash": "YBpPw5xgL1n4j0CZwa0Tww=="
+          "hash": "ABQDqS4GNBG1syJRco30kg=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IOutputDestinationExtensions.html",
-          "hash": "4V9YAx4a+q7S3QjamMpCSg=="
+          "hash": "sv8YfmEbek/ek2GNr0PSpw=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IPreparedFilesystemJob.html",
-          "hash": "XyR0hjHjZqxTSFImN0+NbA=="
+          "hash": "Gv+sX+OArD2YZ3lTw899YA=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.IWatermarkConstraintBox.html",
-          "hash": "PXbHXxS9evoNe8TzzUJsGg=="
+          "hash": "A3ArdjmF7/M/VkRs80qoFw=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ImageJob.html",
-          "hash": "g8ALRSLrMFqbMzb4pLtqFg=="
+          "hash": "34MhDWgs+ojRaYtbdjusNA=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.InputWatermark.html",
-          "hash": "pZqq47mFrOM9su9IkrNrVw=="
+          "hash": "OOK+P67NaXooQMZ75ilviw=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.InterpolationFilter.html",
-          "hash": "kwGPK/W8xHpQZ9ACdl1/yQ=="
+          "hash": "RYs/S+oIisJG4fP0evQBAw=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.LibJpegTurboEncoder.html",
-          "hash": "AxSbStWu2BjERC7IlWBrdQ=="
+          "hash": "xMgcKJZIgipODY1u4OjknA=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.LibPngEncoder.html",
-          "hash": "jJW5qOqwAvl7yR/xqzb/7w=="
+          "hash": "F5hqAGrcP0nW5u8TL8LzmQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.LodePngEncoder.html",
-          "hash": "JH61IYdS0sbfzdB42i1brQ=="
+          "hash": "Ff9Xq4GqNxXk4O3BmlPbzw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.MozJpegEncoder.html",
-          "hash": "LrzJlGn8erMl7VHWivRi4Q=="
+          "hash": "IrO5ukAhVylAVE1zcCAa5g=="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PerformanceDetails.html",
-          "hash": "ngxGuMycWoLs9aaqJ1ZYgA=="
+          "hash": "q9104G5uSZnjZhuyuL+T6w=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PerformanceDetailsFrame.html",
-          "hash": "4yvFmXrgvnCMJAYF9X7ZNA=="
+          "hash": "vBKaZ9AQmV6PkYYwRv1MYw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PerformanceDetailsNode.html",
-          "hash": "KquCiUuA2SPPJXhLKUeKSQ=="
+          "hash": "y3UZjRWYXgPKjueHuQa2iw=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PixelFormat.html",
-          "hash": "ALuZOr00xh1iuUAsjp9Lig=="
+          "hash": "tWNMpGDkYVIWv9MrAL6MkA=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PngBitDepth.html",
-          "hash": "roSJpEcaPaDU55EuUeT+nw=="
+          "hash": "oe+VsFVrMmA0mFhKuBZvpQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.PngQuantEncoder.html",
-          "hash": "5HB9Cu17v+dWl0qtJyyLRQ=="
+          "hash": "a2zG0BULoraRG5/hA29sQA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ResampleHints.html",
-          "hash": "Vi7b4Bch/HInV0ykylGDKg=="
+          "hash": "nFb/8heodzawmXA0l+qZFQ=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ResampleWhen.html",
-          "hash": "qjkJqvIcZhFkmok8E9OuCg=="
+          "hash": "LJCwJlqlS/Ob7xfk2fgX9A=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.ScalingFloatspace.html",
-          "hash": "tFR5Q3EviW/ogpYL8d9SUA=="
+          "hash": "mRLRcrUwn4VG/2YORlU3pw=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.SecurityOptions.html",
-          "hash": "gImEmMVxftOHvsu5BbdVJg=="
+          "hash": "nT5R1fMsHupAD6WECG2uXA=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.SharpenWhen.html",
-          "hash": "8RBEffVYzDNKkNgHSMu3WA=="
+          "hash": "LybG/paGH9WamSjLQgw2iA=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.SrgbColor.html",
-          "hash": "4YiEiHvfDyr0TelOXu5g7A=="
+          "hash": "N5GdzUdnllVEVFR2v6p7YQ=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.StreamDestination.html",
-          "hash": "ON90JiFlT0AffFox5xQLBw=="
+          "hash": "8ha8zLwwqFie3iWUM6ZBdA=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.StreamSource.html",
-          "hash": "NUklnnYl8tbljHGu/4sOfQ=="
+          "hash": "kUf4Ftj2qj2juKMJPmt3vQ=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WatermarkAlign.html",
-          "hash": "OV7m8/Owio8nJkqGZ50JMw=="
+          "hash": "fLjDGivd0w5mjjjAFFAXTA=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WatermarkConstraintMode.html",
-          "hash": "Tl1pXdTh+Le5G//5QpMEMw=="
+          "hash": "0ktJtKJrrf27OjejPDjn2Q=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WatermarkFitBox.html",
-          "hash": "1X0s7I5XodY2kxUhlqxtZg=="
+          "hash": "1A/ljKyfzp3lmDMbBxUb7w=="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WatermarkMargins.html",
-          "hash": "pjxqu6BtOR2DCabdNYJFZg=="
+          "hash": "sr2e1b0LR69+c84Bdbc/eA=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WatermarkOptions.html",
-          "hash": "BKbH/pzbw+J9oKZ6FNcOMw=="
+          "hash": "ClnXtAWdvuzDP8yxb3Trbw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WebPLosslessEncoder.html",
-          "hash": "f8lsCn5Y0MuSTDUZTKgkrQ=="
+          "hash": "4xLccHjd4U+bBUDtTDSWGg=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Imageflow.Fluent.WebPLossyEncoder.html",
-          "hash": "GLGx4vryuPLLA3idbNTO4g=="
+          "hash": "nw5zNbiqgKHEag2lnu29ew=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "cDrTta9WiIi/GEwvy490DQ=="
+          "hash": "3D9R0zjMo9IcXx6LHchwOg=="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "mi/7V9brIkXn9TBSqvJgcA=="
+          "hash": "YuBkYX0upP6crPYvg9VljQ=="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "icMyS3CNcrbGziNQZyZiew=="
+          "hash": "5U+tZBEiNE3wSb+7K1XCPQ=="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "EIhwD2+o19OxxQFCB6JJTg=="
         }
       },
       "is_incremental": false,
